@@ -1,6 +1,6 @@
 This is my personal portfolio website for showcasing my projects, skills, and experience. It features a homepage with an introduction of what I do, a works section with project listings, profile page of who am I, skillsets and about my past jobs, and a contact form.\
-\
-# Tech Stack: #\
+
+# Tech Stack:
 Frontend: Reactjs\
 Language: Typescript\
 Styling: Tailwind CSS\
@@ -45,5 +45,5 @@ src/\
 │   └── monthByNumber.tsx       // convert number [ 1 - 12 ] to month name [ January - December ]\
 └── App.js                  // Main app entry point\
 \
-\
-# PS: still under improvement while job hunting so please be patient: ^_^\
+
+* PS: still under improvement while job hunting so please be patient: ^_^ Thank you
