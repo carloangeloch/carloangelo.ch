@@ -167,8 +167,7 @@ const Intro = () => {
                     </div>
                 </motion.div>
             </div>
-
-            
+               
             <div id="icon-loop-3" className="absolute w-[220%] h-full overflow-x-hidden -right-10 z-[3] rotate-3">
                 <motion.div
                     animate={{
