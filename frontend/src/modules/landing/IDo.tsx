@@ -53,7 +53,7 @@ const IDo = () => {
                 </div>
                 <div id="data" className="w-full flex flex-wrap flex-row-reverse mb-10 md:mb-5 xl:mb-10 px-3">
                     <motion.div
-                        initial={{ transform: deviceType == 'pc' ? 'translateX(-100px)' : 'translateX(100px)', opacity: 0}}
+                        initial={{ transform: deviceType == 'pc' ? 'translateX(100px)' : 'translateX(-100px)', opacity: 0}}
                         animate = {
                             isInView?
                                 {  transform: 'none', opacity: 1}
@@ -66,7 +66,7 @@ const IDo = () => {
                         <img src={dataImage} alt="data-image" className="h-[200px] md:h-auto mx-auto" />
                     </motion.div>
                     <motion.div
-                        initial={{ transform: deviceType == 'pc' ? 'translateX(100px)' : 'translateX(-100px)', opacity: 0}}
+                        initial={{ transform: deviceType == 'pc' ? 'translateX(-100px)' : 'translateX(100px)', opacity: 0}}
                         animate = {
                             isInView?
                                 {  transform: 'none', opacity: 1}

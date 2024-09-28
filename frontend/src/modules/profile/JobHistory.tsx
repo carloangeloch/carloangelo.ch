@@ -73,7 +73,7 @@ const JobHistory = () => {
                 <JobItemHandler
                     companyIcon={sdLogo}
                     jobDate='May 2020 - September 2024'
-                    position='Data Intelligence Manager'
+                    position='Data Intelligence and Creative Manager'
                     company='SplitDragon'
                     location='Hong Kong SAR'
                     content={[
@@ -118,7 +118,7 @@ const JobHistory = () => {
                 <JobItemHandler
                     companyIcon={goForthLogo}
                     jobDate='September 2019 - September 2020'
-                    position='Graphic Desginer'
+                    position='Graphic Designer'
                     company='Go Fort Pest Control'
                     location='North Carolina, USA'
                     content={[
