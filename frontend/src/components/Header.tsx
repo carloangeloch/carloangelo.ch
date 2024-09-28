@@ -43,7 +43,6 @@ const Header = () => {
 
     const navigate = useNavigate();
 
-
     return (
         <div className="fixed w-full h-16 flex top-0 left-0 z-30">
             {appContext.appData.currentPage !== 'page404' &&
@@ -71,7 +70,7 @@ const Header = () => {
                                 </Link>
                                 <Link to='/works'>
                                     <div className="w-full xl:w-36 h-[80px] xl:h-full text-center p-7 xl:p-5 cursor-pointer transition-all duration-200 hover:bg-a hover:bg-opacity-30 over:text-xl hover:pt-4"
-                                    onClick={() => setShowNav(false)} style={
+                                    onClick={() => setShowNav( screenWidth >= 1280 ? true : false )} style={
                                         {
                                             color: (screenWidth >= 1280 )?
                                                     //PC
@@ -84,7 +83,7 @@ const Header = () => {
                                 </Link>
                                 <Link to="/profile">
                                     <div className="w-full xl:w-36 h-[80px] xl:h-full text-center p-7 xl:p-5 cursor-pointer transition-all duration-200 hover:bg-a hover:bg-opacity-30 hover:text-xl hover:pt-4"
-                                    onClick={() => setShowNav(false)} style={
+                                    onClick={() => setShowNav( screenWidth >= 1280 ? true : false)} style={
                                         {
                                             color: (screenWidth >= 1280 )?
                                                     //PC
@@ -97,7 +96,7 @@ const Header = () => {
                                 </Link>
                                 <Link to="/">
                                     <div className="w-full xl:w-36 h-[80px] xl:h-full text-center p-7 xl:p-5 cursor-pointer transition-all duration-200 hover:bg-a hover:bg-opacity-30 hover:text-xl hover:pt-4"
-                                    onClick={() => setShowNav(false)} style={
+                                    onClick={() => setShowNav( screenWidth >= 1280 ? true : false)} style={
                                         {
                                             color: (screenWidth >= 1280 )?
                                                     //PC
@@ -139,7 +138,7 @@ const Header = () => {
                     </div>
                 </>
             }
-            <div className="relative">
+            <div className="relative" id='scroll-to-top'>
                 <motion.div
                     initial={{opacity: 0, transform:'translateY(500px)'}}
                     animate={
@@ -151,7 +150,7 @@ const Header = () => {
                     className="fixed bottom-10 right-10 w-[50px] h-[50px] bg-a border-color-d border-2 rounded-lg p-2"
                     onClick={() => window.scrollTo(0,0)}
                 >
-                    <img src={arrowUp} alt="arro-up" className="object-cover w-full"/>
+                    <img src={arrowUp} alt="arrow-up" className="object-cover w-full"/>
                 </motion.div>
             </div>
         </div>
