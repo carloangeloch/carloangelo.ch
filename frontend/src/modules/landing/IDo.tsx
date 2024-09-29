@@ -26,7 +26,7 @@ const IDo = () => {
                                 { transform: 'translateX(-100px)', opacity: 0}
                         }
                         transition={{ duration: 0.5, ease:"easeInOut", delay: 0.2 }}
-                        className="w-full md:w-1/3 xl:w-1/4 pt-12 xl:pt-auto"
+                        className="w-full md:w-1/3 xl:w-1/4 flex flex-col items-center justify-center"
                     >
                         <img src={techImage} alt="tech-image" className="h-[200px] md:h-auto mx-auto" />
                     </motion.div>
@@ -39,7 +39,7 @@ const IDo = () => {
                                 { transform: 'translateX(100px)', opacity: 0}
                         }
                         transition={{ duration: 0.5, ease:"easeInOut", delay: 0.2 }}
-                        className="w-full md:w-2/3 xl:w-3/4 p-5 pt-18 xl:pt-24 text-center md:text-left"
+                        className="w-full md:w-2/3 xl:w-3/4 p-5 text-center md:text-left flex flex-col items-center justify-center"
                     >
                         <div>
                             <strong className="text-color-a text-lg md:text-xl xl:text-2xl">
@@ -61,7 +61,7 @@ const IDo = () => {
                                 { transform: deviceType == 'pc' ? 'translateX(-100px)' : 'translateX(100px)', opacity: 0}
                         }
                         transition={{ duration: 0.5, ease:"easeInOut", delay: 0.2 }}
-                        className="w-full md:w-1/3 xl:w-1/4 pt-12 xl:pt-auto"
+                        className="w-full md:w-1/3 xl:w-1/4 flex flex-col items-center justify-center"
                     >
                         <img src={dataImage} alt="data-image" className="h-[200px] md:h-auto mx-auto" />
                     </motion.div>
@@ -74,7 +74,7 @@ const IDo = () => {
                                 { transform: deviceType == 'pc' ? 'translateX(100px)' : 'translateX(-100px)', opacity: 0}
                         }
                         transition={{ duration: 0.5, ease:"easeInOut", delay: 0.2 }}
-                        className="w-full md:w-2/3 xl:w-3/4 p-5 pt-18 xl:pt-24  text-center md:text-left"
+                        className="w-full md:w-2/3 xl:w-3/4 p-5 text-center md:text-left  flex flex-col items-center justify-center"
                     >
                         <div>
                             <strong className="text-color-a  text-lg md:text-xl xl:text-2xl">
@@ -96,7 +96,7 @@ const IDo = () => {
                                 { transform: 'translateX(-100px)', opacity: 0}
                         }
                         transition={{ duration: 0.5, ease:"easeInOut", delay: 0.2 }}
-                        className="w-full md:w-1/3 xl:w-1/4 pt-12 xl:pt-auto"
+                        className="w-full md:w-1/3 xl:w-1/4  flex flex-col items-center justify-center"
                     >
                         <img src={graphicsImage} alt="graphics-image" className="h-[200px] md:h-auto mx-auto"  />
                     </motion.div>
@@ -109,10 +109,10 @@ const IDo = () => {
                                 { transform: 'translateX(100px)', opacity: 0}
                         }
                         transition={{ duration: 0.5, ease:"easeInOut", delay: 0.2 }}
-                        className="w-full md:w-2/3 xl:w-3/4 p-5 pt-18 xl:pt-24  text-center md:text-left"
+                        className="w-full md:w-2/3 xl:w-3/4 p-5 text-center md:text-left  flex flex-col items-center justify-center"
                     >
                         <div>
-                            <strong className="text-color-a  text-lg md:text-xl xl:text-2xl">
+                            <strong className="text-color-a  text-lg md:text-xl xl:text-2xl ">
                             Graphic & Marketing Design​
                             </strong>
                         </div>

@@ -22,14 +22,12 @@ import {motion} from "framer-motion"
 
 const Intro = () => {
 
-    //TODO: P3 - transition of icons from image files to img links
-
     return (
         <div className="w-full h-screen flex flex-wrap xl:flex-nowrap overflow-hidden xl:overflow-visible">
             <div id="title" className="w-full xl:w-1/2 h-1/2 md:h-2/5 lg:h-1/2 xl:h-full relative bg-a xl:bg-transparent">
                 <div id="blob" className="absolute w-full h-full z-[6] ">
-                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='absolute w-[200%] h-full'>
-                        <path className="fill-[#223843] invisible xl:visible xl:-translate-x-[0.8rem] xl:translate-y-[1.8rem] xl:rotate-0 "
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='absolute w-[200%] xl:w-full h-full'>
+                        <path className="fill-[#223843] invisible xl:visible xl:translate-x-[1.5rem] xl:translate-y-[1.3rem] xl:rotate-0 "
                             d="M55.2,-68.3C68.5,-54.6,74.2,-34.3,72.8,-16.6C71.4,1.1,62.9,16.2,52.5,26.4C42,36.6,29.6,41.9,16.5,47.6C3.4,53.4,-10.3,59.7,-25.2,58.9C-40.2,58,-56.3,49.9,-66.7,36.4C-77.1,22.8,-81.7,3.8,-76.5,-11.3C-71.3,-26.4,-56.1,-37.7,-41.7,-51.2C-27.3,-64.8,-13.7,-80.7,3.6,-85C20.9,-89.4,41.9,-82.1,55.2,-68.3Z"
                             />
                     </svg>
@@ -115,10 +113,7 @@ const Intro = () => {
                     </motion.div>
                 </div>
 
-
-
-                
-                <div id="icon-loop-2" className="absolute w-[220%] h-1/4 overflow-x-hidden -right-10 z-[4] -rotate-3 top-[38%]">
+                <div id="icon-loop-2" className="absolute w-[220%] h-1/4 overflow-x-hidden -right-10 z-[4] -rotate-3 top-[38%] lg:top-[33%] xl:top-[38%]">
                     <motion.div
                         animate={{
                             right: ['100%', '0%']
@@ -181,9 +176,7 @@ const Intro = () => {
                     </motion.div>
                 </div>
 
-
-                
-                <div id="icon-loop-1" className="absolute w-[220%] h-1/4 overflow-x-hidden -right-10 z-[3] rotate-3 top-[66%]">
+                <div id="icon-loop-1" className="absolute w-[220%] h-1/4 overflow-x-hidden -right-10 z-[3] rotate-3 top-[66%] lg:top-[55%] xl:top-[66%]">
                     <motion.div
                         animate={{
                             right: ['0%', '100%']

@@ -111,7 +111,7 @@ const Header = () => {
                         </motion.div>
                         {
                             screenWidth < 1280 &&
-                                <div className="w-[60px] h-[60px] text-center p-2 cursor-pointer transition-all duration-200 text-color-a hover:text-xl hover:pt-1 mt-0 md:mt-2 md:mr-2" onClick={() => setShowNav(!showNav)}>
+                                <div className="w-[60px] h-[60px] text-center p-2 cursor-pointer transition-all duration-200 text-color-a hover:text-xl hover:pt-1 mt-0 md:mr-2" onClick={() => setShowNav(!showNav)}>
                                     <div className="bg-yellow-300 rounded-[50%] w-full h-full flex flex-col justify-center align-middle relative">
                                         <motion.div
                                             initial={{width: 5, transform: 'none'}}

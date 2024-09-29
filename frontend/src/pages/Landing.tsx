@@ -14,7 +14,6 @@ const Landing = () => {
     return (
         <div id="landing-top" className="w-full justify-center text-3xl text-color overflow-x-hidden">
             <Intro/> 
-            {/* TODO: refactor all below */}
             <IDo/>
             <Works/>
             <Contact/>
