@@ -49,7 +49,7 @@ const SkillsModule : FC<SkillsModuleProps> = ({tag, title, description, item1, i
                     <span className='text-base md:text-lg  text-color-a opacity-80'>{description}</span>
                 </div>
             </div>
-            {screenWidth <= 768 ?
+            {screenWidth <= 900 ?
                 <div className='w-full flex justify-center gap-x-2'>
                     <div>
                         <img src={item1} alt={item1}className='h-[80px]'/>

@@ -11,7 +11,7 @@ const  WhoAmI = () => {
                     <motion.div
                         initial={{opacity: 0, transform: 'scale(0.5'}}
                         animate={{opacity: 1, transform: 'scale(1)'}}
-                        transition={{duration: 0.5, ease:'easeInOut',delay:0.2}}
+                        transition={{duration: 0.5, ease:'easeInOut',delay:0.5}}
                         className='w-full md:w-1/2 lg:w-1/3 xl:w-1/4 shadow-lg bg-d rounded-lg'
                     >
                         <div className='h-[400px] bg-my-image bg-left-top bg-cover'></div>
@@ -20,7 +20,7 @@ const  WhoAmI = () => {
                         <motion.div
                             initial={{opacity: 0, transform: 'scale(0.5'}}
                             animate={{opacity: 1, transform: 'scale(1)'}}
-                            transition={{duration: 0.5, ease:'easeInOut',delay:0.3}}
+                            transition={{duration: 0.5, ease:'easeInOut',delay:1}}
                             className='text-color-d text-center md:text-left text-lg lg:text-xl xl:text-2xl mb-3'
                         >
                             <strong>Hi! I am Carlo Angelo Hilaus</strong>
@@ -28,7 +28,7 @@ const  WhoAmI = () => {
                         <motion.div
                             initial={{opacity: 0, transform: 'scale(0.5'}}
                             animate={{opacity: 1, transform: 'scale(1)'}}
-                            transition={{duration: 0.5, ease:'easeInOut',delay:0.4}}
+                            transition={{duration: 0.5, ease:'easeInOut',delay:1.5}}
                             className='text-color-d text-base lg:text-lg text-center md:text-left'
                         >
                             <span className="opacity-80">

@@ -44,6 +44,3 @@ src/
 │   ├── getScreenWidth.tsx      // collect screen width / return media type [ sm | md | lg | xl ] 
 │   └── monthByNumber.tsx       // convert number [ 1 - 12 ] to month name [ January - December ]
 └── App.js                  // Main app entry point
-
-
-# PS: still under improvement while job hunting so please be patient: ^_^
