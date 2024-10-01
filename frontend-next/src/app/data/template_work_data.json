@@ -1,0 +1,50 @@
+[
+    {
+        "id": "3tdmhhvab0axjc9sbnt73",
+        "title":"",
+        "month": 7,
+        "year": 2019,
+        "website": "",
+        "project_type":["graphics","development"],
+        "description":"",
+        "thumbnail_link": "",
+        "others": [
+            {
+                "type": "image",
+                "url":"",
+                "title": "",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Frontend",
+                "lists": ["React", "HTML", "CSS", "Javascript"]
+            }
+        ] 
+    },
+    {
+        "id": "4e1kof9h0osof1kjpvon5",
+        "title":"Short Client Promotional Videos for Intrepid Asia Philippines",
+        "month": 8,
+        "year": 2019,
+        "website": "",
+        "project_type":["graphics"],
+        "description":"",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/4e1kof9h0osof1kjpvon5/Intrepid-Promotionals-thumbnail.png?rlkey=iitemmxr24oybbg12qgtuz5dk&st=kuhuwzel&dl=0",
+        "others": [
+            {
+                "type": "video",
+                "url":"https://player.vimeo.com/video/1011264798",
+                "title": "Deuter Sale Promotion",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Frontend",
+                "lists": ["React", "HTML", "CSS", "Javascript"]
+            }
+        ] 
+    }
+]
