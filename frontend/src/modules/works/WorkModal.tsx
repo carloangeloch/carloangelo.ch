@@ -117,7 +117,7 @@ const WorkModal = ({data, setOpenModal} :any) => {
                                             </div>
                                         </div>
                                     )
-                                } else if(i.type === 'video'){
+                                } else if(i.type === 'video-vimeo'){
                                     return(
                                         <div key={i.title+String(Math.random())} className="text-center">
                                             <div className="w-full flex flex-wrap justify-center my-10">
@@ -131,6 +131,20 @@ const WorkModal = ({data, setOpenModal} :any) => {
                                                     allow="autoplay; fullscreen; picture-in-picture" 
                                                     allowFullScreen
                                                     >
+                                                </iframe>
+                                            </div>
+                                        </div>
+                                    )
+                                }else if(i.type === 'video-youtube'){
+                                    return(
+                                        <div key={i.title+String(Math.random())} className="text-center">
+                                            <div className="w-full flex flex-wrap justify-center my-10">
+                                                <div className="w-3/4 py-3">
+                                                    {i.title !== '' && <div id='item-title' className="text-xl w-full my-2"><strong>{i.title}</strong></div>}
+                                                    {i.description !== '' && <div id='item-title' className="text-sm lg:text-base opacity-80 w-full my-2">{i.description}</div>}
+                                                </div>
+                                                <iframe width="65%" height="500"
+                                                    src={i.url}>
                                                 </iframe>
                                             </div>
                                         </div>

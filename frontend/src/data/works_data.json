@@ -1,5 +1,233 @@
 [
     {
+        "id": "uexotw7r2kgr14pgi9m4z",
+        "title":"Vista Roma - Architectural Visualization (ArchViz)",
+        "month": 12,
+        "year":2024,
+        "website": "",
+        "project_type":["graphics"],
+        "description": "Self project for a 3D architectural visualization (ArchViz)",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/uexotw7r2kgr14pgi9m4z/1.png?rlkey=7mpydzydq9k6m4mu7jxl8keo1&st=p82ry659&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/uexotw7r2kgr14pgi9m4z/1.png?rlkey=7mpydzydq9k6m4mu7jxl8keo1&st=p82ry659&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/twcwqxc3sah94tmnxau1k/2.png?rlkey=he3zsa7n0ojwvpyu7l704oym6&st=9hwdy4x4&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/jjqhq67w2rq1bx5wmtj18/3.png?rlkey=3e37lrtzeahlndeipv8jmiiym&st=mf4uhkr7&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/ai0w4nrbdc5pzz9732k4c/4.png?rlkey=xb2ge73rw1a4g3eh4xermkj71&st=bl0wka8k&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/9xjfb1qwx3f2uz89z8j82/5.png?rlkey=a6gpattmbsslzosepuc06156q&st=t2qchtrp&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/r2bgwcvj4y34uemzkug6q/6.png?rlkey=jq87segz3vx0iwmrzet0hq1x6&st=1bl8i3t7&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "video-youtube",
+                "url":"https://www.youtube.com/embed/8nt6LJq1_jA"
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Blender","Substance Painter", "Unreal Engine 5", "DaVinci Resolve"]
+            }
+        ]
+    },
+    {
+        "id": "nd3auiqtonm1ec2y0pj87",
+        "title":"Shadows of the Summoner",
+        "month": 11,
+        "year":2024,
+        "website": "",
+        "project_type":["graphics"],
+        "description": "Self project for a 3D game interior scene",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/nd3auiqtonm1ec2y0pj87/1.png?rlkey=xe0zru44af30aw2yzi7etqli5&st=46wthnw3&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/nd3auiqtonm1ec2y0pj87/1.png?rlkey=xe0zru44af30aw2yzi7etqli5&st=46wthnw3&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/nhh05dfixcj0a2vpo52zz/2.png?rlkey=us4jj7it0lp2tnhh7v5s1bcit&st=du44hbwk&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/pj58vr72sv8a1oalol00z/3.png?rlkey=ikkm8kbga03blooxs8zbftcex&st=cxzvp56g&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/u59ho3sr9edvlnapcl1wu/4.png?rlkey=mmbe5hdlvbid7g204u39hwdei&st=ojvwntrq&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/omwkjdmsqud3y3m5fyuk1/5.png?rlkey=4oh2d3qqflj5a32cd47eroxg1&st=u9aw8xro&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "video-youtube",
+                "url":"https://www.youtube.com/embed/wEF81mHmDjE"
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Blender", "Substance Painter", "Adobe Photoshop", "Unreal Engine 5", "DaVinci Resolve"]
+            }
+        ]
+    },
+    {
+        "id": "4r6y0d1k07iival5hgbat",
+        "title":"The Abandoned Place",
+        "month": 11,
+        "year":2024,
+        "website": "",
+        "project_type":["graphics"],
+        "description": "Self 3D environment design project",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/4r6y0d1k07iival5hgbat/S_AbandonedPlace1.png?rlkey=vud0r5h3bpjm7s621jubjpnfn&st=6v34yev7&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/4r6y0d1k07iival5hgbat/S_AbandonedPlace1.png?rlkey=vud0r5h3bpjm7s621jubjpnfn&st=6v34yev7&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/s99k55wr4h0ptv35ds2kf/S_AbandonedPlace.0288.png?rlkey=jl1dw8pdd9ysekvtz2883d8rs&st=ulod2xfp&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/2ioz6yzsjv46g66kdsxxv/S_AbandonedPlace.0362.png?rlkey=5j3llbb0dg08hp881fsdhulq8&st=ynvs726e&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/nsm0pm6hrrdwmeq4l3m1u/S_AbandonedPlace.0654.png?rlkey=7a8v0cnud1mpvnw4o9a3962ay&st=qe0qpeun&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/bi41xvezqh6cl1reo3ti5/S_AbandonedPlace.0766.png?rlkey=rtoj76vtoejaehmey9vg3w5ny&st=evbgoa37&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/wp2l6mjlfqht02wbwssdi/S_AbandonedPlace.0969.png?rlkey=va963sg0j0pl8qa9qq5r645rs&st=uc5hoc70&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/zrrhwq8x05vlq42w2z169/S_AbandonedPlace.1176.png?rlkey=6f2ws3si6fg2nbhkfp990sikc&st=cw12zw9p&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "video-youtube",
+                "url":"https://www.youtube.com/embed/LJVI3CXW-TE"
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Blender", "Substance Painter", "Unreal Engine 5", "DaVinci Resolve"]
+            }
+        ]
+    },
+    {
+        "id": "p6g7bd212llm0tr1orlk3",
+        "title":"Echoes of Morning: A Kitchen Left Behind",
+        "month": 10,
+        "year":2024,
+        "website": "",
+        "project_type":["graphics"],
+        "description": "Self 3D project for interior game scene",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/p6g7bd212llm0tr1orlk3/1.png?rlkey=z04ee5qyxpuwvult6l5npy501&st=s1pojg9h&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/p6g7bd212llm0tr1orlk3/1.png?rlkey=z04ee5qyxpuwvult6l5npy501&st=s1pojg9h&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/f5dmvmadc1bdgq4q79185/2.png?rlkey=4sxrefs7unxp2mty54os9r14e&st=jy5tp8an&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/pk112gvv8i9lix94cgqms/3.png?rlkey=z436gzxgw9nuaq7arb2acyx67&st=cd1augcf&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/1sr1zn27e9rkd8s8a4gcl/4.png?rlkey=5bwimdnbd5ou96otwbobwawsx&st=x9jei8ui&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/mlh0o23ydz1xn19u5xdi5/5.png?rlkey=ignl61je3c7kiny9z8dv2gz7a&st=z1w991w2&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/1om8x0d5z7g2m4a6laq43/6.png?rlkey=6tdrdba2bet56lmyytkha0qqp&st=lb80y5do&dl=0",
+                "title": "",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Blender", "Substance Painter", "Unreal Engine 5"]
+            }
+        ]
+    },
+    {
         "id": "p6uvr724yne4gqrzpv17v",
         "title":"ThisTeam HRIS",
         "month": 9,
@@ -102,43 +330,43 @@
         "thumbnail_link": "https://www.dropbox.com/scl/fi/y87f9ly7547j5bqagfi3a/SD-Video-Teaser-thumbnail.png?rlkey=uexvseabvqg2h3uoosc9oiqma&st=irsmhy8h&dl=0",
         "others": [
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011032277",
                 "title": "Splitdragon Intro Teaser",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011032248",
                 "title": "Splitdragon Design Service Teaser",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011032216",
                 "title": "Splitdragon Search Rank Tracking Service Teaser",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011032179",
                 "title": "Splitdragon Product Research Service Teaser",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011032140",
                 "title": "Splitdragon Competitor Intelligence Service Teaser",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011032096",
                 "title": "Splitdragon Keyword Research Service Teaser",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011032054",
                 "title": "Splitdragon Competitor Store Performance Service Teaser",
                 "description":""
@@ -168,13 +396,13 @@
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011264798",
                 "title": "Deuter Sale Promotion",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011264769",
                 "title": "Audio-Technica Sale Promotion",
                 "description":""
@@ -918,7 +1146,7 @@
         "thumbnail_link": "https://www.dropbox.com/scl/fi/uo8601nyn2xz0979ktcli/intrepid-livestream-video-thumbnail.png?rlkey=melnu09z18j0bcucx0mn7a602&st=4trbrl7b&dl=0",
         "others": [
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011532595",
                 "title": "",
                 "description":""
@@ -942,7 +1170,7 @@
         "thumbnail_link": "https://www.dropbox.com/scl/fi/669i96an5v9nakq3ye9z2/gfpc-xmas-decor-anim-thumbnail.png?rlkey=a6kihsj2fq5grihj06qf2177p&st=14di8dqn&dl=0",
         "others": [
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011552881",
                 "title": "",
                 "description":""
@@ -1554,7 +1782,7 @@
         "thumbnail_link": "https://www.dropbox.com/scl/fi/yw40zsbpcweo6z4k1nim2/gfpc-terminte-animate-thumbnail.png?rlkey=qakcq1eukoah1vhfsfso8999v&st=ifbbeb04&dl=0",
         "others": [
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011565613",
                 "title": "",
                 "description":""
@@ -1638,49 +1866,49 @@
         "thumbnail_link": "https://www.dropbox.com/scl/fi/mqnrkblaqg9y1cyk3jhja/thumbnail.png?rlkey=17y2zmjdksh3m8dtblearhlcq&st=jpaxyj8b&dl=0",
         "others": [
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011566434",
                 "title": "",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011566445",
                 "title": "",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011566458",
                 "title": "",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011566465",
                 "title": "",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011566477",
                 "title": "",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011566484",
                 "title": "",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011566500",
                 "title": "",
                 "description":""
             },
             {
-                "type": "video",
+                "type": "video-vimeo",
                 "url":"https://player.vimeo.com/video/1011566493",
                 "title": "",
                 "description":""
@@ -1732,6 +1960,72 @@
             {
                 "name": "Design Tools",
                 "lists": ["Adobe Illustrator"]
+            }
+        ] 
+    },
+    {
+        "id": "mzkt8ekqu53iis7r6iqb9",
+        "title":"Merderma TH Ecommerce Marketing Banner",
+        "month": 7,
+        "year": 2024,
+        "website": "https://www.lazada.co.th/shop/mederma",
+        "project_type":["graphics"],
+        "description":"",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/mzkt8ekqu53iis7r6iqb9/1-7-7-Teasing-Main-Banner.jpg?rlkey=u4619sglskcb1459aoklepa9f&st=vcuvdnii&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/ppcpcx7jjf0y9m66ogib2/1-Mothers-Day-Main-Banner-laz.jpg?rlkey=k9u0m6mn3556xc5ct8peje09u&st=m5482go0&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/5l7t7ur6ohcmf9vxutaqs/1-Mothers-Day-Main-Banner.jpg?rlkey=niald6wcvj9m0cy4y8xq9t9vd&st=nof6zszy&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/0d9zplhbgbsjjkdacuwun/1-Payday-Sale-Main-Banner.jpg?rlkey=ctgwa5t0oexdw7crmyjq62qjv&st=rwl22dh6&dl=0",
+                "title": "",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Adobe Photoshop","Adobe Illustrator"]
+            }
+        ] 
+    },
+    {
+        "id": "hdf58cw961sey7pcxrsol",
+        "title":"Merderma TH Ecommerce Marketing Banner",
+        "month": 8,
+        "year": 2024,
+        "website": "https://www.lazada.co.th/shop/mederma",
+        "project_type":["graphics"],
+        "description":"",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/hdf58cw961sey7pcxrsol/1-8-8-Sale-Main-Banner.jpg?rlkey=cq7rc7hdkj6qayg4befgtz3cl&st=7zh6syvx&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/ois67wtmp9i0mr1jg7ee6/1-8-8-Teasing-Sale-Main-Banner.jpg?rlkey=6qmtw3rzgn6zg6uh5114gbkdj&st=hjebdhg9&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/vw7bpi94ymjkli9iblsv6/1-Midmonth-Main-Banner.jpg?rlkey=uklwkvoiuz9gpetrp76whz08p&st=esuemhmd&dl=0",
+                "title": "",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Adobe Photoshop","Adobe Illustrator"]
             }
         ] 
     }
