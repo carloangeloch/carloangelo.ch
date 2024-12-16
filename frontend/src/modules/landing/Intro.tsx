@@ -18,6 +18,9 @@ import gceLogo from '../../assets/gce.png';
 import cloudSqlLogo from '../../assets/cloud-sql.png';
 import uipathLogo from '../../assets/uipath.png';
 import lookerLogo from '../../assets/looker.png';
+import unrealLogo from '../../assets/unreal.png';
+import sppLogo from '../../assets/spp.png';
+import blenderLogo from '../../assets/blender.png';
 import {motion} from "framer-motion"
 
 const Intro = () => {
@@ -68,10 +71,10 @@ const Intro = () => {
                                         <img src={djangoLogo} alt="django-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
                                     </div>
                                     <div className="flex items-center w-full">
-                                        <img src={drfLogo} alt="drf-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
+                                        <img src={blenderLogo} alt="blender-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
                                     </div>
                                     <div className="flex items-center w-full">
-                                        <img src={pwLogo} alt="playwright-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
+                                    <img src={sppLogo} alt="spp-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
                                     </div>
                                     <div className="flex items-center w-full">
                                         <img src={psLogo} alt="ps-logo"  className='h-[120%] hover:h-[170%] transition-all duration-200 absolute' />
@@ -93,10 +96,10 @@ const Intro = () => {
                                         <img src={djangoLogo} alt="django-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
                                     </div>
                                     <div className="flex items-center w-full">
-                                        <img src={drfLogo} alt="drf-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
+                                    <img src={blenderLogo} alt="blender-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
                                     </div>
                                     <div className="flex items-center w-full">
-                                        <img src={pwLogo} alt="playwright-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
+                                        <img src={sppLogo} alt="spp-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
                                     </div>
                                     <div className="flex items-center w-full">
                                         <img src={psLogo} alt="ps-logo"  className='h-[120%] hover:h-[170%] transition-all duration-200 absolute' />
@@ -191,7 +194,7 @@ const Intro = () => {
                                     <img src={gcpLogo} alt="gcp-logo" className='h-[150%] hover:h-[200%] transition-all duration-200 absolute' />
                                 </div>
                                 <div className="flex items-center w-full">
-                                    <img src={gceLogo} alt="gce-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
+                                <img src={unrealLogo} alt="unreal-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
                                 </div>
                                 <div className="flex items-center w-full relative">
                                     <img src={cloudSqlLogo} alt="cloud-sql-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
@@ -213,7 +216,7 @@ const Intro = () => {
                                     <img src={gcpLogo} alt="gcp-logo" className='h-[150%] hover:h-[200%] transition-all duration-200 absolute' />
                                 </div>
                                 <div className="flex items-center w-full">
-                                    <img src={gceLogo} alt="gce-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
+                                    <img src={unrealLogo} alt="unreal-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
                                 </div>
                                 <div className="flex items-center w-full relative">
                                     <img src={cloudSqlLogo} alt="cloud-sql-logo" className='h-full hover:h-[150%] transition-all duration-200 absolute' />
