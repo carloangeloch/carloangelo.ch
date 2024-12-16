@@ -117,7 +117,7 @@ const IDo = () => {
                             </strong>
                         </div>
                         <div className="text-color-a text-base xl:text-lg opacity-80">
-                            My creative side shines through in my graphic design work. I create compelling marketing visuals and product designs for online marketplaces like Lazada and Shopee, helping brands connect with their audiences and increase visibility. Whether it’s marketing banners or product images, I focus on designs that drive engagement and conversion.
+                            My creative side shines through in my graphic design work. I create compelling marketing visuals and product designs for online marketplaces like Lazada and Shopee, helping brands connect with their audiences and increase visibility. Whether it’s marketing banners or product images, I focus on designs that drive engagement and conversion. I also create 3D graphics for architectural visualization, hard surface models and game environment and assets.
                         </div>
                     </motion.div>
                 </div>
