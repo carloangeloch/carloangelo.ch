@@ -113,6 +113,10 @@ const JobHistory = () => {
                             title: "Graphic Team Management",
                             description: "Manage our graphic team to deliver outstanding marketing and online marketplace graphics."
                         },
+                        {
+                            title: "3D Design",
+                            description: "Create 3D product models and designs for marketing."
+                        },
                     ]}
                 />
                 <JobItemHandler
@@ -238,7 +242,7 @@ const JobHistory = () => {
                 />
                 <JobItemHandler
                     companyIcon={m3dLogo}
-                    jobDate='November 2015 - June 2016'
+                    jobDate='March 2015 - June 2016'
                     position='Senior Graphic Artist'
                     company='M3D Construction Format'
                     location='Makati City, Philippines'

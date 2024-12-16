@@ -18,6 +18,9 @@ import gceLogo from '../../assets/gce.png';
 import cloudSqlLogo from '../../assets/cloud-sql.png';
 import uipathLogo from '../../assets/uipath.png';
 import lookerLogo from '../../assets/looker.png';
+import sppLogo from '../../assets/spp.png';
+import unrealLogo from '../../assets/unreal.png';
+import blenderLogo from '../../assets/blender.png';
 import { getScreenWidth } from '../../utils/getScreenWidth';
 
 interface SkillsModuleProps {
@@ -106,17 +109,17 @@ const MySkills = () => {
                     tag='data'
                     title="Data Intelligence & Analysis"
                     description='Data collection, ETL processes, data transformation, and visualization using tools like Python, Google Bigquery and Google Looker.'
-                    item1={pythonLogo}
-                    item2={bqLogo}
-                    item3={lookerLogo}
+                    item1={lookerLogo}
+                    item2={pythonLogo}
+                    item3={bqLogo}
                 />
                 <SkillsModule
                     tag='web-dev'
                     title="Web Development"
                     description='I specialize in frontend technologies like React.js, JavaScript, Tailwind CSS, HTML5, and CSS3, while for backend development, I work with Python, Django, and REST APIs. Additionally, I have nearly 2 years of experience building and customizing WordPress websites using Elementor.'
-                    item1={reactLogo}
+                    item1={wordpressLogo}
                     item2={djangoLogo}
-                    item3={wordpressLogo}
+                    item3={reactLogo}
                 />
                 <SkillsModule
                     tag='cloud'
@@ -130,9 +133,17 @@ const MySkills = () => {
                     tag='graphics'
                     title="Graphic and Marketing Design"
                     description='Specializing in marketing banners, product images, and branding for online marketplaces using Adobe Photoshop and Illustrator. I also create user interface and experience designs with Figma.'
-                    item1={psLogo}
+                    item1={figmaLogo}
                     item2={aiLogo}
-                    item3={figmaLogo}
+                    item3={psLogo}
+                />
+                <SkillsModule
+                    tag='3d'
+                    title="3d Architectural and General Design"
+                    description='Model 3D designs in Blender, texturing them to Substance Painter, rendering it to Unreal Engine and do post processing in DaVinci Resolve.'
+                    item1={unrealLogo}
+                    item2={sppLogo}
+                    item3={blenderLogo}
                 />
                 <SkillsModule
                     tag='rpa'
