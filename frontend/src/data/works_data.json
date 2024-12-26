@@ -1,5 +1,51 @@
 [
     {
+        "id": "rhy4z85ta2w10n0c755hm",
+        "title":"Christmas Season - 2024",
+        "month": 12,
+        "year":2024,
+        "website": "",
+        "project_type":["graphics"],
+        "description": "I made a quick 3D model and render for Christmas day. Merry Christmas Everyone!",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/rhy4z85ta2w10n0c755hm/1.png?rlkey=3nk1beyvsgr5i7oicfw6b5yo1&st=ridcocb5&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/rhy4z85ta2w10n0c755hm/1.png?rlkey=3nk1beyvsgr5i7oicfw6b5yo1&st=ridcocb5&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/jm1d7j02lwakbmq49ewpx/2.png?rlkey=sc53vu3g7je9dw24nkm38wlbu&st=leqbs22b&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/w37g6tgaoc029ck6hazlq/4.png?rlkey=xn3c0xev17r0sero6pe7kxp64&st=do0hmyfy&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/p06kt9q0lnx95ux7y33sp/3.png?rlkey=q2kjpte3ny1282vg5dvq3phfe&st=xo05rv5v&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "video-youtube",
+                "url":"https://www.youtube.com/embed/PrAZmXrpssY"
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Blender","Substance Painter", "Unreal Engine 5", "DaVinci Resolve"]
+            }
+        ]
+    },
+    {
         "id": "uexotw7r2kgr14pgi9m4z",
         "title":"Vista Roma - Architectural Visualization (ArchViz)",
         "month": 12,
