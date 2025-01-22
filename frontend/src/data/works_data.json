@@ -5,7 +5,7 @@
         "month": 12,
         "year":2024,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","3d","video"],
         "description": "I made a quick 3D model and render for Christmas day. Merry Christmas Everyone!",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/rhy4z85ta2w10n0c755hm/1.png?rlkey=3nk1beyvsgr5i7oicfw6b5yo1&st=ridcocb5&dl=0",
         "others": [
@@ -51,7 +51,7 @@
         "month": 12,
         "year":2024,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","3d","video"],
         "description": "Self project for a 3D architectural visualization (ArchViz)",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/uexotw7r2kgr14pgi9m4z/1.png?rlkey=7mpydzydq9k6m4mu7jxl8keo1&st=p82ry659&dl=0",
         "others": [
@@ -109,7 +109,7 @@
         "month": 11,
         "year":2024,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","3d","video"],
         "description": "Self project for a 3D game interior scene",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/nd3auiqtonm1ec2y0pj87/1.png?rlkey=xe0zru44af30aw2yzi7etqli5&st=46wthnw3&dl=0",
         "others": [
@@ -161,7 +161,7 @@
         "month": 11,
         "year":2024,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","3d","video"],
         "description": "Self 3D environment design project",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/4r6y0d1k07iival5hgbat/S_AbandonedPlace1.png?rlkey=vud0r5h3bpjm7s621jubjpnfn&st=6v34yev7&dl=0",
         "others": [
@@ -225,7 +225,7 @@
         "month": 10,
         "year":2024,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","3d","video"],
         "description": "Self 3D project for interior game scene",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/p6g7bd212llm0tr1orlk3/1.png?rlkey=z04ee5qyxpuwvult6l5npy501&st=s1pojg9h&dl=0",
         "others": [
@@ -339,7 +339,7 @@
         "month": 7,
         "year": 2024,
         "website": "https://evergreenbutterflies.net/",
-        "project_type":["graphics","development"],
+        "project_type":["graphics","development","ecomm"],
         "description":"A corporate website for Evergreen Butterflies, a company that provides custom software solutions and strategic business services. The site showcases their capabilities in delivering innovative tech and data-driven insights to drive growth and efficiency for businesses. I was responsible for designing the UI, coding the website using React, and deploying it via Google Cloud Platform (GCP), ensuring a responsive, user-friendly, and scalable solution.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/4esj8v2qfp96zp6ser4hd/02-evergreenbutterfliles-thumbnaill.png?rlkey=ysfc275kexgxo7nou0l6qtxv9&st=s3pims1d&dl=0",
         "others": [
@@ -371,7 +371,7 @@
         "month": 9,
         "year": 2020,
         "website": "https://www.splitdragon.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","video","ecomm"],
         "description":"Teasing videos created for all services offered by SplitDragon.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/y87f9ly7547j5bqagfi3a/SD-Video-Teaser-thumbnail.png?rlkey=uexvseabvqg2h3uoosc9oiqma&st=irsmhy8h&dl=0",
         "others": [
@@ -431,7 +431,7 @@
         "month": 8,
         "year": 2019,
         "website": "https://www.intrepid.asia/",
-        "project_type":["graphics"],
+        "project_type":["graphics","video","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/4e1kof9h0osof1kjpvon5/Intrepid-Promotionals-thumbnail.png?rlkey=iitemmxr24oybbg12qgtuz5dk&st=kuhuwzel&dl=0",
         "others": [
@@ -467,7 +467,7 @@
         "month": 7,
         "year": 2024,
         "website": "https://evergreenbutterflies.net/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration","ecomm"],
         "description":"Designed a logo for Evergreen Butterflies that visually represents their brand identity. The logo integrates elements of an green leaf of a tree and a butterfly, symbolizing growth, transformation, and sustainability—key aspects of the company’s mission to deliver innovative tech solutions and business services. This project ran concurrently with the development of their website, ensuring cohesive branding across platforms.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/3tdmhhvab0axjc9sbnt73/03-eb-llogo-streett.png?rlkey=4xi2xfeb98vfj9ekm6myakii0&st=smjuyd74&dl=0",
         "others": [
@@ -539,7 +539,7 @@
         "month": 5,
         "year": 2021,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"Deuter made a end-to-end partnership with SplitDragon from 2021 to 2023. As part of the Creative team, I create final artworks for store decoration, marketing materials and marketplace product description",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/uwa8ncyk26apqkhc8x5kj/Deuter_logo.png?rlkey=24n49rcc07bdd2onob8tolbuo&st=ve1abprt&dl=0",
         "others": [
@@ -689,7 +689,7 @@
         "month": 10,
         "year": 2020,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"A product description designing for Skinerb by Faralex. This images will be used in Lazada PH",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/3p6uzk6910h4yathyuqhb/skinerb-thumbnail.png?rlkey=cvpxjnjk0rgyjf7unsejz9bl6&st=hl03u0sj&dl=0",
         "others": [
@@ -737,7 +737,7 @@
         "month": 10,
         "year": 2020,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/xa7df90bj6b4671l5fvxt/airdeveloppa-thumbnail.png?rlkey=nwaidwavc3whh29foc6oltjgt&st=uivfqnh1&dl=0",
         "others": [
@@ -761,7 +761,7 @@
         "month": 10,
         "year": 2020,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/58d6mpo7p1wmr1pxwig4q/kellogs-thumbnail.png?rlkey=crvw3xe1qwavf67z3hl2ah9m6&st=amanol38&dl=0",
         "others": [
@@ -785,7 +785,7 @@
         "month": 10,
         "year": 2020,
         "website": "Amorepacific has been in partnership with SplitDragon from 2020 up to present. As part of the Creative team, I create final artworks for their marketplace product description",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/d61oxrcfueeu2zz217kjo/ap-thumbnail.png?rlkey=ced9131ae1mi2vsb04dyqhkfr&st=qz1alu9h&dl=0",
         "others": [
@@ -833,7 +833,7 @@
         "month": 8,
         "year": 2020,
         "website": "https://www.splitdragon.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"Infographic Illustrations made for promotion of SplitDragon's IP Protection and Market Research",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/uskv9zsxqodfw6cy9a9pw/SD-infograph-thumbnail.png?rlkey=f7g9i8m7t808rre3xv6biourk&st=3n0d98w0&dl=0",
         "others": [
@@ -863,7 +863,7 @@
         "month": 11,
         "year": 2020,
         "website": "https://www.lazada.com.my/shop/hyrem",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"Hyrem is an iconic brand in the market that emphasizes beautiful historical’s art and design,carrying unique products that reflect the symbols of luxury and elegance yet affordable. Planning to expand their place to sell in Lazada MY, I design their store page to present their historical beauty and uniqueness to Lazada buyers.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/md68ik3mlay9dw1jnv0h6/hyrem-thuimbnail.png?rlkey=cwxz3xkc46zyla9tbvipeqjgx&st=ecm5ohyd&dl=0",
         "others": [
@@ -893,7 +893,7 @@
         "month": 8,
         "year": 2021,
         "description": "Partnership with SplitDragon on 2021, I created their store design for both Lazada PH and Shopee PH, together with the product description template for the team to use.",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "website":"https://www.lazada.com.ph/shop/shell",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/99i3vtnab4r36ja0nb29p/shell-thumbnail.png?rlkey=i51cn1y71nt4pc03soht27qy6&st=50oyuc6w&dl=0",
         "others": [
@@ -941,7 +941,7 @@
         "month": 7,
         "year": 2020,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/6tdzwcisj09sle4i2gd2q/durex-thumbnail.png?rlkey=78fgv1fq5vb23a4pe95cxqd6q&st=5s3wls25&dl=0",
         "others": [
@@ -965,7 +965,7 @@
         "month": 7,
         "year": 2020,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/7cjbua7mxhpi0kfboa0cc/enfgrow-thumbnail.png?rlkey=fihqj32fv1d9d7dozxucflmym&st=jvqk3zx4&dl=0",
         "others": [
@@ -989,7 +989,7 @@
         "month": 3,
         "year": 2020,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/v4aom9sef7krih55pmb6k/lg-thumbnail.png?rlkey=2wsjhgwcy0x4a1tsuxqduwvak&st=1m1psbet&dl=0",
         "others": [
@@ -1019,7 +1019,7 @@
         "month": 8,
         "year": 2020,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/vrpicdqvmadx6j2rda3w0/origins-thumbnail.avif?rlkey=eraa5ot1f9s60qpg7ara2drdn&st=v7v6ztkm&dl=0",
         "others": [
@@ -1043,7 +1043,7 @@
         "month": 10,
         "year": 2021,
         "website": "https://www.lazada.com.ph/shop/popsockets/",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"Popsocket has been with SplitDragon from 2021, to promote and expand their products to Lazada Marketplace in South East Asia. I created there store decoration template to be used by the creative team until today.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/4v79skrectm6ff6as9ds3/popsocket-thumbnail.png?rlkey=80rour8iyweknu8og53o9j7sl&st=om8fsstf&dl=0",
         "others": [
@@ -1067,7 +1067,7 @@
         "month": 11,
         "year": 2019,
         "website": "https://www.lazada.sg/shop/spider-holster/?path=index.htm",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/beix0fkk3oc3y7pgouzs8/spiderholster-thumbnail.png?rlkey=48ehjygyjdjlby6f9xonuq6zs&st=hqw6gx8k&dl=0",
         "others": [
@@ -1091,7 +1091,7 @@
         "month": 11,
         "year": 2019,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/4qvo3brfswztudog4ttcz/uniquetime-thumbnail.png?rlkey=6up3r64xr34m0xh12j3bcdg6u&st=hr8pmwvq&dl=0",
         "others": [
@@ -1121,7 +1121,7 @@
         "month": 8,
         "year": 2020,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/9jkqcp06vcqn4xwfxg3rr/Yves-rocher-thumbnail.png?rlkey=3ezrq6hmbexlcttui7bylt3zx&st=1qjbj6l3&dl=0",
         "others": [
@@ -1145,7 +1145,7 @@
         "month": 7,
         "year": 2020,
         "website": "https://www.lazada.co.th/shop/zerowater-thailand",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"Zerowater TH has been with SplitDragon from 2020, in need to improve their sales in Lazada and Shopee marketplace. I created their templates for their campaign materials and product descriptions, as well created a store design for their marketplace store.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/w9n7khjpy3ze6i4aqhkfy/ZeroWater-Thailand-4.jpg?rlkey=k09wnz2pjm0vsnjq58av1pdkz&st=82fd5oat&dl=0",
         "others": [
@@ -1187,7 +1187,7 @@
         "month": 7,
         "year": 2019,
         "website": "https://www.intrepid.asia/",
-        "project_type":["graphics"],
+        "project_type":["graphics","video","ecomm"],
         "description":"On 2019, Intrepid PHilippines started on offering livestream as part of ther services. As Livestream Manager, I created an short video on how our livestream process will work.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/uo8601nyn2xz0979ktcli/intrepid-livestream-video-thumbnail.png?rlkey=melnu09z18j0bcucx0mn7a602&st=4trbrl7b&dl=0",
         "others": [
@@ -1211,7 +1211,7 @@
         "month": 12,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/669i96an5v9nakq3ye9z2/gfpc-xmas-decor-anim-thumbnail.png?rlkey=a6kihsj2fq5grihj06qf2177p&st=14di8dqn&dl=0",
         "others": [
@@ -1235,7 +1235,7 @@
         "month": 4,
         "year": 2014,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","3d"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/5g9q3kzx2uffgi87bnf4g/3.png?rlkey=ji6z66g8th0gj07fd402kbghb&st=3y1z5hc4&dl=0",
         "others": [
@@ -1277,7 +1277,7 @@
         "month": 5,
         "year": 2019,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/b321bszrl8kjzg6gcbrjs/DSNY-THUMBNAIL.png?rlkey=4q2okhlfcqq02t43in5p0nxp2&st=dlwtlpy5&dl=0",
         "others": [
@@ -1301,7 +1301,7 @@
         "month": 3,
         "year": 2016,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","3d"],
         "description":"M3D Construction Format is the distrubutor for Duty Free's modular shelves for their outlets. These are the gondola and shelf module designs made for Duty Free Mactan.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/np19weokjv878fnxyehzy/1.png?rlkey=c489hbfnrv6xb1npb57euyh1a&st=cw4gjnqn&dl=0",
         "others": [
@@ -1373,7 +1373,7 @@
         "month": 6,
         "year": 2019,
         "website": "",
-        "project_type":["graphics"],
+        "project_type":["graphics","3d"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/7vglhm6734p3b5z9p0bku/thumbnail.png?rlkey=uma3spip6es15zh3h5gy5d01l&st=na66emwn&dl=0",
         "others": [
@@ -1415,7 +1415,7 @@
         "month": 11,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"With the ever improving services of Go-Forth Pest Control, also comes the redesign of their logo from a 2D style into a 3D logo",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/1q2gltl697fqh3pgz6t3k/new-logo.png?rlkey=y2g7o5yl09cntc40anpmn8rof&st=exn4v61i&dl=0",
         "others": [
@@ -1445,7 +1445,7 @@
         "month": 9,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"Go-Forth Pest Control wants to emphasize how pests can harm ourselves and destroy our homes. I made illustrations of some of the pests with weapons that Go-Forth Pest Controls deal with.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/pg7q9lk9k0xsfvx1fqaaj/go-forth-hornet.png?rlkey=whzqqrl2q66mn4z2z8dgxj2ly&st=q0ciwt58&dl=0",
         "others": [
@@ -1523,7 +1523,7 @@
         "month": 11,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"With regards to pest information, Go-Forth Pest Control made some list on the pests traits and weaknesses. With me on the team, I made some appealing pest information design that looks like character selections in a game which brings informationt to the viewers with a feels of a game.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/0jhdyt63pd6mkb195jst4/go-forth-pest-info-1-05.png?rlkey=5693arkichog3t90gfsbodgoa&st=q7j7vl1z&dl=0",
         "others": [
@@ -1589,7 +1589,7 @@
         "month": 9,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/oxy9hb7r1t3twtjf4i6yd/go-forth-garage-thumbnail.png?rlkey=p9ngykfrby5lcog3ek2vo6fmb&st=s3biu6t9&dl=0",
         "others": [
@@ -1649,7 +1649,7 @@
         "month": 10,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/6rsqy4dnkl3g4lm4fb151/go-forth-character-02.png?rlkey=jajo0t9jzluai4lun8owqi9jc&st=i384o04m&dl=0",
         "others": [
@@ -1697,7 +1697,7 @@
         "month": 2,
         "year": 2020,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/lc6f7tmsfspp6zdkb1f2z/_ALL-IN-ONE-01-thumbnail.jpg?rlkey=it2ehihhe4pg5n8udovevxvy7&st=fsq19bhe&dl=0",
         "others": [
@@ -1823,7 +1823,7 @@
         "month": 12,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration","video"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/yw40zsbpcweo6z4k1nim2/gfpc-terminte-animate-thumbnail.png?rlkey=qakcq1eukoah1vhfsfso8999v&st=ifbbeb04&dl=0",
         "others": [
@@ -1847,7 +1847,7 @@
         "month": 12,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/8yg6cb3kt6yuffl92tt73/thmbnail.png?rlkey=4xnw6pzqusmbexzb91gs6mbi8&st=o5i9gja9&dl=0",
         "others": [
@@ -1907,7 +1907,7 @@
         "month": 11,
         "year": 2019,
         "website": "https://www.go-forth.com/",
-        "project_type":["graphics"],
+        "project_type":["graphics","video"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/mqnrkblaqg9y1cyk3jhja/thumbnail.png?rlkey=17y2zmjdksh3m8dtblearhlcq&st=jpaxyj8b&dl=0",
         "others": [
@@ -1985,7 +1985,7 @@
         "month": 9,
         "year": 2019,
         "website": "https://www.intrepid.asia/",
-        "project_type":["graphics"],
+        "project_type":["graphics","illustration"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/gpqa66nhe9ztzp72skze0/treppy-thumbnail.png?rlkey=1s8tloq0r78j8791a900km42i&st=5ghfndrm&dl=0",
         "others": [
@@ -2015,7 +2015,7 @@
         "month": 7,
         "year": 2024,
         "website": "https://www.lazada.co.th/shop/mederma",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/mzkt8ekqu53iis7r6iqb9/1-7-7-Teasing-Main-Banner.jpg?rlkey=u4619sglskcb1459aoklepa9f&st=vcuvdnii&dl=0",
         "others": [
@@ -2051,7 +2051,7 @@
         "month": 8,
         "year": 2024,
         "website": "https://www.lazada.co.th/shop/mederma",
-        "project_type":["graphics"],
+        "project_type":["graphics","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/hdf58cw961sey7pcxrsol/1-8-8-Sale-Main-Banner.jpg?rlkey=cq7rc7hdkj6qayg4befgtz3cl&st=7zh6syvx&dl=0",
         "others": [

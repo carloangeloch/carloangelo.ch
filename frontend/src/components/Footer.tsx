@@ -1,13 +1,22 @@
 import chLogo from '../assets/ch-logo-square.png'
+import { AppContext } from '../context/AppContext'
+import { useContext } from 'react'
 
 const Footer = () => {
-  return (
-    <div className="w-full bg-a p-10 text-center items-center text-color-d relative">
-        <img src={chLogo} alt={chLogo} className='h-20 mx-auto'/>
-        <strong>Carlo Angelo Hilaus</strong><br/><br/>
-        <em className='opacity-20'>@ Carlo Angelo Hilaus, ch 2024</em>
-    </div>
-  )
+
+    const appContext = useContext(AppContext)
+
+
+    if (appContext.appData.currentPage !== 'v2-home' || appContext.appData.currentPage !== 'v2-work' || appContext.appData.currentPage !== 'v2-profile' || appContext.appData.currentPage !== 'v2-contact') {
+        return (
+          <div className="w-full bg-a p-10 text-center items-center text-color-d relative">
+              <img src={chLogo} alt={chLogo} className='h-20 mx-auto'/>
+              <strong>Carlo Angelo Hilaus</strong><br/><br/>
+              <em className='opacity-20'>@ Carlo Angelo Hilaus, ch 2024</em>
+          </div>
+        )
+    }
+
 }
 
 export default Footer

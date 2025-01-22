@@ -3,6 +3,7 @@ import {motion} from 'framer-motion'
 import { FC, useEffect, useRef, useState } from "react";
 import {monthByNumbers} from '../../utils/monthByNumber'
 import WorkModal from "./WorkModal";
+import { useNavigate, useParams } from "react-router-dom";
 
 
 interface WorkListProps {
@@ -12,6 +13,17 @@ interface WorkListProps {
 const WorkList: FC<WorkListProps> = ({workData}) => {
     const [ openModal, setOpenModal ] = useState(false)
     const modalID = useRef<any>(null)
+    const navigate = useNavigate();
+    const dataId = useParams();
+
+    useEffect( () => {
+        modalID.current = dataId.dataId;
+        if(dataId.dataId){
+            setOpenModal(true)
+        }else{
+            setOpenModal(false);
+        }
+    },[dataId])
     
     useEffect( () => {
         openModal ? document.body.style.overflow = 'hidden' :  document.body.style.overflow = 'unset'
@@ -33,8 +45,9 @@ const WorkList: FC<WorkListProps> = ({workData}) => {
                                     key={work.id}
                                     initial="initial"
                                     whileHover="hovered"
-                                    className="w-5/6 md:w-[320px] lg:w-[350px] h-[450px] lg:h-[550px] rounded-lg cursor-pointer"
+                                    className="w-5/6 md:w-[320px] lg:w-[350px] h-[450px] lg:h-[550px] rounded-lg cursor-pointer drop-shadow-none hover:drop-shadow-lg bg-none hover:bg-color-d p-3"
                                     onClick={ () => {
+                                        navigate(`/works/${work.id}`)
                                         modalID.current = work.id
                                         setOpenModal(true)
                                     }}
@@ -53,15 +66,19 @@ const WorkList: FC<WorkListProps> = ({workData}) => {
                                             className="object-cover rounded-lg"
                                         />
                                     </div>
-                                    <div className="text-lg md:text-xl lg:text-2xl mt-2 h-[60px] lg:h-[70px] text-color-a opacity-80">
-                                        <strong>{String(work.title).length > 50 ? `${String(work.title).slice(0,50)}...` : work.title}</strong>
+                                    <div className="text-lg md:text-xl lg:text-2xl mt-2  text-color-a opacity-80">
+                                        <strong>{String(work.title).length > 40 ? `${String(work.title).slice(0,40)}...` : work.title}</strong>
                                     </div>
-                                    <div className="w-1/2 text-sm lg:text-base text-color-a opacity-60">
+                                    <div className="w-1/2 text-sm lg:text-base text-color-a opacity-60 my-1">
                                         {monthByNumbers(work.month)} - {work.year}
                                     </div>
-                                    <div className="w-fulll flex">
+                                    <div className="w-full flex flex-wrap">
                                         {work.project_type.includes("graphics") && <div className="bg-blue-700 text-color-d text-xs rounded-xl p-1 mr-2">Graphic Design</div>}
                                         {work.project_type.includes("development") && <div className="bg-green-700 text-color-d text-xs rounded-xl p-1 mr-2">Web Development</div>}
+                                        {work.project_type.includes("ecomm") && <div className="bg-cyan-700 text-color-d text-xs rounded-xl p-1 mr-2">E-Commerce</div>}
+                                        {work.project_type.includes("3d") && <div className="bg-orange-600 text-color-d text-xs rounded-xl p-1 mr-2">3D Art</div>}
+                                        {work.project_type.includes("illustration") && <div className="bg-yellow-600 text-color-d text-xs rounded-xl p-1 mr-2">Illustration</div>}
+                                        {work.project_type.includes("video") && <div className="bg-purple-700 text-color-d text-xs rounded-xl p-1 mr-2">Animation</div>}
                                     </div>
                                 </motion.div>
                             )

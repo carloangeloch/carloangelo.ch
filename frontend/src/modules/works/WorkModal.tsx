@@ -2,19 +2,32 @@ import {motion} from 'framer-motion'
 import Container from '../../components/Container' 
 import { monthByNumbers } from '../../utils/monthByNumber'
 import iconList from '../../data/icon_list.json'
+import { useNavigate } from 'react-router-dom'
 
 const WorkModal = ({data, setOpenModal} :any) => {
+
+    const navigate = useNavigate();
+
     return(
         <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
             transition={{duration: 0.5, ease:"easeInOut"}}
-            className="fixed w-full h-screen bg-a bg-opacity-70 z-30 top-0 left-0 py-20 overflow-y-scroll"
+            className="fixed w-full h-screen bg-a bg-opacity-70 z-30 top-0 left-0 py-0 lg:py-20 overflow-y-scroll"
         >
             <Container>
                 <div className="bg-d w-full flex flex-wrap p-1 md:p-3 lg:p-10 flex-row-reverse">
                     <div id="close-btn" className="w-full flex justify-end text-2xl relative">
-                        <div className="w-[30px] md:w-[40px] lg:w-[50px] h-[30px] md:h-[40px] lg:h-[50px] text-center text-sm md:text-lg lg:text-2xl cursor-pointer fixed border bg-red-500 text-white hover:bg-red-800 transition-all duration-200 rounded-[50%] pt-1 z-10" onClick={() => setOpenModal(false)} onKeyDown={e=> e.key==='Escape' && setOpenModal(false)}><strong>x</strong></div>
+                        <div
+                            className="w-[30px] md:w-[40px] lg:w-[50px] h-[30px] md:h-[40px] lg:h-[50px] text-center text-sm md:text-lg lg:text-2xl cursor-pointer fixed bg-red-500 text-white hover:bg-red-800 transition-all duration-200 rounded-[50%] z-10 border-2 lg:border-4 border-white border-"
+                            onClick={() => {
+                                navigate('/works');
+                                setOpenModal(false)
+                            }}
+                            onKeyDown={e=> e.key==='Escape' && setOpenModal(false)}
+                        >
+                            <strong>x</strong>
+                        </div>
                     </div>
                     <motion.div
                         initial={{opacity:0, transform: "scale(0.5)"}}
