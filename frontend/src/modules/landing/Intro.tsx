@@ -27,48 +27,25 @@ const Intro = () => {
 
     return (
         <div className="w-full h-screen flex flex-wrap xl:flex-nowrap overflow-hidden xl:overflow-visible">
-            {/* <div id="title" className="w-full xl:w-1/2 h-1/2 md:h-2/5 lg:h-1/2 xl:h-full relative bg-a xl:bg-transparent">
-                <div id="blob" className="absolute w-full h-full z-[6] ">
-                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className='absolute w-[200%] xl:w-full h-full'>
-                        <path className="fill-[#223843] invisible xl:visible xl:translate-x-[1.5rem] xl:translate-y-[1.3rem] xl:rotate-0 "
-                            d="M55.2,-68.3C68.5,-54.6,74.2,-34.3,72.8,-16.6C71.4,1.1,62.9,16.2,52.5,26.4C42,36.6,29.6,41.9,16.5,47.6C3.4,53.4,-10.3,59.7,-25.2,58.9C-40.2,58,-56.3,49.9,-66.7,36.4C-77.1,22.8,-81.7,3.8,-76.5,-11.3C-71.3,-26.4,-56.1,-37.7,-41.7,-51.2C-27.3,-64.8,-13.7,-80.7,3.6,-85C20.9,-89.4,41.9,-82.1,55.2,-68.3Z"
-                            />
-                    </svg>
-                </div>
-                <div id="title-div" className="absolute z-[7] w-full h-full">
-                    <div className="w-full h-[60px]"/>
-                    <div className='w-full h-3/4 flex flex-col xl:flex-none items-center xl:items-start  justify-center xl:justify-normal text-center xl:text-left gap-y-10 pt-0 xl:pt-[13%] pl-0 xl:pl-7'>
-                        <div className="text-2xl md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl mx-auto xl:mx-0">
-                            <strong className='text-color-d  drop-shadow-[5px_3px_5px_rgba(0,0,0,0.5)]'>
-                                Tech Innovator.<br/>
-                                Data-Driven Analyst.<br/>
-                                Creative Designer.
-                            </strong>
-                        </div>
-                        <div className="text-base xl:text-xl 2xl:text-2xl md:w-2/3 mx-auto xl:mx-0 text-color-d">
-                            <span className='drop-shadow-[5px_3px_5px_rgba(0,0,0,0.5)]'>Whether I’m building applications, crafting marketing designs, or brainstorming data-driven ideas, I pour my passion into everything I do</span>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-            <div className='relative w-full h-1/2 xl:w-0 md:h-2/5 lg:h-1/2 xl:h-full bg-a'>
+            <div className='relative w-full h-1/3 xl:w-0 md:h-2/5 lg:h-1/2 xl:h-full bg-a'>
                 <div className='absolute w-screen h-full lg:h-1/2 xl:h-full z-10 flex justify-center items-center'>
-                    <div className="bg-a w-5/6 lg:w-4/6 h-4/6 md:h-3/5 p-5 flex flex-wrap justify-center items-center rounded-2xl">
-                        <div className="text-2xl md:text-5xl lg:text-5xl xl:text-7xl 2xl:text-8xl mx-auto xl:mx-0 text-center w-full">
+                    <div className="bg-a w-5/6 lg:w-4/6 h-4/6 md:h-2/5 p-5 flex flex-wrap justify-center items-center rounded-2xl">
+
+                        <div className="text-2xl md:text-5xl lg:text-5xl xl:text-7xl 2xl:text-8xl mx-auto xl:mx-0 text-center w-full flex  flex-wrap justify-center items-center gap-y-5 lg:gap-y-10">  
                             <strong className='text-color-d drop-shadow-[5px_3px_5px_rgba(0,0,0,0.5)]'>
-                                Tech Innovator.<br/>
-                                Data-Driven Analyst.<br/>
-                                Creative Designer.
+                                <span className='text-color-d hover:text-yellow-400 duration-200 ease-in-out'>Tech Innovator.</span><br/>
+                                <span className='text-color-d hover:text-red-400 duration-200 ease-in-out'>Data-Driven Analyst.</span><br/>
+                                <span className='text-color-d hover:text-purple-400 duration-200 ease-in-out'>Creative Designer.</span>
                             </strong>
-                        </div>
-                        <div className="text-sm md:text-lg xl:text-xl 2xl:text-2xl md:w-2/3 mx-auto xl:mx-0 text-color-d text-center  w-full">
-                            <span className='drop-shadow-[5px_3px_5px_rgba(0,0,0,0.5)]'>Whether I’m building applications, crafting marketing designs, or brainstorming data-driven ideas, I pour my passion into everything I do</span>
+                            <div className="text-sm md:text-lg xl:text-xl md:w-2/3 mx-auto xl:mx-0 text-color-d text-center  w-full">
+                                <span className='drop-shadow-[5px_3px_5px_rgba(0,0,0,0.5)]'>Whether I’m building applications, crafting marketing designs, or brainstorming data-driven ideas, I pour my passion into everything I do</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div id="top-image" className="w-full h-1/2 md:h-3/5 xl:h-full relative">
+            <div id="top-image" className="w-full h-2/3 md:h-3/5 xl:h-full relative">
                 <div id="icon-loop-1" className="absolute w-[220%] h-1/4 overflow-x-hidden -right-10 z-[5] top-[5%]">
                     <motion.div
                         animate={{

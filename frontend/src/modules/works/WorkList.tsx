@@ -45,7 +45,7 @@ const WorkList: FC<WorkListProps> = ({workData}) => {
                                     key={work.id}
                                     initial="initial"
                                     whileHover="hovered"
-                                    className="w-5/6 md:w-[320px] lg:w-[350px] h-[450px] lg:h-[550px] rounded-lg cursor-pointer drop-shadow-none hover:drop-shadow-lg bg-none hover:bg-color-d p-3"
+                                    className="w-5/6 md:w-[320px] lg:w-[350px] h-[450px] lg:h-[550px] rounded-lg cursor-pointer drop-shadow-none hover:drop-shadow-lg bg-none hover:bg-color-d p-1"
                                     onClick={ () => {
                                         navigate(`/works/${work.id}`)
                                         modalID.current = work.id
@@ -66,19 +66,19 @@ const WorkList: FC<WorkListProps> = ({workData}) => {
                                             className="object-cover rounded-lg"
                                         />
                                     </div>
-                                    <div className="text-lg md:text-xl lg:text-2xl mt-2  text-color-a opacity-80">
+                                    <div className="text-lg md:text-xl mt-2  text-color-a opacity-80">
                                         <strong>{String(work.title).length > 40 ? `${String(work.title).slice(0,40)}...` : work.title}</strong>
                                     </div>
-                                    <div className="w-1/2 text-sm lg:text-base text-color-a opacity-60 my-1">
+                                    <div className="w-1/2 text-sm text-color-a opacity-60 my-1">
                                         {monthByNumbers(work.month)} - {work.year}
                                     </div>
-                                    <div className="w-full flex flex-wrap">
-                                        {work.project_type.includes("graphics") && <div className="bg-blue-700 text-color-d text-xs rounded-xl p-1 mr-2">Graphic Design</div>}
-                                        {work.project_type.includes("development") && <div className="bg-green-700 text-color-d text-xs rounded-xl p-1 mr-2">Web Development</div>}
-                                        {work.project_type.includes("ecomm") && <div className="bg-cyan-700 text-color-d text-xs rounded-xl p-1 mr-2">E-Commerce</div>}
-                                        {work.project_type.includes("3d") && <div className="bg-orange-600 text-color-d text-xs rounded-xl p-1 mr-2">3D Art</div>}
-                                        {work.project_type.includes("illustration") && <div className="bg-yellow-600 text-color-d text-xs rounded-xl p-1 mr-2">Illustration</div>}
-                                        {work.project_type.includes("video") && <div className="bg-purple-700 text-color-d text-xs rounded-xl p-1 mr-2">Animation</div>}
+                                    <div className="w-full flex flex-wrap gap-1">
+                                        {work.project_type.includes("graphics") && <div className="bg-blue-700 text-color-d text-xs rounded-xl p-1.5">Graphic Design</div>}
+                                        {work.project_type.includes("development") && <div className="bg-green-700 text-color-d text-xs rounded-xl p-1.5">Web Development</div>}
+                                        {work.project_type.includes("ecomm") && <div className="bg-cyan-700 text-color-d text-xs rounded-xl p-1.5">E-Commerce</div>}
+                                        {work.project_type.includes("3d") && <div className="bg-orange-600 text-color-d text-xs rounded-xl p-1.5">3D Art</div>}
+                                        {work.project_type.includes("illustration") && <div className="bg-yellow-600 text-color-d text-xs rounded-xl p-1.5">Illustration</div>}
+                                        {work.project_type.includes("video") && <div className="bg-purple-700 text-color-d text-xs rounded-xl p-1.5">Animation</div>}
                                     </div>
                                 </motion.div>
                             )
