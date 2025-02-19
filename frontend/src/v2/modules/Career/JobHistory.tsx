@@ -1,14 +1,14 @@
-import { FC, useRef } from "react"
-import Container from "../../components/Container"
-import SectionTitle from "../../components/SectionTitle"
+import { FC, useRef, useState} from "react"
 import { useInView } from "framer-motion";
-import sdLogo from '../../assets/split_dragon_logo.jpeg';
-import intrepidLogo from '../../assets/flywheel_digital_logo.jpeg';
-import goForthLogo from '../../assets/go_forth_pest_control_logo.jpeg';
-import eCreationsLogo from '../../assets/e-creation.jpeg';
-import m3dLogo from '../../assets/m3d-logo.png';
-import amkorLogo from '../../assets/amkor.jpeg';
-import stacksLogo from '../../assets/stacks.png';
+import sdLogo from '../../../assets/split_dragon_logo.jpeg';
+import intrepidLogo from '../../../assets/flywheel_digital_logo.jpeg';
+import goForthLogo from '../../../assets/go_forth_pest_control_logo.jpeg';
+import eCreationsLogo from '../../../assets/e-creation.jpeg';
+import m3dLogo from '../../../assets/m3d-logo.png';
+import amkorLogo from '../../../assets/amkor.jpeg';
+import stacksLogo from '../../../assets/stacks.png';
+import building from '../../../assets/office-building.png';
+import { motion } from "framer-motion";
 
 interface JobItemHandlerProps {
     companyIcon?: any;
@@ -16,14 +16,20 @@ interface JobItemHandlerProps {
     position: string;
     company: string;
     location: string;
+    short: string;
     content: any;
 }
 
 
-const JobItemHandler : FC<JobItemHandlerProps> = ({companyIcon,jobDate, position, company, location, content}) => {
+const JobItemHandler : FC<JobItemHandlerProps> = ({companyIcon,jobDate, position, company, location, short, content}) => {
     const refer = useRef(null)
     const isInView = useInView(refer, {once: true})
+    const [isShown, setIsShown] = useState(false);
 
+    const ShowDetail = () => {
+        setIsShown(!isShown);
+        console.log(position+ isShown.toString());
+    }
 
     return (
         <div
@@ -33,49 +39,56 @@ const JobItemHandler : FC<JobItemHandlerProps> = ({companyIcon,jobDate, position
                 opacity: isInView ? 1 : 0,
                 transition: "all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
             }}
-            className="w-full p-2 md:p-4 lg:p-6 xl:p-10 flex flex-wrap text-color-d"
+            className="w-full md:p-4 p-4 lg:p-6 xl:p-10 flex flex-wrap text-color-d"
+            id="job-details"
         >
-            <div className="hidden lg:block w-1/5 text-center relative">
-                <strong className="text-lg absolute top-1/2 left-0 w-full px-8 ">
-                    {jobDate}
-                </strong>
-            </div>
-            <div className="w-full lg:w-4/5">
-                <div className="text-lg lg:text-xl flex">
-                    <img src={companyIcon} alt={companyIcon} className="h-[50px] mr-5 mt-5 rounded-md"/>
-                    <div className="flex flex-wrap gap-y-1">
-                        <div className="w-full"><strong className="text-color-c">{position}</strong></div>
-                        <div className="w-full"><span>{company} – {location}</span></div>
-                        <div className="block lg:hidden text-sm w-full">
-                            {jobDate}
-                        </div>
+            <div className="text-lg lg:text-xl flex" id="role-info">
+                <img src={companyIcon} alt={companyIcon} className="h-[50px] mr-5 mt-5 rounded-md"/>
+                <div className="flex flex-wrap gap-y-1">
+                    <div className="w-full"><strong className="text-color-c">{position}</strong></div>
+                    <div className="w-full"><span>{company} – {location}</span></div>
+                    <div className="text-sm w-full">
+                        {jobDate}
                     </div>
                 </div>
-                <div className="text-base lg:text-lg opacity-80 mt-8">
-                    {content.map( (i:any) => {
-                        return(
-                            <div key={i["title"]}>
-                                <strong>{i["title"]}:</strong><span className="opacity-80"> {i["description"]}</span>
-                            </div>
-                        )
-                    })}
-                </div>
+            </div>
+            <div className="text-base lg:text-lg opacity-80 mt-8" id="short-desc">
+                {short}
+            </div>
+            <motion.div initial={{opacity: 0, height: 0}} animate={isShown ? {opacity:1, height: 'auto'} : {opacity:0, height: 0}} className="text-base lg:text-lg opacity-80 mt-4" id="detailed-desc">
+                <strong className="text-color-c">Detailed Responsibilities</strong>
+                <div className="w-3/4 h-0.5 bg-white mb-3" />
+                {content.map( (i:any) => {
+                    return(
+                        <div key={i["title"]}>
+                            <strong>{i["title"]}:</strong><span className="opacity-80"> {i["description"]}</span>
+                        </div>
+                    )
+                })}
+            </motion.div>
+            <div className="relative w-full overflow-hidden h-7 items-center p-3 mt-4 bg-white bg-opacity-5 rounded-md" id="show-btn">
+                <motion.div initial={{top: 0}} animate={isShown ? {top: 50} : {top: 0}} className="w-full text-center cursor-pointer absolute " onClick={ShowDetail}>
+                    See Detailed Job Responsibility
+                </motion.div>
+                <motion.div initial={{top: -50}} animate={isShown ? {top: 0} : {top: -50}} className="w-full text-center cursor-pointer absolute " onClick={ShowDetail}>
+                    Hide Details
+                </motion.div>
             </div>
         </div>
     )
 }
 
+
 const JobHistory = () => {
     return (
-        <div className="bg-a w-full py-5 md:py-8 lg:py-12 xl:py-16" >
-            <SectionTitle title="Job History" textColor="text-color-d "/>
-            <Container>
+        <div className="flex flex-col justify-center gap-y-6">
                 <JobItemHandler
                     companyIcon={sdLogo}
                     jobDate='May 2020 - September 2024'
                     position='Data Intelligence and Creative Manager'
                     company='SplitDragon'
                     location='Hong Kong SAR'
+                    short='Led the creative and data teams to drive business growth through compelling visual content, automation, and AI-driven optimizations. Managed a team of designers to produce high-impact marketing graphics, motion designs, and 3D product visuals for online marketplaces. Spearheaded SEO-driven creative strategies for eCommerce platforms like Lazada and Shopee, enhancing product visibility.'
                     content={[
                         {
                             title: "Lead and Inspire",
@@ -129,6 +142,7 @@ const JobHistory = () => {
                     position='Graphic Designer'
                     company='Go Fort Pest Control'
                     location='North Carolina, USA'
+                    short='Designed engaging social media content, illustrations, and animated videos to boost brand awareness. Developed creative campaigns that aligned with seasonal promotions, incorporating unique character designs and motion graphics to enhance digital storytelling.'
                     content={[
                         {
                             title: "Design Social Media Content",
@@ -151,6 +165,7 @@ const JobHistory = () => {
                     position='Live Stream Manager'
                     company='Intrepid South East Asia'
                     location='Makati City, Philippines'
+                    short='Managed and optimized live streaming content for Lazada and Facebook Live, ensuring high-quality broadcasts. Designed animated banners, marketing visuals, and promotional materials to enhance engagement. Led production setup, video editing, and post-production for livestream campaigns and social media.'
                     content={[
                         {
                             title: "Live Streaming Management",
@@ -188,6 +203,7 @@ const JobHistory = () => {
                     position='Graphic Artist'
                     company='E-Creations Inc.'
                     location='Manila, Philippines'
+                    short="Created marketing visuals, banners, and web graphics to support branding and advertising. Handled photo shoots, image editing, and video production for multimedia projects. Assisted in QA and content uploads for the company's online platforms."
                     content={[
                         {
                             title: "Content Creation",
@@ -225,6 +241,7 @@ const JobHistory = () => {
                     position='Frontend Developer'
                     company='Stacks Solution Inc.'
                     location='Taguig City, Philippines'
+                    short='Collaborated with designers to develop UI/UX elements, web animations, and interactive designs for applications. Utilized CSS, JavaScript, and design tools to enhance user experiences. Assisted in backend development with Python and Django for feature-rich web solutions.'
                     content={[
                         {
                             title: "Collaboration & Development",
@@ -250,6 +267,7 @@ const JobHistory = () => {
                     position='Senior Graphic Artist'
                     company='M3D Construction Format'
                     location='Makati City, Philippines'
+                    short='Led a team of graphic designers, overseeing branding, 3D architectural designs, and marketing creatives. Designed visual assets for construction, retail, and marketing while managing production workflows. Supervised print operations and inventory management for efficient design execution.'
                     content={[
                         {
                             title: "Team Leadership",
@@ -275,6 +293,7 @@ const JobHistory = () => {
                     position='Logistic Assistant'
                     company='Amkor Technologies, Inc.'
                     location='Laguna, Philippines'
+                    short='Coordinated and scheduled shipments, ensuring all commercial invoices and packing lists were accurately prepared. Conducted quality checks on outgoing shipments and maintained tracking reports for efficient logistics operations.'
                     content={[
                         {
                             title: "Shipment Scheduling",
@@ -301,6 +320,7 @@ const JobHistory = () => {
                     position='Graphic Artist'
                     company='M3D Construction Format'
                     location='Makati City, Philippines'
+                    short='Designed 2D banners and print materials, modifying client artworks for large-format printing. Created 3D architectural and product visualizations to enhance project presentations. Operated large-format printers and managed inventory and production reports.'
                     content={[
                         {
                             title: "2D Design",
@@ -320,10 +340,34 @@ const JobHistory = () => {
                         },
                     ]}
                 />
-            </Container>
+                
+                <JobItemHandler
+                    companyIcon={building}
+                    jobDate='Aug 2010 - Jan 2012'
+                    position='Data Encoder'
+                    company='1Tugon Partylist'
+                    location='Taguig City, Philippines'
+                    short='Processed and cleaned survey data using Microsoft Excel, transforming handwritten forms into structured reports. Developed pivot tables, dashboards, and insights to support organizational decision-making. Assisted in data entry and analysis for voter registration and campaign strategies.'
+                    content={[
+                        {
+                            title: "Data Entry",
+                            description: "Encode handwritten survey forms into Microsoft Excel."
+                        },
+                        {
+                            title: "Data Transform",
+                            description: "Performing data cleanup, and creating pivot table that will be fit for organization's need."
+                        },
+                        {
+                            title: "Data Analysis and Reporting",
+                            description: "Create dashboards and insight reports that will be validated by the manager."
+                        },
+                    ]}
+                />
+
 
         </div>
     )
+
 }
 
 export default JobHistory

@@ -26,13 +26,13 @@ const FilterButton = ({text, active, onClick}:any) => {
     } else if(text === 'Web Development'){
         bgcolor = '#15803D'
     } else if(text === 'E-commerce'){
-        bgcolor = '#DB2777'
+        bgcolor = '#0E7490'
     } else if(text === '3D Art'){
-        bgcolor = '#F59E0B'
+        bgcolor = '#EA580C'
     } else if(text === 'Illustration'){
-        bgcolor = '#8B5CF6'
+        bgcolor = '#CA8A04'
     } else if(text === 'Animation'){
-        bgcolor = '#F87171'
+        bgcolor = '#7E22CE'
     }
 
     return (

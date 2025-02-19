@@ -1,35 +1,43 @@
 import { useContext, useEffect } from "react"
 import { AppContext } from "../../context/AppContext"
-import {motion} from 'framer-motion';
-import  Footer from "../../v2/components/Footer"
-import  Content from "../../v2/components/Content"
+import Header from '../components/Header'
+import chLogo from '../../assets/ch-light.svg';
+import pb from '../../assets/papaB-2.png';
+import Socmed from '../components/Socmed';
 
 const Home = () => {
     const appContext = useContext(AppContext)
 
     useEffect(() => appContext.setAppData({ currentPage: 'v2-home'}) ,[])
 
+    
     return (
-        <div className="h-screen w-full flex justify-center items-center bg-color-a2">
-            {/* Content */}
-            <div className="w-full h-screen flex flex-wrap justify-center">
-                <motion.div
-                    initial={{height: '90%'}}
-                    animate={appContext.appData.currentPage !== 'v2-home' ? {height: '90%'} : {height: '75%'}}
-                    className="w-full h-3/4 text-color-d2 flex justify-center items-center"
-                >
-                    <Content/>
-                </motion.div>
-
-                {/* Footer */}
-                <motion.div
-                    initial={{height: '10%'}}
-                    animate={appContext.appData.currentPage !== 'v2-home' ? {height: '10%'} : {height: '25%'}}
-                    className="w-full color-d2 flex justify-center bg-color-a2 drop-shadow-[-3px_-3px_3px_rgba(0,0,0,0.2)] pt-5"
-                >
-                    
-                    <Footer/>
-                </motion.div>
+        <div className="w-full bg-color-a2 font-title flex flex-wrap h-screen">
+            <div className="w-full xl:w-1/3 h-1/2 md:h-1/4 lg:h-1/3 xl:h-full relative text-color-d">
+                <div className="h-auto xl:h-1/2">
+                    <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
+                        <Header/>
+                    </div>
+                </div>
+                <div className="w-full h-full xl:h-1/2 relative xl:absolute bottom-0 text-center xl:text-left flex flex-col justify-center items-center">
+                    <div className="relative w-full h-auto xl:h-full">
+                        <div className="w-full relative xl:absolute bottom-0 p-0 xl:pb-20 px-5 md:px-20 flex flex-col justify-center items-center xl:justify-normal xl:items-start">
+                            <div className="text-4xl text-color-c mb-3"><strong>Hi! I'm Carlo.</strong></div>
+                            <div className="text-sm md:text-base xl:text-xl">Whether I’m building outstanding applications, crafting compelling designs, or brainstorming data-driven insights ideas, I pour my passion into everything I do.</div>
+                            <div className="flex gap-x-3 mt-7 md:mt-3">
+                                <Socmed/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="w-full xl:w-2/3 h-1/2 md:h-3/4 lg:h-2/3 xl:h-full relative">
+                <div className="flex h-full p-5 xl:pr-20">
+                    <img src={chLogo} alt="ch-logo" className="mx-auto opacity-20"/>
+                </div>
+                <div className="absolute z-10 top-0 w-full h-full flex justify-center">
+                    <img src={pb} alt="my-image" className="h-full object-cover" />
+                </div>
             </div>
         </div>
     )

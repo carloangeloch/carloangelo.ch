@@ -1,4 +1,183 @@
-[
+[{
+    "id": "w6gvl8qa2xwktjoecql6g",
+    "title":"Callington Fresh & Clean Banner Design",
+    "month": 12,
+    "year":2024,
+    "website": "",
+    "project_type":["graphics"],
+    "description": "Banner design for Callington Fresh + Clean products sold by Warren Enterprise MY",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/w6gvl8qa2xwktjoecql6g/front.png?rlkey=2q0tl06v5uqqj1nio29uxex8i&st=x0s3eg0k&dl=0",
+    "others": [
+        {
+            "type": "image",
+            "url":"https://www.dropbox.com/scl/fi/fbtm64z4nzrtx3g7nup4d/promo-1.png?rlkey=mste2961zd6jv187rp7fa9gbi&st=ag9nq25e&dl=0",
+            "title": "",
+            "description":""
+        },
+        {
+            "type": "image",
+            "url":"https://www.dropbox.com/scl/fi/yhu8vlq4fi2vy2w331ohg/promo-3.png?rlkey=z7ab7guj17pmindq0qz84pdba&st=1pzr7epr&dl=0",
+            "title": "",
+            "description":""
+        }
+    ],
+    "stacks": [
+        {
+            "name": "Design Tools",
+            "lists": ["Adobe Photoshop"]
+        }
+    ]
+},
+    {
+        "id": "2mw9p00wrf5ox5nuxhux4",
+        "title":"Agross Agri Trading Store Design",
+        "month": 12,
+        "year":2024,
+        "website": "https://www.lazada.com.ph/shop/agross-agri-trading",
+        "project_type":["graphics", "ecomm", "uiux"],
+        "description": "Store Design for new selling account of Agross Agri Trading in Lazada/Shopee",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/2mw9p00wrf5ox5nuxhux4/front.png?rlkey=yerw12lmxzar1bk8khptosd3g&st=u2a73yih&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/xm5nxp997s62rf3fzx1pv/Promo-1.png?rlkey=8npq466bqa7g0pxtnpuowgr6p&st=6gx2ge3b&dl=0",
+                "title": "Carousel Banners",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/2m7nq9sjfx4uatt62uc3b/Promo-2.png?rlkey=fu2y5s88peqxzobkbytqc17t4&st=gmqku1iv&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/8za8mhc7fetvexmzy8wjl/Promo-3.png?rlkey=gfae2xc3ttq6m08wjs0bz4xvt&st=urie89jz&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/e80nuexkrj11ydfqd4yp4/agross.png?rlkey=w5drppcc6l8i4i1lfi9nt770u&st=3kppwj39&dl=0",
+                "title": "Lazada Landing Store Design ",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Adobe Photoshop", "Adobe Illustrator"]
+            }
+        ]
+    },
+    {
+        "id": "472873zjualqpc9ebitbb",
+        "title":"RO Spore Character Modeling",
+        "month": 12,
+        "year":2020,
+        "website": "",
+        "project_type":["graphics", "3d"],
+        "description": "3D FanArt of a Spore monster in Ragnarok Online",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/472873zjualqpc9ebitbb/SPORE_NOISE.png?rlkey=r9ba5ghs6s1alys0iw7b49ced&st=0a3kjutj&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/472873zjualqpc9ebitbb/SPORE_NOISE.png?rlkey=r9ba5ghs6s1alys0iw7b49ced&st=0a3kjutj&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/uki5nhkb7j0vekeab6r6i/SPORE_NOISE_1.png?rlkey=usca7o6r8lqjnrj5mn017lz3q&st=pd4p1xc9&dl=0",
+                "title": "",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Blender 3D"]
+            }
+        ]
+    },
+    {
+        "id": "4s33hvbwucm3yyiupystt",
+        "title":"DJI Redesign Project",
+        "month": 1,
+        "year":2025,
+        "website": "",
+        "project_type":["graphics","uiux"],
+        "description": "Landing page redesign from one of my clients on Upwork",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/4s33hvbwucm3yyiupystt/FRONT.png?rlkey=5nmf57scdmo44ud6a2a59j3qi&st=jfmhjrmi&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/4s33hvbwucm3yyiupystt/FRONT.png?rlkey=5nmf57scdmo44ud6a2a59j3qi&st=jfmhjrmi&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/szrgfxu7dlyl3swmclnaq/Landing.png?rlkey=n340l2bn4gv5171fdon281qwb&st=jkbqxnoc&dl=0",
+                "title": "Landing Page",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/k4vlgexw8zc0k4znsbotc/Product-Card.png?rlkey=jt5m0t7wseyjevcrelg3c4ryo&st=45twcz0u&dl=0",
+                "title": "Product Cards",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Adobe Photoshop","Adobe Illustrator", "Figma"]
+            }
+        ]
+    },
+    {
+        "id": "3h53h758lzpw2dfy65qn7",
+        "title":"Shop Auto Parts UI Design Project",
+        "month": 2,
+        "year":2025,
+        "website": "",
+        "project_type":["graphics","uiux"],
+        "description": "A UI Design project from my client in Upwork. This project covers redesign their homepage and product page catalog, and also create a logo matching their color scheme and logo design plan",
+        "thumbnail_link": "https://www.dropbox.com/scl/fi/3h53h758lzpw2dfy65qn7/FRONT.png?rlkey=hj9ldgkv4piaaph1s6la427ff&st=i00lgj8c&dl=0",
+        "others": [
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/3h53h758lzpw2dfy65qn7/FRONT.png?rlkey=hj9ldgkv4piaaph1s6la427ff&st=i00lgj8c&dl=0",
+                "title": "",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/ef8yndsjh5oplk9niwya0/Logo.png?rlkey=0s8zc4f8wv3jnxuf8cd59ui6h&st=o1yrn2pi&dl=0",
+                "title": "Shop Auto Parts",
+                "description":"The client wants have simple design with a gear to represent an auto part"
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/26qm3has7ychdqfuulujm/Landing.png?rlkey=83zqdxw5cf3bnzqcfkx05b3gn&st=7k77oulg&dl=0",
+                "title": "Home Page Design",
+                "description":""
+            },
+            {
+                "type": "image",
+                "url":"https://www.dropbox.com/scl/fi/14yz0hkemqe9h5zlco99m/Product-Page-Images.png?rlkey=pgsh9ix6xfg0tdpyvdkt0my49&st=32kzciag&dl=0",
+                "title": "Product Page Catalog design",
+                "description":""
+            }
+        ],
+        "stacks": [
+            {
+                "name": "Design Tools",
+                "lists": ["Adobe Photoshop","Adobe Illustrator", "Figma"]
+            }
+        ]
+    },
     {
         "id": "rhy4z85ta2w10n0c755hm",
         "title":"Christmas Season - 2024",
@@ -279,7 +458,7 @@
         "month": 9,
         "year":2023,
         "website": "https://thisteam.net/",
-        "project_type":["graphics","development"],
+        "project_type":["graphics","uiux","development"],
         "description": "A comprehensive HRIS tool designed to simplify HR processes for businesses. ThisTeam helps manage payrolls, track employee performance, store documents, and record tasks efficiently. As a Full Stack Developer, I developed the backend using Django and the frontend with React, while also designing the user interface (UI) to ensure an intuitive and seamless experience for HR teams.",
         "thumbnail_link": "https://dl.dropboxusercontent.com/scl/fi/p6uvr724yne4gqrzpv17v/01-thisteam-UI-thumbnaill.png?rlkey=rmmtkborfyea8389qp1uvh5x7&st=nhrb0jea",
         "others": [
@@ -339,7 +518,7 @@
         "month": 7,
         "year": 2024,
         "website": "https://evergreenbutterflies.net/",
-        "project_type":["graphics","development","ecomm"],
+        "project_type":["graphics","uiux","development","ecomm"],
         "description":"A corporate website for Evergreen Butterflies, a company that provides custom software solutions and strategic business services. The site showcases their capabilities in delivering innovative tech and data-driven insights to drive growth and efficiency for businesses. I was responsible for designing the UI, coding the website using React, and deploying it via Google Cloud Platform (GCP), ensuring a responsive, user-friendly, and scalable solution.",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/4esj8v2qfp96zp6ser4hd/02-evergreenbutterfliles-thumbnaill.png?rlkey=ysfc275kexgxo7nou0l6qtxv9&st=s3pims1d&dl=0",
         "others": [
@@ -1067,7 +1246,7 @@
         "month": 11,
         "year": 2019,
         "website": "https://www.lazada.sg/shop/spider-holster/?path=index.htm",
-        "project_type":["graphics","ecomm"],
+        "project_type":["graphics","uiux","ecomm"],
         "description":"",
         "thumbnail_link": "https://www.dropbox.com/scl/fi/beix0fkk3oc3y7pgouzs8/spiderholster-thumbnail.png?rlkey=48ehjygyjdjlby6f9xonuq6zs&st=hqw6gx8k&dl=0",
         "others": [

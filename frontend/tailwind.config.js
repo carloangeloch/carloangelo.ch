@@ -32,6 +32,9 @@ export default {
             'data-analyze' :  "url('/src/assets/data-analyze.jpg')",
             'my-image' :  "url('/src/assets/papaB.png')",
         },
+        fontFamily:{
+            title: ["Open Sans", "sans-serif"],
+        },
     },
   },
   plugins: [],
