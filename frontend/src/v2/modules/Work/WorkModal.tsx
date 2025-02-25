@@ -3,6 +3,7 @@ import { monthByNumbers } from '../../../utils/monthByNumber'
 import iconList from '../../../data/icon_list.json'
 import { useNavigate } from 'react-router-dom'
 import { getScreenWidth } from '../../../utils/getScreenWidth'
+import ImageLazyLoad from '../../../utils/ImageLazyLoad'
 
 const WorkModal = ({data, setOpenModal} :any) => {
 
@@ -55,9 +56,9 @@ const WorkModal = ({data, setOpenModal} :any) => {
                     className='text-sm xl:text-base'
                 >
                     <strong>
-                        {data.project_type.includes('graphics') ? data.project_type.includes('development')? 'Dev Stack / Design Tools Used' : 'Design Tools Used' : 'Dev Stack Used' }
+                        {data.project_type.includes('graphics') ? data.project_type.includes('development')? 'Dev Stack / Design Tools Used' : 'Software Used' : 'Dev Stack Used' }
                     </strong>
-                    <div className='flex gap-x-4 flex-wrap mt-3 xl:mt-0'>
+                    <div className='flex gap-x-4 flex-wrap mt-3'>
                         {data.stacks.map((e:any, index: number) => {
                             var index = (index * 0.2) + 1
                             return(
@@ -76,7 +77,7 @@ const WorkModal = ({data, setOpenModal} :any) => {
                                                 <div
                                                     key={Math.random()}
                                                     className="relative flex justify-start text-sm"
-                                                >
+                                                >   
                                                     <img src={String(iconFind.url).replace("www.dropbox","dl.dropboxusercontent").replace("&dl=0","")} alt={i} className="w-[30px] mr-3"/>
                                                     { getScreenWidth() >= 1050 && <span>{iconFind.name}</span> }
                                                 </div>
@@ -105,7 +106,12 @@ const WorkModal = ({data, setOpenModal} :any) => {
                                             {i.description !== '' && <div id='item-title' className="text-sm lg:text-base opacity-80 w-full my-2">{i.description}</div>}
                                         </div>
                                         <div key={i.url} className="w-full flex justify-center my-0 md:my-2 lg:my-10">
-                                            <img src={String(i.url).replace("www.dropbox","dl.dropboxusercontent").replace("&dl=0","")} alt="" className="w-full" loading="lazy"/>
+                                            <ImageLazyLoad
+                                            imageScr={String(i.url).replace("www.dropbox","dl.dropboxusercontent").replace("&dl=0","")}
+                                            altname=""
+                                            styles='w-full'
+                                            />
+                                            {/* <img src={String(i.url).replace("www.dropbox","dl.dropboxusercontent").replace("&dl=0","")} alt="" className="w-full" loading="lazy"/> */}
                                         </div>
                                     </motion.div>
                                 )

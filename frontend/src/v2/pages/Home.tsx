@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import chLogo from '../../assets/ch-light.svg';
 import pb from '../../assets/papaB-2.png';
 import Socmed from '../components/Socmed';
+import ImageLazyLoad from "../../utils/ImageLazyLoad";
 
 const Home = () => {
     const appContext = useContext(AppContext)
@@ -36,7 +37,7 @@ const Home = () => {
                     <img src={chLogo} alt="ch-logo" className="mx-auto opacity-20"/>
                 </div>
                 <div className="absolute z-10 top-0 w-full h-full flex justify-center">
-                    <img src={pb} alt="my-image" className="h-full object-cover" />
+                    <ImageLazyLoad imageScr={pb} altname="my-image" styles="h-full object-cover" />
                 </div>
             </div>
         </div>

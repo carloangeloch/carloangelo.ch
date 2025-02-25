@@ -4,6 +4,7 @@ import {monthByNumbers} from '../../../utils/monthByNumber'
 import WorkModal from './WorkModal'
 import { useNavigate, useParams } from "react-router-dom";
 import { getScreenWidth } from '../../../utils/getScreenWidth';
+import ImageLazyLoad from '../../../utils/ImageLazyLoad';
 
 
 interface WorkListProps {
@@ -37,7 +38,7 @@ const WorkContent: FC<WorkListProps> = ({workData}) => {
                 <WorkModal data={workData.find((obj:any) => obj.id === modalID.current)} setOpenModal={setOpenModal}/>
             }
             <div className="mt-10">
-                <div className="w-full flex flex-wrap justify-center p-2" id="image-container">
+                <div className="w-full flex flex-wrap justify-center p-auto xl:p-2" id="image-container">
                     {workData.map( (work:any) => {
                         return(
                             <motion.div
@@ -52,7 +53,28 @@ const WorkContent: FC<WorkListProps> = ({workData}) => {
                                 }}
                                 title={work.title}
                             >
-                                <motion.img
+                                <motion.div
+                                    variants={
+                                        getScreenWidth() <= 1050 ? 
+                                        {
+                                            initial: {height: 400, width: 400},
+                                            hovered: {height: 400, width: 400}
+                                        }
+                                        :
+                                        {
+                                            initial: {height: 400, width: 400},
+                                            hovered: {height: 500, width: 500}
+                                        }
+                                    }
+                                    className='bg-white'
+                                >
+                                    <ImageLazyLoad
+                                        imageScr={String(work.thumbnail_link).replace("www.dropbox","dl.dropboxusercontent").replace("&dl=0","")}
+                                        altname={String(work.thumbnail_link).split("/")[5]}
+                                        styles='object-cover object-center h-full mx-auto'
+                                    />
+                                </motion.div>
+                                {/* <motion.img
                                     loading="lazy"
                                     layout
                                     variants={
@@ -70,7 +92,7 @@ const WorkContent: FC<WorkListProps> = ({workData}) => {
                                     src={String(work.thumbnail_link).replace("www.dropbox","dl.dropboxusercontent").replace("&dl=0","")}
                                     alt={String(work.thumbnail_link).split("/")[5]}
                                     className="object-cover object-center"
-                                />
+                                /> */}
                                 {
                                     getScreenWidth() <= 1050 ?
                                         <div className="absolute bottom-0 w-full text-lg md:text-xl text-color-a2">

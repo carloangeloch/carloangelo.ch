@@ -18,6 +18,8 @@ const Header = () => {
             setShowNav(true)
         }
     },[]);
+
+    
     return(
         <div className="w-full xl:w-auto flex flex-row xl:flex-col gap-y-5 font-title" id="header">
             <div id="logo-div" className="w-1/2 flex flex-col justify-center">
@@ -27,18 +29,22 @@ const Header = () => {
             </div>
             {
                 screenWidth <= 500 ?
-                    <div className="w-1/2">
+                    <div className="w-1/2 ">
                         <div className="w-full flex justify-end" onClick={() => setShowNav(!showNav)}>
                             <img src={burger} alt="menu-icon" className="w-10"/>
                         </div>
                         <motion.div
                             id="hidden-nav"
-                            initial={{top:'-50%'}}
-                            animate={showNav? {top:0} : {top:'-50%'}}
-                            className="fixed bg-color-a2 left-0 w-full drop-shadow-md z-30">
+                            initial={{scale:0 , translateX: '90%', translateY: '-45%', borderRadius: '50%'}}
+                            animate={showNav? {scale:1, translateX: 0, translateY: 0, borderRadius: 0} : {scale:0, translateX: '90%', translateY: '-45%', borderRadius: '50%'}}
+                            transition={{ease: 'easeInOut'}}
+                            // initial={showNav? {top:0} : {top:'-50%'}}
+                            // animate={showNav? {top:0} : {top:'-50%'}}
+                            className="fixed bg-color-a2 w-full h-full drop-shadow-md z-30 top-0 right-0">
                             <motion.div
-                            initial={{opacity:0}}
-                            animate={{opacity:1}}
+                            initial={showNav ? {opacity:0} : {opacity:1}}
+                            animate={showNav ? {opacity:1} : {opacity:0}}
+                            transition={{delay: 1.2}}
                             className="w-full flex flex-wrap flex-col justify-center items-center gap-y-10 p-3 text-center"
                             >
                                 <div className="w-full flex">
@@ -158,8 +164,8 @@ const Header = () => {
                             </motion.div>
                         </motion.div> {/*hidden-nav*/}
                         <motion.div
-                            initial={{opacity: 0, zIndex:-10}}
-                            animate={showNav? {opacity: 1, zIndex:20} : {opacity: 0, zIndex:-10}}
+                            initial={{opacity: 0, zIndex:-10, scale: 0, borderRadius: 0, translateX: '90%', translateY: '-45%'}}
+                            animate={showNav? {opacity: 1, zIndex:20, scale: 1, borderRadius: 0, translateX: 0, translateY: 0} : {opacity: 0, zIndex:-10, scale: 0, borderRadius: '100%', translateX: '90%', translateY: '-45%'}}
                             className="fixed bg-color-a bg-opacity-80 w-full h-screen left-0 top-0"
                         />
                     </div>

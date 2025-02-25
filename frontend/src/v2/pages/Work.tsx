@@ -140,8 +140,8 @@ const Work = () => {
     
 
     return (
-        <div className="w-full bg-color-a2 font-title flex flex-wrap xl:flex-nowrap h-screen overflow-hidden" id="container">
-            <div className="w-full xl:w-1/6 h-auto xl:h-full relative text-color-d" id='header'>
+        <div className="w-full bg-color-a2 font-title flex flex-wrap xl:flex-nowrap h-screen overflow-visible xl:overflow-hidden" id="container">
+            <div className="w-full xl:w-1/6 h-auto xl:h-full relative text-color-d " id='header'>
             
                 {/* scroll to top button */}
                 <div className="w-full relative">
@@ -159,12 +159,12 @@ const Work = () => {
                     </motion.div>
                 </div>
 
-                <div className="h-auto xl:h-1/2">
-                    <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
+                <div className="h-auto xl:h-1/2 " id="header-container">
+                    <div className="flex p-3 xl:pl-20 xl:pt-20 w-full fixed xl:relative z-[5] xl:z-0 bg-color-a2" id="header-container">
                         <Header/>
                     </div>
                 </div>
-                {getScreenWidth() > 1050 &&
+                {getScreenWidth() > 1050 ?
                     <div className="w-full h-1/2 absolute bottom-0">
                         <div className="relative w-full h-full">
                             <div className=" absolute bottom-0 pb-20 px-20">
@@ -174,13 +174,14 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+                    :null
                 }
             </div>
 
-            <div className="w-full xl:w-5/6 h-1/2 md:h-3/4 lg:h-2/3 xl:h-full overflow-y-scroll mt-0 xl:pt-20" id="content">
+            <div className="w-full xl:w-5/6 h-auto xl:h-full overflow-y-visible xl:overflow-y-scroll mt-0 pt-20" id="content">
                 <div className="w-full"  ref={divRef}/>
                 {/* put others here */}
-                <div className='w-full md:w-3/4 h-20 flex flex-wrap lg:flex-nowrap gap-2 justify-center mx-auto bg-color-a2 rounded-lg' id="btn-group">
+                <div className='w-full md:w-3/4 h-auto xl:h-20 flex flex-wrap lg:flex-nowrap gap-2 justify-center mx-auto bg-color-a2 rounded-lg' id="btn-group">
                     <FilterButton text='Graphic Design' active={appContext.appData.projectTypes === 'graphics'} onClick={ () => {
                         appContext.appData.projectTypes !== 'graphics' ?  appContext.setAppData({ projectTypes: 'graphics'}) : appContext.setAppData({ projectTypes: 'both'})
                     }}/>

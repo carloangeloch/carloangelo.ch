@@ -66,7 +66,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-            <div className="w-full xl:w-5/6 h-1/2 md:h-3/4 lg:h-2/3 xl:h-full overflow-y-scroll mt-0 xl:pt-20" id="content">
+            <div className="w-full xl:w-5/6 h-auto xl:h-full overflow-y-scroll mt-0 xl:pt-20" id="content">
                 <div className="w-full"  ref={divRef}/>
                 {/* put others here */}
                 <ContactContent/>

@@ -40,7 +40,7 @@ const Career = () => {
     }
 
     return (
-        <div className="w-full bg-color-a2 font-title flex flex-wrap xl:flex-nowrap h-screen overflow-hidden" id="container">
+        <div className="w-full bg-color-a2 font-title flex flex-wrap xl:flex-nowrap h-screen overflow-visible xl:overflow-hidden" id="container">
             <div className="w-full xl:w-1/6 h-auto xl:h-full relative text-color-d" id='header'>
             
                 {/* scroll to top button */}
@@ -60,7 +60,7 @@ const Career = () => {
                 </div>
 
                 <div className="h-auto xl:h-1/2">
-                    <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
+                    <div className="flex p-3 xl:pl-20 xl:pt-20 w-full fixed xl:relative z-[5] xl:z-0  bg-color-a2">
                         <Header/>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const Career = () => {
                 }
             </div>
             
-            <div className="w-full xl:w-5/6 h-1/2 md:h-3/4 lg:h-2/3 xl:h-full overflow-y-scroll mt-0 xl:pt-20" id="content">
+            <div className="w-full xl:w-5/6 h-auto xl:h-full overflow-y-visible xl:overflow-y-scroll mt-0 pt-20" id="content">
                 <div className="w-full"  ref={divRef}/>
                 {/* put others here */}
                 <div className="w-full xl:w-3/4 mx-auto">
