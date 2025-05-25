@@ -3,8 +3,6 @@ import djangoLogo from '../../assets/django.png';
 import aeLogo from '../../assets/ae.png';
 import aiLogo from '../../assets/ai.png';
 import psLogo from '../../assets/ps.png';
-// import pwLogo from '../../assets/playwright.png';
-// import drfLogo from '../../assets/drf.png';
 import reactLogo from '../../assets/react.png';
 import jsLogo from '../../assets/js.png';
 import htmlLogo from '../../assets/html.png';
@@ -14,7 +12,6 @@ import wordpressLogo from '../../assets/wordpress.png';
 import elementorLogo from '../../assets/elementor.png';
 import bqLogo from '../../assets/bq.png';
 import gcpLogo from '../../assets/gcp.png';
-// import gceLogo from '../../assets/gce.png';
 import cloudSqlLogo from '../../assets/cloud-sql.png';
 import uipathLogo from '../../assets/uipath.png';
 import lookerLogo from '../../assets/looker.png';
@@ -23,8 +20,10 @@ import sppLogo from '../../assets/spp.png';
 import blenderLogo from '../../assets/blender.png';
 import {motion} from "framer-motion"
 
-const Intro = () => {
 
+const Intro = () => {
+    
+    
     return (
         <div className="w-full h-screen flex flex-wrap xl:flex-nowrap overflow-hidden xl:overflow-visible">
             <div className='relative w-full h-1/3 xl:w-0 md:h-2/5 lg:h-1/2 xl:h-full bg-a'>

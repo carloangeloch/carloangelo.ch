@@ -35,6 +35,17 @@ export default {
         fontFamily:{
             title: ["Open Sans", "sans-serif"],
         },
+        keyframes:{
+          typing: {
+            '0%': {opacity: 0},
+            '49%': {opacity: 0},
+            '50%': {opacity: 1},
+            '100%': {opacity: 1},
+          }
+        },
+        animation: {
+          'typing': 'typing 1s linear infinite',
+        }
     },
   },
   plugins: [],
