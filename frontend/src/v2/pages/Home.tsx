@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div>
 
-            <div className="w-full bg-color-a2 font-title flex flex-wrap h-screen">
+            <div id="intro-section" className="w-full bg-color-a2 font-title flex flex-wrap h-screen">
                 <div className="w-full xl:w-1/3 h-1/2 md:h-1/4 lg:h-1/3 xl:h-full relative text-color-d">
                     <div className="h-auto xl:h-1/2">
                         <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
@@ -47,34 +47,31 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="bg-d">
-                Eu occaecat aute incididunt veniam commodo cillum nulla exercitation ad mollit incididunt eu. Id excepteur incididunt nulla non. Id cillum nisi magna irure sint amet ullamco deserunt do Lorem elit sit fugiat proident. Occaecat eiusmod do et ex voluptate magna reprehenderit irure qui ex laborum amet. Elit culpa occaecat nisi sit cupidatat consectetur.
-                Dolor ullamco esse commodo deserunt fugiat nostrud quis. Amet mollit nulla esse esse culpa cupidatat culpa minim laborum. Enim sit ipsum esse nulla ullamco nulla proident voluptate dolor. Excepteur labore Lorem cupidatat amet cupidatat nostrud dolor ea amet consectetur ex consequat cillum.
-                Elit commodo laboris commodo incididunt non velit. Esse esse duis fugiat nulla ut non ad sit. Sint voluptate est Lorem sunt quis tempor magna incididunt. Cupidatat dolor tempor dolor elit amet ut consectetur tempor do aliquip reprehenderit quis aute aliquip. Occaecat sunt non non ea aliqua culpa duis dolor dolore.
-                Veniam sint velit enim aliquip. Sunt cupidatat irure consectetur pariatur. Voluptate occaecat proident do elit irure aliqua proident nulla est. Commodo eiusmod occaecat duis minim fugiat adipisicing proident elit Lorem in. Dolore ullamco et mollit esse anim mollit ad excepteur duis velit. Minim veniam velit pariatur ipsum ea aliqua exercitation ullamco et in id.
-                Proident est elit nostrud ea minim tempor deserunt. Tempor incididunt excepteur in ea et occaecat Lorem ut. Consectetur id labore ipsum reprehenderit et Lorem reprehenderit minim ut. Laborum irure dolor aliqua ut id adipisicing ex labore dolor magna. Proident proident qui voluptate reprehenderit ipsum non cupidatat adipisicing officia dolor culpa consectetur. Elit velit ipsum incididunt adipisicing ipsum culpa. Culpa incididunt aliquip non anim ea enim.
-                Consequat minim culpa in elit occaecat cillum et sint pariatur ad anim. Ex cupidatat in pariatur nisi cupidatat proident exercitation aute consectetur deserunt consectetur. Tempor id enim aute consequat cupidatat ea. Quis non consequat irure qui mollit nostrud mollit cillum exercitation. Duis duis ea duis labore exercitation sunt Lorem do. Sunt velit excepteur duis cupidatat excepteur. Nulla cupidatat ut deserunt labore id anim cupidatat nostrud.
-                <br/>
-                                Eu occaecat aute incididunt veniam commodo cillum nulla exercitation ad mollit incididunt eu. Id excepteur incididunt nulla non. Id cillum nisi magna irure sint amet ullamco deserunt do Lorem elit sit fugiat proident. Occaecat eiusmod do et ex voluptate magna reprehenderit irure qui ex laborum amet. Elit culpa occaecat nisi sit cupidatat consectetur.
-                Dolor ullamco esse commodo deserunt fugiat nostrud quis. Amet mollit nulla esse esse culpa cupidatat culpa minim laborum. Enim sit ipsum esse nulla ullamco nulla proident voluptate dolor. Excepteur labore Lorem cupidatat amet cupidatat nostrud dolor ea amet consectetur ex consequat cillum.
-                Elit commodo laboris commodo incididunt non velit. Esse esse duis fugiat nulla ut non ad sit. Sint voluptate est Lorem sunt quis tempor magna incididunt. Cupidatat dolor tempor dolor elit amet ut consectetur tempor do aliquip reprehenderit quis aute aliquip. Occaecat sunt non non ea aliqua culpa duis dolor dolore.
-                Veniam sint velit enim aliquip. Sunt cupidatat irure consectetur pariatur. Voluptate occaecat proident do elit irure aliqua proident nulla est. Commodo eiusmod occaecat duis minim fugiat adipisicing proident elit Lorem in. Dolore ullamco et mollit esse anim mollit ad excepteur duis velit. Minim veniam velit pariatur ipsum ea aliqua exercitation ullamco et in id.
-                Proident est elit nostrud ea minim tempor deserunt. Tempor incididunt excepteur in ea et occaecat Lorem ut. Consectetur id labore ipsum reprehenderit et Lorem reprehenderit minim ut. Laborum irure dolor aliqua ut id adipisicing ex labore dolor magna. Proident proident qui voluptate reprehenderit ipsum non cupidatat adipisicing officia dolor culpa consectetur. Elit velit ipsum incididunt adipisicing ipsum culpa. Culpa incididunt aliquip non anim ea enim.
-                Consequat minim culpa in elit occaecat cillum et sint pariatur ad anim. Ex cupidatat in pariatur nisi cupidatat proident exercitation aute consectetur deserunt consectetur. Tempor id enim aute consequat cupidatat ea. Quis non consequat irure qui mollit nostrud mollit cillum exercitation. Duis duis ea duis labore exercitation sunt Lorem do. Sunt velit excepteur duis cupidatat excepteur. Nulla cupidatat ut deserunt labore id anim cupidatat nostrud.
-                <br/>
-                                Eu occaecat aute incididunt veniam commodo cillum nulla exercitation ad mollit incididunt eu. Id excepteur incididunt nulla non. Id cillum nisi magna irure sint amet ullamco deserunt do Lorem elit sit fugiat proident. Occaecat eiusmod do et ex voluptate magna reprehenderit irure qui ex laborum amet. Elit culpa occaecat nisi sit cupidatat consectetur.
-
-                Dolor ullamco esse commodo deserunt fugiat nostrud quis. Amet mollit nulla esse esse culpa cupidatat culpa minim laborum. Enim sit ipsum esse nulla ullamco nulla proident voluptate dolor. Excepteur labore Lorem cupidatat amet cupidatat nostrud dolor ea amet consectetur ex consequat cillum.
-
-                Elit commodo laboris commodo incididunt non velit. Esse esse duis fugiat nulla ut non ad sit. Sint voluptate est Lorem sunt quis tempor magna incididunt. Cupidatat dolor tempor dolor elit amet ut consectetur tempor do aliquip reprehenderit quis aute aliquip. Occaecat sunt non non ea aliqua culpa duis dolor dolore.
-
-                Veniam sint velit enim aliquip. Sunt cupidatat irure consectetur pariatur. Voluptate occaecat proident do elit irure aliqua proident nulla est. Commodo eiusmod occaecat duis minim fugiat adipisicing proident elit Lorem in. Dolore ullamco et mollit esse anim mollit ad excepteur duis velit. Minim veniam velit pariatur ipsum ea aliqua exercitation ullamco et in id.
-
-                Proident est elit nostrud ea minim tempor deserunt. Tempor incididunt excepteur in ea et occaecat Lorem ut. Consectetur id labore ipsum reprehenderit et Lorem reprehenderit minim ut. Laborum irure dolor aliqua ut id adipisicing ex labore dolor magna. Proident proident qui voluptate reprehenderit ipsum non cupidatat adipisicing officia dolor culpa consectetur. Elit velit ipsum incididunt adipisicing ipsum culpa. Culpa incididunt aliquip non anim ea enim.
-
-                Consequat minim culpa in elit occaecat cillum et sint pariatur ad anim. Ex cupidatat in pariatur nisi cupidatat proident exercitation aute consectetur deserunt consectetur. Tempor id enim aute consequat cupidatat ea. Quis non consequat irure qui mollit nostrud mollit cillum exercitation. Duis duis ea duis labore exercitation sunt Lorem do. Sunt velit excepteur duis cupidatat excepteur. Nulla cupidatat ut deserunt labore id anim cupidatat nostrud.
-                <br/>
-            </div> */}
+            <div className="bg-b p-3 xl:px-20 xl:pt-20 flex flex-wrap text-color-a" id="about-me-section">
+                <div id="about-me-left" className="w-full md:w-1/2">
+                    <div className="flex flex-col gap-y-1 mr-auto md:mr-10 p-4 text-center md:text-left bg-white rounded-md shadow-md relative">
+                        <strong className="text-4xl mb-3">About Me</strong>
+                        <span>
+                            I'm a passionate designer and developer focused on creating elegant, functional digital solutions.
+                        </span>
+                        <span>
+                            With expertise in UI/UX design, web development, and creative direction, I bring ideas to life through thoughtful design and clean code.
+                        </span>
+                        <a href="/about" className="pt-5">
+                            <span>More about me -&gt;</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="about-me-right" className="w-full md:w-1/2">
+                    <div className="flex flex-col gap-y-1 mr-auto md:mr-10 p-4 text-center md:text-left bg-white rounded-md shadow-md relative">
+                        <strong className="text-4xl mb-3">Core Skills</strong>
+                        <div>Full Stack Development</div>
+                        <div>Ecommerce and Marketing Design</div>
+                        <div>UI/UX Design</div>
+                        <div>Data Engineering and Analysis</div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
