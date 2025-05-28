@@ -1,2257 +1,2284 @@
-[{
+[
+  {
     "id": "w6gvl8qa2xwktjoecql6g",
-    "title":"Callington Fresh & Clean Banner Design",
+    "title": "Callington Fresh & Clean Banner Design",
     "month": 12,
-    "year":2024,
+    "year": 2024,
     "website": "",
-    "project_type":["graphics"],
+    "project_type": ["graphics"],
     "description": "Banner design for Callington Fresh + Clean products sold by Warren Enterprise MY",
     "thumbnail_link": "https://www.dropbox.com/scl/fi/w6gvl8qa2xwktjoecql6g/front.png?rlkey=2q0tl06v5uqqj1nio29uxex8i&st=x0s3eg0k&dl=0",
     "others": [
-        {
-            "type": "image",
-            "url":"https://www.dropbox.com/scl/fi/fbtm64z4nzrtx3g7nup4d/promo-1.png?rlkey=mste2961zd6jv187rp7fa9gbi&st=ag9nq25e&dl=0",
-            "title": "",
-            "description":""
-        },
-        {
-            "type": "image",
-            "url":"https://www.dropbox.com/scl/fi/yhu8vlq4fi2vy2w331ohg/promo-3.png?rlkey=z7ab7guj17pmindq0qz84pdba&st=1pzr7epr&dl=0",
-            "title": "",
-            "description":""
-        }
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/fbtm64z4nzrtx3g7nup4d/promo-1.png?rlkey=mste2961zd6jv187rp7fa9gbi&st=ag9nq25e&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/yhu8vlq4fi2vy2w331ohg/promo-3.png?rlkey=z7ab7guj17pmindq0qz84pdba&st=1pzr7epr&dl=0",
+        "title": "",
+        "description": ""
+      }
     ],
     "stacks": [
-        {
-            "name": "Design Tools",
-            "lists": ["Adobe Photoshop"]
-        }
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
     ]
-},
-    {
-        "id": "2mw9p00wrf5ox5nuxhux4",
-        "title":"Agross Agri Trading Store Design",
-        "month": 12,
-        "year":2024,
-        "website": "https://www.lazada.com.ph/shop/agross-agri-trading",
-        "project_type":["graphics", "ecomm", "uiux"],
-        "description": "Store Design for new selling account of Agross Agri Trading in Lazada/Shopee",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/2mw9p00wrf5ox5nuxhux4/front.png?rlkey=yerw12lmxzar1bk8khptosd3g&st=u2a73yih&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/xm5nxp997s62rf3fzx1pv/Promo-1.png?rlkey=8npq466bqa7g0pxtnpuowgr6p&st=6gx2ge3b&dl=0",
-                "title": "Carousel Banners",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/2m7nq9sjfx4uatt62uc3b/Promo-2.png?rlkey=fu2y5s88peqxzobkbytqc17t4&st=gmqku1iv&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/8za8mhc7fetvexmzy8wjl/Promo-3.png?rlkey=gfae2xc3ttq6m08wjs0bz4xvt&st=urie89jz&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/e80nuexkrj11ydfqd4yp4/agross.png?rlkey=w5drppcc6l8i4i1lfi9nt770u&st=3kppwj39&dl=0",
-                "title": "Lazada Landing Store Design ",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Adobe Illustrator"]
-            }
+  },
+  {
+    "id": "2mw9p00wrf5ox5nuxhux4",
+    "title": "Agross Agri Trading Store Design",
+    "month": 12,
+    "year": 2024,
+    "website": "https://www.lazada.com.ph/shop/agross-agri-trading",
+    "project_type": ["graphics", "ecomm", "uiux"],
+    "description": "Store Design for new selling account of Agross Agri Trading in Lazada/Shopee",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/2mw9p00wrf5ox5nuxhux4/front.png?rlkey=yerw12lmxzar1bk8khptosd3g&st=u2a73yih&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/xm5nxp997s62rf3fzx1pv/Promo-1.png?rlkey=8npq466bqa7g0pxtnpuowgr6p&st=6gx2ge3b&dl=0",
+        "title": "Carousel Banners",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/2m7nq9sjfx4uatt62uc3b/Promo-2.png?rlkey=fu2y5s88peqxzobkbytqc17t4&st=gmqku1iv&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/8za8mhc7fetvexmzy8wjl/Promo-3.png?rlkey=gfae2xc3ttq6m08wjs0bz4xvt&st=urie89jz&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/e80nuexkrj11ydfqd4yp4/agross.png?rlkey=w5drppcc6l8i4i1lfi9nt770u&st=3kppwj39&dl=0",
+        "title": "Lazada Landing Store Design ",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "3h53h758lzpw2dfy65qn7",
+    "title": "Shop Auto Parts UI Design Project",
+    "month": 2,
+    "year": 2025,
+    "website": "",
+    "project_type": ["graphics", "uiux"],
+    "description": "A UI Design project from my client in Upwork. This project covers redesign their homepage and product page catalog, and also create a logo matching their color scheme and logo design plan",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/3h53h758lzpw2dfy65qn7/FRONT.png?rlkey=hj9ldgkv4piaaph1s6la427ff&st=i00lgj8c&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/3h53h758lzpw2dfy65qn7/FRONT.png?rlkey=hj9ldgkv4piaaph1s6la427ff&st=i00lgj8c&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ef8yndsjh5oplk9niwya0/Logo.png?rlkey=0s8zc4f8wv3jnxuf8cd59ui6h&st=o1yrn2pi&dl=0",
+        "title": "Shop Auto Parts",
+        "description": "The client wants have simple design with a gear to represent an auto part"
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/26qm3has7ychdqfuulujm/Landing.png?rlkey=83zqdxw5cf3bnzqcfkx05b3gn&st=7k77oulg&dl=0",
+        "title": "Home Page Design",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/14yz0hkemqe9h5zlco99m/Product-Page-Images.png?rlkey=pgsh9ix6xfg0tdpyvdkt0my49&st=32kzciag&dl=0",
+        "title": "Product Page Catalog design",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator", "Figma"]
+      }
+    ]
+  },
+  {
+    "id": "4s33hvbwucm3yyiupystt",
+    "title": "DJI Redesign Project",
+    "month": 1,
+    "year": 2025,
+    "website": "",
+    "project_type": ["graphics", "uiux"],
+    "description": "Landing page redesign from one of my clients on Upwork",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/4s33hvbwucm3yyiupystt/FRONT.png?rlkey=5nmf57scdmo44ud6a2a59j3qi&st=jfmhjrmi&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/4s33hvbwucm3yyiupystt/FRONT.png?rlkey=5nmf57scdmo44ud6a2a59j3qi&st=jfmhjrmi&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/szrgfxu7dlyl3swmclnaq/Landing.png?rlkey=n340l2bn4gv5171fdon281qwb&st=jkbqxnoc&dl=0",
+        "title": "Landing Page",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/k4vlgexw8zc0k4znsbotc/Product-Card.png?rlkey=jt5m0t7wseyjevcrelg3c4ryo&st=45twcz0u&dl=0",
+        "title": "Product Cards",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator", "Figma"]
+      }
+    ]
+  },
+  {
+    "id": "472873zjualqpc9ebitbb",
+    "title": "RO Spore Character Modeling",
+    "month": 12,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "3d"],
+    "description": "3D FanArt of a Spore monster in Ragnarok Online",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/472873zjualqpc9ebitbb/SPORE_NOISE.png?rlkey=r9ba5ghs6s1alys0iw7b49ced&st=0a3kjutj&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/472873zjualqpc9ebitbb/SPORE_NOISE.png?rlkey=r9ba5ghs6s1alys0iw7b49ced&st=0a3kjutj&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/uki5nhkb7j0vekeab6r6i/SPORE_NOISE_1.png?rlkey=usca7o6r8lqjnrj5mn017lz3q&st=pd4p1xc9&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Blender 3D"]
+      }
+    ]
+  },
+  {
+    "id": "rhy4z85ta2w10n0c755hm",
+    "title": "Christmas Season - 2024",
+    "month": 12,
+    "year": 2024,
+    "website": "",
+    "project_type": ["graphics", "3d", "video"],
+    "description": "I made a quick 3D model and render for Christmas day. Merry Christmas Everyone!",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/rhy4z85ta2w10n0c755hm/1.png?rlkey=3nk1beyvsgr5i7oicfw6b5yo1&st=ridcocb5&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/rhy4z85ta2w10n0c755hm/1.png?rlkey=3nk1beyvsgr5i7oicfw6b5yo1&st=ridcocb5&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/jm1d7j02lwakbmq49ewpx/2.png?rlkey=sc53vu3g7je9dw24nkm38wlbu&st=leqbs22b&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/w37g6tgaoc029ck6hazlq/4.png?rlkey=xn3c0xev17r0sero6pe7kxp64&st=do0hmyfy&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/p06kt9q0lnx95ux7y33sp/3.png?rlkey=q2kjpte3ny1282vg5dvq3phfe&st=xo05rv5v&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-youtube",
+        "url": "https://www.youtube.com/embed/PrAZmXrpssY"
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": [
+          "Blender",
+          "Substance Painter",
+          "Unreal Engine 5",
+          "DaVinci Resolve"
         ]
-    },
-    {
-        "id": "472873zjualqpc9ebitbb",
-        "title":"RO Spore Character Modeling",
-        "month": 12,
-        "year":2020,
-        "website": "",
-        "project_type":["graphics", "3d"],
-        "description": "3D FanArt of a Spore monster in Ragnarok Online",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/472873zjualqpc9ebitbb/SPORE_NOISE.png?rlkey=r9ba5ghs6s1alys0iw7b49ced&st=0a3kjutj&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/472873zjualqpc9ebitbb/SPORE_NOISE.png?rlkey=r9ba5ghs6s1alys0iw7b49ced&st=0a3kjutj&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/uki5nhkb7j0vekeab6r6i/SPORE_NOISE_1.png?rlkey=usca7o6r8lqjnrj5mn017lz3q&st=pd4p1xc9&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Blender 3D"]
-            }
+      }
+    ]
+  },
+  {
+    "id": "uexotw7r2kgr14pgi9m4z",
+    "title": "Vista Roma - Architectural Visualization (ArchViz)",
+    "month": 12,
+    "year": 2024,
+    "website": "",
+    "project_type": ["graphics", "3d", "video"],
+    "description": "Self project for a 3D architectural visualization (ArchViz)",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/uexotw7r2kgr14pgi9m4z/1.png?rlkey=7mpydzydq9k6m4mu7jxl8keo1&st=p82ry659&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/uexotw7r2kgr14pgi9m4z/1.png?rlkey=7mpydzydq9k6m4mu7jxl8keo1&st=p82ry659&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/twcwqxc3sah94tmnxau1k/2.png?rlkey=he3zsa7n0ojwvpyu7l704oym6&st=9hwdy4x4&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/jjqhq67w2rq1bx5wmtj18/3.png?rlkey=3e37lrtzeahlndeipv8jmiiym&st=mf4uhkr7&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ai0w4nrbdc5pzz9732k4c/4.png?rlkey=xb2ge73rw1a4g3eh4xermkj71&st=bl0wka8k&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/9xjfb1qwx3f2uz89z8j82/5.png?rlkey=a6gpattmbsslzosepuc06156q&st=t2qchtrp&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/r2bgwcvj4y34uemzkug6q/6.png?rlkey=jq87segz3vx0iwmrzet0hq1x6&st=1bl8i3t7&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-youtube",
+        "url": "https://www.youtube.com/embed/8nt6LJq1_jA"
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": [
+          "Blender",
+          "Substance Painter",
+          "Unreal Engine 5",
+          "DaVinci Resolve"
         ]
-    },
-    {
-        "id": "4s33hvbwucm3yyiupystt",
-        "title":"DJI Redesign Project",
-        "month": 1,
-        "year":2025,
-        "website": "",
-        "project_type":["graphics","uiux"],
-        "description": "Landing page redesign from one of my clients on Upwork",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/4s33hvbwucm3yyiupystt/FRONT.png?rlkey=5nmf57scdmo44ud6a2a59j3qi&st=jfmhjrmi&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/4s33hvbwucm3yyiupystt/FRONT.png?rlkey=5nmf57scdmo44ud6a2a59j3qi&st=jfmhjrmi&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/szrgfxu7dlyl3swmclnaq/Landing.png?rlkey=n340l2bn4gv5171fdon281qwb&st=jkbqxnoc&dl=0",
-                "title": "Landing Page",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/k4vlgexw8zc0k4znsbotc/Product-Card.png?rlkey=jt5m0t7wseyjevcrelg3c4ryo&st=45twcz0u&dl=0",
-                "title": "Product Cards",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop","Adobe Illustrator", "Figma"]
-            }
+      }
+    ]
+  },
+  {
+    "id": "nd3auiqtonm1ec2y0pj87",
+    "title": "Shadows of the Summoner",
+    "month": 11,
+    "year": 2024,
+    "website": "",
+    "project_type": ["graphics", "3d", "video"],
+    "description": "Self project for a 3D game interior scene",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/nd3auiqtonm1ec2y0pj87/1.png?rlkey=xe0zru44af30aw2yzi7etqli5&st=46wthnw3&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/nd3auiqtonm1ec2y0pj87/1.png?rlkey=xe0zru44af30aw2yzi7etqli5&st=46wthnw3&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/nhh05dfixcj0a2vpo52zz/2.png?rlkey=us4jj7it0lp2tnhh7v5s1bcit&st=du44hbwk&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/pj58vr72sv8a1oalol00z/3.png?rlkey=ikkm8kbga03blooxs8zbftcex&st=cxzvp56g&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/u59ho3sr9edvlnapcl1wu/4.png?rlkey=mmbe5hdlvbid7g204u39hwdei&st=ojvwntrq&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/omwkjdmsqud3y3m5fyuk1/5.png?rlkey=4oh2d3qqflj5a32cd47eroxg1&st=u9aw8xro&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-youtube",
+        "url": "https://www.youtube.com/embed/wEF81mHmDjE"
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": [
+          "Blender",
+          "Substance Painter",
+          "Adobe Photoshop",
+          "Unreal Engine 5",
+          "DaVinci Resolve"
         ]
-    },
-    {
-        "id": "3h53h758lzpw2dfy65qn7",
-        "title":"Shop Auto Parts UI Design Project",
-        "month": 2,
-        "year":2025,
-        "website": "",
-        "project_type":["graphics","uiux"],
-        "description": "A UI Design project from my client in Upwork. This project covers redesign their homepage and product page catalog, and also create a logo matching their color scheme and logo design plan",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/3h53h758lzpw2dfy65qn7/FRONT.png?rlkey=hj9ldgkv4piaaph1s6la427ff&st=i00lgj8c&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/3h53h758lzpw2dfy65qn7/FRONT.png?rlkey=hj9ldgkv4piaaph1s6la427ff&st=i00lgj8c&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ef8yndsjh5oplk9niwya0/Logo.png?rlkey=0s8zc4f8wv3jnxuf8cd59ui6h&st=o1yrn2pi&dl=0",
-                "title": "Shop Auto Parts",
-                "description":"The client wants have simple design with a gear to represent an auto part"
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/26qm3has7ychdqfuulujm/Landing.png?rlkey=83zqdxw5cf3bnzqcfkx05b3gn&st=7k77oulg&dl=0",
-                "title": "Home Page Design",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/14yz0hkemqe9h5zlco99m/Product-Page-Images.png?rlkey=pgsh9ix6xfg0tdpyvdkt0my49&st=32kzciag&dl=0",
-                "title": "Product Page Catalog design",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop","Adobe Illustrator", "Figma"]
-            }
+      }
+    ]
+  },
+  {
+    "id": "4r6y0d1k07iival5hgbat",
+    "title": "The Abandoned Place",
+    "month": 11,
+    "year": 2024,
+    "website": "",
+    "project_type": ["graphics", "3d", "video"],
+    "description": "Self 3D environment design project",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/4r6y0d1k07iival5hgbat/S_AbandonedPlace1.png?rlkey=vud0r5h3bpjm7s621jubjpnfn&st=6v34yev7&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/4r6y0d1k07iival5hgbat/S_AbandonedPlace1.png?rlkey=vud0r5h3bpjm7s621jubjpnfn&st=6v34yev7&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/s99k55wr4h0ptv35ds2kf/S_AbandonedPlace.0288.png?rlkey=jl1dw8pdd9ysekvtz2883d8rs&st=ulod2xfp&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/2ioz6yzsjv46g66kdsxxv/S_AbandonedPlace.0362.png?rlkey=5j3llbb0dg08hp881fsdhulq8&st=ynvs726e&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/nsm0pm6hrrdwmeq4l3m1u/S_AbandonedPlace.0654.png?rlkey=7a8v0cnud1mpvnw4o9a3962ay&st=qe0qpeun&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/bi41xvezqh6cl1reo3ti5/S_AbandonedPlace.0766.png?rlkey=rtoj76vtoejaehmey9vg3w5ny&st=evbgoa37&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/wp2l6mjlfqht02wbwssdi/S_AbandonedPlace.0969.png?rlkey=va963sg0j0pl8qa9qq5r645rs&st=uc5hoc70&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/zrrhwq8x05vlq42w2z169/S_AbandonedPlace.1176.png?rlkey=6f2ws3si6fg2nbhkfp990sikc&st=cw12zw9p&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-youtube",
+        "url": "https://www.youtube.com/embed/LJVI3CXW-TE"
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": [
+          "Blender",
+          "Substance Painter",
+          "Unreal Engine 5",
+          "DaVinci Resolve"
         ]
-    },
-    {
-        "id": "rhy4z85ta2w10n0c755hm",
-        "title":"Christmas Season - 2024",
-        "month": 12,
-        "year":2024,
-        "website": "",
-        "project_type":["graphics","3d","video"],
-        "description": "I made a quick 3D model and render for Christmas day. Merry Christmas Everyone!",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/rhy4z85ta2w10n0c755hm/1.png?rlkey=3nk1beyvsgr5i7oicfw6b5yo1&st=ridcocb5&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/rhy4z85ta2w10n0c755hm/1.png?rlkey=3nk1beyvsgr5i7oicfw6b5yo1&st=ridcocb5&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/jm1d7j02lwakbmq49ewpx/2.png?rlkey=sc53vu3g7je9dw24nkm38wlbu&st=leqbs22b&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/w37g6tgaoc029ck6hazlq/4.png?rlkey=xn3c0xev17r0sero6pe7kxp64&st=do0hmyfy&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/p06kt9q0lnx95ux7y33sp/3.png?rlkey=q2kjpte3ny1282vg5dvq3phfe&st=xo05rv5v&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-youtube",
-                "url":"https://www.youtube.com/embed/PrAZmXrpssY"
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Blender","Substance Painter", "Unreal Engine 5", "DaVinci Resolve"]
-            }
+      }
+    ]
+  },
+  {
+    "id": "p6g7bd212llm0tr1orlk3",
+    "title": "Echoes of Morning: A Kitchen Left Behind",
+    "month": 10,
+    "year": 2024,
+    "website": "",
+    "project_type": ["graphics", "3d", "video"],
+    "description": "Self 3D project for interior game scene",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/p6g7bd212llm0tr1orlk3/1.png?rlkey=z04ee5qyxpuwvult6l5npy501&st=s1pojg9h&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/p6g7bd212llm0tr1orlk3/1.png?rlkey=z04ee5qyxpuwvult6l5npy501&st=s1pojg9h&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/f5dmvmadc1bdgq4q79185/2.png?rlkey=4sxrefs7unxp2mty54os9r14e&st=jy5tp8an&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/pk112gvv8i9lix94cgqms/3.png?rlkey=z436gzxgw9nuaq7arb2acyx67&st=cd1augcf&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/1sr1zn27e9rkd8s8a4gcl/4.png?rlkey=5bwimdnbd5ou96otwbobwawsx&st=x9jei8ui&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/mlh0o23ydz1xn19u5xdi5/5.png?rlkey=ignl61je3c7kiny9z8dv2gz7a&st=z1w991w2&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/1om8x0d5z7g2m4a6laq43/6.png?rlkey=6tdrdba2bet56lmyytkha0qqp&st=lb80y5do&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Blender", "Substance Painter", "Unreal Engine 5"]
+      }
+    ]
+  },
+  {
+    "id": "p6uvr724yne4gqrzpv17v",
+    "title": "ThisTeam HRIS",
+    "month": 9,
+    "year": 2023,
+    "website": "https://thisteam.net/",
+    "project_type": ["graphics", "uiux", "development"],
+    "description": "A comprehensive HRIS tool designed to simplify HR processes for businesses. ThisTeam helps manage payrolls, track employee performance, store documents, and record tasks efficiently. As a Full Stack Developer, I developed the backend using Django and the frontend with React, while also designing the user interface (UI) to ensure an intuitive and seamless experience for HR teams.",
+    "thumbnail_link": "https://dl.dropboxusercontent.com/scl/fi/p6uvr724yne4gqrzpv17v/01-thisteam-UI-thumbnaill.png?rlkey=rmmtkborfyea8389qp1uvh5x7&st=nhrb0jea",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://dl.dropboxusercontent.com/scl/fi/5x2vmu98lar6g8kcjyt7u/01-thistaem-Landing.png?rlkey=6n8ckcvly3k3s1u2hcjr3vbss&st=5iib7xqv",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://dl.dropboxusercontent.com/scl/fi/r5zfcceoksmvjrknzpgts/01-thisteam-ui-1.png?rlkey=dx74yz25mpwu8qijqwiamiqm5&st=4qe2u5dd",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://dl.dropboxusercontent.com/scl/fi/5qmey74het7bvl5slz7n4/01-thisteam-ui-2.png?rlkey=tuludpqu1lur78v2dzi48zd8c&st=rlybct9v",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://dl.dropboxusercontent.com/scl/fi/e7comfums27emih9n759y/01-thisteam-ui-3.png?rlkey=v4bf4yv7o087o95fwb6rijwdp&st=j9cwf657",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://dl.dropboxusercontent.com/scl/fi/auabqofvc55wtknsb7u3e/01-thisteam-ui-4.png?rlkey=pzcodrlybgyb8jka5wzrjsaq6&st=c0sv5d66",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Frontend",
+        "lists": ["React", "Tailwindcss", "JavaScript", "Nginx", "Vite"]
+      },
+      {
+        "name": "Backend",
+        "lists": ["Python", "Django", "Django Rest Framework"]
+      },
+      {
+        "name": "Cloud",
+        "lists": ["GCP", "GCE", "Cloud SQL"]
+      },
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator", "Figma"]
+      }
+    ]
+  },
+  {
+    "id": "4esj8v2qfp96zp6ser4hd",
+    "title": "Evergreen Butterflies Website",
+    "month": 7,
+    "year": 2024,
+    "website": "https://evergreenbutterflies.net/",
+    "project_type": ["graphics", "uiux", "development", "ecomm"],
+    "description": "A corporate website for Evergreen Butterflies, a company that provides custom software solutions and strategic business services. The site showcases their capabilities in delivering innovative tech and data-driven insights to drive growth and efficiency for businesses. I was responsible for designing the UI, coding the website using React, and deploying it via Google Cloud Platform (GCP), ensuring a responsive, user-friendly, and scalable solution.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/4esj8v2qfp96zp6ser4hd/02-evergreenbutterfliles-thumbnaill.png?rlkey=ysfc275kexgxo7nou0l6qtxv9&st=s3pims1d&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/l5st0fh6521xhljc8mn7c/02-evergreenbutterfliles-landing.png?rlkey=3ya6fqy6uh8ug32cfi7rgl7pf&st=brj9m7q3&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Frontend",
+        "lists": ["React", "Tailwindcss", "JavaScript", "Nginx", "Vite"]
+      },
+      {
+        "name": "Cloud",
+        "lists": ["GCP", "GCE", "Cloud SQL"]
+      },
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator", "Figma"]
+      }
+    ]
+  },
+  {
+    "id": "y87f9ly7547j5bqagfi3a",
+    "title": "SplitDragon Teasing Videos",
+    "month": 9,
+    "year": 2020,
+    "website": "https://www.splitdragon.com/",
+    "project_type": ["graphics", "video", "ecomm"],
+    "description": "Teasing videos created for all services offered by SplitDragon.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/y87f9ly7547j5bqagfi3a/SD-Video-Teaser-thumbnail.png?rlkey=uexvseabvqg2h3uoosc9oiqma&st=irsmhy8h&dl=0",
+    "others": [
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011032277",
+        "title": "Splitdragon Intro Teaser",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011032248",
+        "title": "Splitdragon Design Service Teaser",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011032216",
+        "title": "Splitdragon Search Rank Tracking Service Teaser",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011032179",
+        "title": "Splitdragon Product Research Service Teaser",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011032140",
+        "title": "Splitdragon Competitor Intelligence Service Teaser",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011032096",
+        "title": "Splitdragon Keyword Research Service Teaser",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011032054",
+        "title": "Splitdragon Competitor Store Performance Service Teaser",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": [
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "Adobe After Effects",
+          "Adobe Audition"
         ]
-    },
-    {
-        "id": "uexotw7r2kgr14pgi9m4z",
-        "title":"Vista Roma - Architectural Visualization (ArchViz)",
-        "month": 12,
-        "year":2024,
-        "website": "",
-        "project_type":["graphics","3d","video"],
-        "description": "Self project for a 3D architectural visualization (ArchViz)",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/uexotw7r2kgr14pgi9m4z/1.png?rlkey=7mpydzydq9k6m4mu7jxl8keo1&st=p82ry659&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/uexotw7r2kgr14pgi9m4z/1.png?rlkey=7mpydzydq9k6m4mu7jxl8keo1&st=p82ry659&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/twcwqxc3sah94tmnxau1k/2.png?rlkey=he3zsa7n0ojwvpyu7l704oym6&st=9hwdy4x4&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/jjqhq67w2rq1bx5wmtj18/3.png?rlkey=3e37lrtzeahlndeipv8jmiiym&st=mf4uhkr7&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ai0w4nrbdc5pzz9732k4c/4.png?rlkey=xb2ge73rw1a4g3eh4xermkj71&st=bl0wka8k&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/9xjfb1qwx3f2uz89z8j82/5.png?rlkey=a6gpattmbsslzosepuc06156q&st=t2qchtrp&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/r2bgwcvj4y34uemzkug6q/6.png?rlkey=jq87segz3vx0iwmrzet0hq1x6&st=1bl8i3t7&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-youtube",
-                "url":"https://www.youtube.com/embed/8nt6LJq1_jA"
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Blender","Substance Painter", "Unreal Engine 5", "DaVinci Resolve"]
-            }
-        ]
-    },
-    {
-        "id": "nd3auiqtonm1ec2y0pj87",
-        "title":"Shadows of the Summoner",
-        "month": 11,
-        "year":2024,
-        "website": "",
-        "project_type":["graphics","3d","video"],
-        "description": "Self project for a 3D game interior scene",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/nd3auiqtonm1ec2y0pj87/1.png?rlkey=xe0zru44af30aw2yzi7etqli5&st=46wthnw3&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/nd3auiqtonm1ec2y0pj87/1.png?rlkey=xe0zru44af30aw2yzi7etqli5&st=46wthnw3&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/nhh05dfixcj0a2vpo52zz/2.png?rlkey=us4jj7it0lp2tnhh7v5s1bcit&st=du44hbwk&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/pj58vr72sv8a1oalol00z/3.png?rlkey=ikkm8kbga03blooxs8zbftcex&st=cxzvp56g&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/u59ho3sr9edvlnapcl1wu/4.png?rlkey=mmbe5hdlvbid7g204u39hwdei&st=ojvwntrq&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/omwkjdmsqud3y3m5fyuk1/5.png?rlkey=4oh2d3qqflj5a32cd47eroxg1&st=u9aw8xro&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-youtube",
-                "url":"https://www.youtube.com/embed/wEF81mHmDjE"
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Blender", "Substance Painter", "Adobe Photoshop", "Unreal Engine 5", "DaVinci Resolve"]
-            }
-        ]
-    },
-    {
-        "id": "4r6y0d1k07iival5hgbat",
-        "title":"The Abandoned Place",
-        "month": 11,
-        "year":2024,
-        "website": "",
-        "project_type":["graphics","3d","video"],
-        "description": "Self 3D environment design project",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/4r6y0d1k07iival5hgbat/S_AbandonedPlace1.png?rlkey=vud0r5h3bpjm7s621jubjpnfn&st=6v34yev7&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/4r6y0d1k07iival5hgbat/S_AbandonedPlace1.png?rlkey=vud0r5h3bpjm7s621jubjpnfn&st=6v34yev7&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/s99k55wr4h0ptv35ds2kf/S_AbandonedPlace.0288.png?rlkey=jl1dw8pdd9ysekvtz2883d8rs&st=ulod2xfp&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/2ioz6yzsjv46g66kdsxxv/S_AbandonedPlace.0362.png?rlkey=5j3llbb0dg08hp881fsdhulq8&st=ynvs726e&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/nsm0pm6hrrdwmeq4l3m1u/S_AbandonedPlace.0654.png?rlkey=7a8v0cnud1mpvnw4o9a3962ay&st=qe0qpeun&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/bi41xvezqh6cl1reo3ti5/S_AbandonedPlace.0766.png?rlkey=rtoj76vtoejaehmey9vg3w5ny&st=evbgoa37&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/wp2l6mjlfqht02wbwssdi/S_AbandonedPlace.0969.png?rlkey=va963sg0j0pl8qa9qq5r645rs&st=uc5hoc70&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/zrrhwq8x05vlq42w2z169/S_AbandonedPlace.1176.png?rlkey=6f2ws3si6fg2nbhkfp990sikc&st=cw12zw9p&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-youtube",
-                "url":"https://www.youtube.com/embed/LJVI3CXW-TE"
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Blender", "Substance Painter", "Unreal Engine 5", "DaVinci Resolve"]
-            }
-        ]
-    },
-    {
-        "id": "p6g7bd212llm0tr1orlk3",
-        "title":"Echoes of Morning: A Kitchen Left Behind",
-        "month": 10,
-        "year":2024,
-        "website": "",
-        "project_type":["graphics","3d","video"],
-        "description": "Self 3D project for interior game scene",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/p6g7bd212llm0tr1orlk3/1.png?rlkey=z04ee5qyxpuwvult6l5npy501&st=s1pojg9h&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/p6g7bd212llm0tr1orlk3/1.png?rlkey=z04ee5qyxpuwvult6l5npy501&st=s1pojg9h&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/f5dmvmadc1bdgq4q79185/2.png?rlkey=4sxrefs7unxp2mty54os9r14e&st=jy5tp8an&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/pk112gvv8i9lix94cgqms/3.png?rlkey=z436gzxgw9nuaq7arb2acyx67&st=cd1augcf&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/1sr1zn27e9rkd8s8a4gcl/4.png?rlkey=5bwimdnbd5ou96otwbobwawsx&st=x9jei8ui&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/mlh0o23ydz1xn19u5xdi5/5.png?rlkey=ignl61je3c7kiny9z8dv2gz7a&st=z1w991w2&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/1om8x0d5z7g2m4a6laq43/6.png?rlkey=6tdrdba2bet56lmyytkha0qqp&st=lb80y5do&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Blender", "Substance Painter", "Unreal Engine 5"]
-            }
-        ]
-    },
-    {
-        "id": "p6uvr724yne4gqrzpv17v",
-        "title":"ThisTeam HRIS",
-        "month": 9,
-        "year":2023,
-        "website": "https://thisteam.net/",
-        "project_type":["graphics","uiux","development"],
-        "description": "A comprehensive HRIS tool designed to simplify HR processes for businesses. ThisTeam helps manage payrolls, track employee performance, store documents, and record tasks efficiently. As a Full Stack Developer, I developed the backend using Django and the frontend with React, while also designing the user interface (UI) to ensure an intuitive and seamless experience for HR teams.",
-        "thumbnail_link": "https://dl.dropboxusercontent.com/scl/fi/p6uvr724yne4gqrzpv17v/01-thisteam-UI-thumbnaill.png?rlkey=rmmtkborfyea8389qp1uvh5x7&st=nhrb0jea",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://dl.dropboxusercontent.com/scl/fi/5x2vmu98lar6g8kcjyt7u/01-thistaem-Landing.png?rlkey=6n8ckcvly3k3s1u2hcjr3vbss&st=5iib7xqv",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://dl.dropboxusercontent.com/scl/fi/r5zfcceoksmvjrknzpgts/01-thisteam-ui-1.png?rlkey=dx74yz25mpwu8qijqwiamiqm5&st=4qe2u5dd",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://dl.dropboxusercontent.com/scl/fi/5qmey74het7bvl5slz7n4/01-thisteam-ui-2.png?rlkey=tuludpqu1lur78v2dzi48zd8c&st=rlybct9v",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://dl.dropboxusercontent.com/scl/fi/e7comfums27emih9n759y/01-thisteam-ui-3.png?rlkey=v4bf4yv7o087o95fwb6rijwdp&st=j9cwf657",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://dl.dropboxusercontent.com/scl/fi/auabqofvc55wtknsb7u3e/01-thisteam-ui-4.png?rlkey=pzcodrlybgyb8jka5wzrjsaq6&st=c0sv5d66",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Frontend",
-                "lists": ["React", "Tailwindcss", "JavaScript", "Nginx", "Vite"]
-            },
-            {
-                "name": "Backend",
-                "lists": ["Python", "Django", "Django Rest Framework"]
-            },
-            {
-                "name": "Cloud",
-                "lists": ["GCP", "GCE", "Cloud SQL"]
-            },
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Adobe Illustrator", "Figma"]
-            }
-        ]
-    },
-    {
-        "id": "4esj8v2qfp96zp6ser4hd",
-        "title":"Evergreen Butterflies Website",
-        "month": 7,
-        "year": 2024,
-        "website": "https://evergreenbutterflies.net/",
-        "project_type":["graphics","uiux","development","ecomm"],
-        "description":"A corporate website for Evergreen Butterflies, a company that provides custom software solutions and strategic business services. The site showcases their capabilities in delivering innovative tech and data-driven insights to drive growth and efficiency for businesses. I was responsible for designing the UI, coding the website using React, and deploying it via Google Cloud Platform (GCP), ensuring a responsive, user-friendly, and scalable solution.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/4esj8v2qfp96zp6ser4hd/02-evergreenbutterfliles-thumbnaill.png?rlkey=ysfc275kexgxo7nou0l6qtxv9&st=s3pims1d&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/l5st0fh6521xhljc8mn7c/02-evergreenbutterfliles-landing.png?rlkey=3ya6fqy6uh8ug32cfi7rgl7pf&st=brj9m7q3&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Frontend",
-                "lists": ["React", "Tailwindcss", "JavaScript", "Nginx", "Vite"]
-            },
-            {
-                "name": "Cloud",
-                "lists": ["GCP", "GCE", "Cloud SQL"]
-            },
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Adobe Illustrator", "Figma"]
-            }
-        ] 
-    },
-    {
-        "id": "y87f9ly7547j5bqagfi3a",
-        "title":"SplitDragon Teasing Videos",
-        "month": 9,
-        "year": 2020,
-        "website": "https://www.splitdragon.com/",
-        "project_type":["graphics","video","ecomm"],
-        "description":"Teasing videos created for all services offered by SplitDragon.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/y87f9ly7547j5bqagfi3a/SD-Video-Teaser-thumbnail.png?rlkey=uexvseabvqg2h3uoosc9oiqma&st=irsmhy8h&dl=0",
-        "others": [
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011032277",
-                "title": "Splitdragon Intro Teaser",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011032248",
-                "title": "Splitdragon Design Service Teaser",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011032216",
-                "title": "Splitdragon Search Rank Tracking Service Teaser",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011032179",
-                "title": "Splitdragon Product Research Service Teaser",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011032140",
-                "title": "Splitdragon Competitor Intelligence Service Teaser",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011032096",
-                "title": "Splitdragon Keyword Research Service Teaser",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011032054",
-                "title": "Splitdragon Competitor Store Performance Service Teaser",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Adobe Illustrator", "Adobe After Effects", "Adobe Audition"]
-            }
-        ] 
-    },
-    {
-        "id": "4e1kof9h0osof1kjpvon5",
-        "title":"Short Client Promotional Videos for Intrepid Asia Philippines",
-        "month": 8,
-        "year": 2019,
-        "website": "https://www.intrepid.asia/",
-        "project_type":["graphics","video","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/4e1kof9h0osof1kjpvon5/Intrepid-Promotionals-thumbnail.png?rlkey=iitemmxr24oybbg12qgtuz5dk&st=kuhuwzel&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/fg332215qxcmkc2mbbpdr/Intrepid-Gif-promotions-2019-i2i-my-gif-fin.gif?rlkey=82vrd1ctw34ptamhj5c90fwjn&st=vb9ogivw&dl=0",
-                "title": "i2i New York Sale Promotion",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011264798",
-                "title": "Deuter Sale Promotion",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011264769",
-                "title": "Audio-Technica Sale Promotion",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Frontend",
-                "lists": ["React", "HTML", "CSS", "JavaScript"]
-            }
-        ] 
-    },
-    {
-        "id": "3tdmhhvab0axjc9sbnt73",
-        "title":"Evergreen Butterflies Brand Logo",
-        "month": 7,
-        "year": 2024,
-        "website": "https://evergreenbutterflies.net/",
-        "project_type":["graphics","illustration","ecomm"],
-        "description":"Designed a logo for Evergreen Butterflies that visually represents their brand identity. The logo integrates elements of an green leaf of a tree and a butterfly, symbolizing growth, transformation, and sustainability—key aspects of the company’s mission to deliver innovative tech solutions and business services. This project ran concurrently with the development of their website, ensuring cohesive branding across platforms.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/3tdmhhvab0axjc9sbnt73/03-eb-llogo-streett.png?rlkey=4xi2xfeb98vfj9ekm6myakii0&st=smjuyd74&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ba7ixcp0e7uhqoqblld50/03-eb-llogo-DARK.png?rlkey=9lhtwvwyc0qlgx604exfhzul1&st=7n9m8v1e&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/i2y4t9euh84r4l3o9ij7r/03-eb-llogo-LIGHT.png?rlkey=xaxf5sk6279021g9znug67dev&st=44w56032&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/t4e9tatlxxqcabobt7cv8/03-eb-llogo-ALIGNMENT.png?rlkey=66mn2jqze3s9mbbdsu8z7j6hw&st=673epiew&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/08rrkd2embiupr4fgapmy/03-eb-llogo-broken.png?rlkey=aiwzd22vezn97fonib2cpve93&st=hf2ugy9l&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/23w7rbs7iyuiyjr39cxoc/03-eb-llogo-color.png?rlkey=6i84et8fb7l8ic4dvqeyfsnz8&st=odfgpwu3&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/p93ea3l2duk50ffmtizhy/03-eb-llogo-typeface.png?rlkey=34bsrdxc8msvkghu1s02qqf2m&st=dr8e6hz8&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/20ojrwrp5wo5khdy2o1cx/03-eb-llogo-mockup.png?rlkey=oabljx3k1o1degnwslycyfwls&st=3l5a2rn9&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/v9j4yqmwdcvzmrjrc9frv/03-eb-llogo-signage.png?rlkey=nd4qqp2i9jwiqhrma4u60b7c6&st=fpqvof64&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/xzc0i72wjgyn3d9vytym5/03-eb-logo-subway.png?rlkey=0x6lwei5x9ejfw3w6cwwuldmv&st=544g9hz4&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Adobe Illustrator"]
-            }
-        ]
-    },
-    {
-        "id": "uwa8ncyk26apqkhc8x5kj",
-        "title":"Deuter Marketplace Collateral Materials",
-        "month": 5,
-        "year": 2021,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"Deuter made a end-to-end partnership with SplitDragon from 2021 to 2023. As part of the Creative team, I create final artworks for store decoration, marketing materials and marketplace product description",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/uwa8ncyk26apqkhc8x5kj/Deuter_logo.png?rlkey=24n49rcc07bdd2onob8tolbuo&st=ve1abprt&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/zd9vhzmcf2gu6wix1ntp0/Deuter-Banner-03-b.jpg?rlkey=k5cukgrk2qoyecymgn4o7uo2b&st=fksmqffa&dl=0",
-                "title": "Marketing Design Examples",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/qbjw7ha6a9jz08aofvfpb/Deuter-Banner-03-a.jpg?rlkey=ydpvpjzgjpwyguswurtpsb619&st=jw74epv5&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/0vvbjrujzpwjbiklsjoxm/Deuter-Banner-01-b.jpg?rlkey=mzvzgiis405tqhdec3psfhygv&st=lym76crb&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/jr11ineboss8mbbjynnt8/Deuter-Banner-01-a.jpg?rlkey=bn1ejj8gdxhwzqidkfjhl6i72&st=n6hugzb4&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/mm01ophygqrj36whaypnf/Deuter-SIS-Design.jpg?rlkey=jjoibh1lddoc4387ithfq4llc&st=gznidg66&dl=0",
-                "title": "Deuter Store Decoration for Lazada PH",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/7hlcq37jze0g2mjlmo0cu/Deuter-Aircontact-Lite-35-10-SL.jpg?rlkey=qc40gcl4lnmb6mwl0hl5zt1ww&st=tn1ljrh0&dl=0",
-                "title": "Product Description Template for Deuter in Lazada PH",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "94z31evnsjjq6p5molf2c",
-        "title":"SplitDragon Brand Identity Guide",
-        "month": 4,
-        "year": 2021,
-        "website": "https://www.splitdragon.com/",
-        "project_type":["graphics"],
-        "description":"Any brand should have a brand identity guideline in order to maintain brand consistency across channels.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/94z31evnsjjq6p5molf2c/SD-Brand-Identity-thumbnail.png?rlkey=f1nubr5iw0gisru0zvba14cv6&st=gh9ovgoo&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/qcx7a1ez7qbr5gos5dqvu/SD-Brand-Identity-1.jpg?rlkey=lrdbxxuiciuj10sw27l00a1u8&st=g0qjn6z0&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/4ypd1yvs4l8z64czwgwbz/SD-Brand-Identity-2.jpg?rlkey=ih9gu10q0tkz818r5mnkglbva&st=rqprlaxp&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/mvwluzahuzbb6oatytaoz/SD-Brand-Identity-3.jpg?rlkey=v1hcg9bk2mrsf718nrmoq5vfb&st=vgsktrk1&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/1obpqtt4l9hy2d4r6h895/SD-Brand-Identity-4.jpg?rlkey=oh782hgd8jsu9t2tfwpkw8tkw&st=ovy7jr43&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/03pgui9zwp9460rhwgmxr/SD-Brand-Identity-5.jpg?rlkey=vc27l4y1lqy865f3lplklz6ci&st=j69x41gu&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/a0ro6cf698w4wzwbi5f8i/SD-Brand-Identity-6.jpg?rlkey=josvnvavbpg24johebvnalhym&st=ndjdgav3&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/hfc0cb2c5dx7dzdtf11fp/SD-Brand-Identity-7.jpg?rlkey=zmndek97pqww1m81svbc5mqms&st=2esyzshg&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/xwov858th1koufsn9t7gb/SD-Brand-Identity-8.jpg?rlkey=c0lveftg1ai5e068850co7pst&st=gmtk3m8v&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/0ukmvglrz4ybow4qxzdq6/SD-Brand-Identity-9.jpg?rlkey=a9byegzplkqw04z9tzzcgrgsc&st=8vs39z8n&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/rp7ogv0uisssbj38lala4/SD-Brand-Identity-10.jpg?rlkey=lqdd5veimw37tmvllemgtuv73&st=6at859yu&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/you4cgifpwfwt6etnk71h/SD-Brand-Identity-11.jpg?rlkey=xbuecax3znyvka1dwt5vbs02p&st=q289josg&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/mytymshwbewzxzocg5otp/SD-Brand-Identity-12.jpg?rlkey=l2j0yjhy060bmy4jsain1u57a&st=a5vcfx0w&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/i0tm094lx4b718s9yipdl/SD-Brand-Identity-13.jpg?rlkey=xlwzrgy73bftqzzz44rg89gus&st=cbtru83g&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "3p6uzk6910h4yathyuqhb",
-        "title":"Skinerb by Faralex Product Description Template Design",
-        "month": 10,
-        "year": 2020,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"A product description designing for Skinerb by Faralex. This images will be used in Lazada PH",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/3p6uzk6910h4yathyuqhb/skinerb-thumbnail.png?rlkey=cvpxjnjk0rgyjf7unsejz9bl6&st=hl03u0sj&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/eeuoh5txkbp9ppfq7ko35/Vitamin-C-Cream.jpg?rlkey=3f6pr0v8q4bcl12ng2mlqypt8&st=0resl1kf&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/p58xiubg1dpoaw7awllvw/Vitamin-C-Serum.jpg?rlkey=cbsajj2htxbfkxx3tm35k9hs9&st=3knbqvd4&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/86rv6koustwnevigw8qf3/Collagen-Serum.jpg?rlkey=4djijkutfjtak661q9cywraq7&st=hb3evjlh&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/8jla2r2bswbn114yyhsz1/Retinol-Cream.jpg?rlkey=iaf88l9tu3ks2zx9oy839yhyn&st=gruudcbx&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/jic7jad6qyiktpz5k1hds/Rose-Water-Toner.jpg?rlkey=guxeyzbew9vhorz2z7boihtxb&st=i6k3lzwl&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "xa7df90bj6b4671l5fvxt",
-        "title":"AirDeveloppa TH Product Description Template Design",
-        "month": 10,
-        "year": 2020,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/xa7df90bj6b4671l5fvxt/airdeveloppa-thumbnail.png?rlkey=nwaidwavc3whh29foc6oltjgt&st=uivfqnh1&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/fqkqngxveriidnh15f04p/AirDeveloppa-Air-Purifier-DIY.jpg?rlkey=l3k7u3re54g2kmdtfzgrz0tpk&st=w5qlxvmg&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "58d6mpo7p1wmr1pxwig4q",
-        "title":"Kellogg's Product Description Template Design",
-        "month": 10,
-        "year": 2020,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/58d6mpo7p1wmr1pxwig4q/kellogs-thumbnail.png?rlkey=crvw3xe1qwavf67z3hl2ah9m6&st=amanol38&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/rz3wvjdlqmhqe4gccrcl9/Banana-corn-flakes.jpg?rlkey=ju1b9vod4v21lr23016begk0x&st=u7ykcipm&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "d61oxrcfueeu2zz217kjo",
-        "title":"AmorePacific Product Description Template Design",
-        "month": 10,
-        "year": 2020,
-        "website": "Amorepacific has been in partnership with SplitDragon from 2020 up to present. As part of the Creative team, I create final artworks for their marketplace product description",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/d61oxrcfueeu2zz217kjo/ap-thumbnail.png?rlkey=ced9131ae1mi2vsb04dyqhkfr&st=qz1alu9h&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/dkt4o84lq4n5r9lkqzfld/1-sample-Lip-Sleeping-Mask-Berry-20G-Balm-Lip-Care-Scrub-Lipbalm-100-Authentic.jpg?rlkey=ur3uuxqkmvez49jw1k4zesfn6&st=w4j02ooa&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/97skg08e6hkcznk5oj927/2-Hera-PDP-draft-design.jpg?rlkey=hukz2dud6g5kf2bsjwo8nu2pz&st=f79jnhwa&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/azo362tu3ifhstlgyyqfq/3-Laneige-Water-Bank-Hydro-Cream-EX-50ml.jpg?rlkey=lao4h633efu44dx5v5nll610j&st=vi2ditzf&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/dcxv2hjd47bhrlpkgu2ny/4-Sleeping-mask.png?rlkey=7qbjjifqz7o0cll25t0pqar9z&st=xvnkvphe&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/tp2t9al9cvrf8yyvd5yqt/5-sample-Mamonde-Pore-Clean-Blackhead-Stick-18g.jpg?rlkey=vg2azdu1ydkf3ors41wtiqdkn&st=pio7tl5r&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "uskv9zsxqodfw6cy9a9pw",
-        "title":"SplitDragon Infographic Illustration",
-        "month": 8,
-        "year": 2020,
-        "website": "https://www.splitdragon.com/",
-        "project_type":["graphics","ecomm"],
-        "description":"Infographic Illustrations made for promotion of SplitDragon's IP Protection and Market Research",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/uskv9zsxqodfw6cy9a9pw/SD-infograph-thumbnail.png?rlkey=f7g9i8m7t808rre3xv6biourk&st=3n0d98w0&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/cddb9386cyppbki0vojzn/market-research.jpg?rlkey=blp4jpvr5s6qnzkhc63psmvpn&st=w8m3a4ax&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ty0lqlpxie4cajex92xdi/Illustrations-for-IP-Protection-2-v2.jpg?rlkey=90s8584aajgftzp3ir39o2mwz&st=xtngu818&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "md68ik3mlay9dw1jnv0h6",
-        "title":"Hyrem My Store Decoration",
-        "month": 11,
-        "year": 2020,
-        "website": "https://www.lazada.com.my/shop/hyrem",
-        "project_type":["graphics","ecomm"],
-        "description":"Hyrem is an iconic brand in the market that emphasizes beautiful historical’s art and design,carrying unique products that reflect the symbols of luxury and elegance yet affordable. Planning to expand their place to sell in Lazada MY, I design their store page to present their historical beauty and uniqueness to Lazada buyers.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/md68ik3mlay9dw1jnv0h6/hyrem-thuimbnail.png?rlkey=cwxz3xkc46zyla9tbvipeqjgx&st=ecm5ohyd&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/hmhnri4d3dlj08dkwhu7c/Hyrem-Laz-SIS-PC.jpg?rlkey=3q5ustlx5c1o1uqqt7j2iiwqt&st=e8w7yf4z&dl=0",
-                "title": "Store Design",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/x7ni9w03kacnku1a4h9es/carousels.jpg?rlkey=pl56snrx1vr8hxcrdl7f9kwon&st=zw80q4wx&dl=0",
-                "title": "Category Banners",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "99i3vtnab4r36ja0nb29p",
-        "title":"Shell Pilipinas Store and Product Description Design",
-        "month": 8,
-        "year": 2021,
-        "description": "Partnership with SplitDragon on 2021, I created their store design for both Lazada PH and Shopee PH, together with the product description template for the team to use.",
-        "project_type":["graphics","ecomm"],
-        "website":"https://www.lazada.com.ph/shop/shell",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/99i3vtnab4r36ja0nb29p/shell-thumbnail.png?rlkey=i51cn1y71nt4pc03soht27qy6&st=50oyuc6w&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/x6zptb4iz4xavth0mgpnl/Lorikeet_v2_2_Gas_Diesel_Car.jpg?rlkey=56xrla7qc0uv3irrtq5rp1w1n&st=gmbqkj2v&dl=0",
-                "title": "Product Description",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/5dbn0kqp12kkj1ca4lfc8/Lorikeet_v2_2_Motor.jpg?rlkey=sdeywv8macxpc5zetm5z8enby&st=0s2rocjo&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/0i7zpk2lg4nmirtn8np8g/Lorikeet_v2_2_Scooter.jpg?rlkey=y9velr2xkugdmxpkcj8te8ju8&st=55zgzs55&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/qv65yksptf8v4pcnnhkxc/pc-mockup-main-2.jpg?rlkey=b0b4suwpdcisnvj3hbfixdgaf&st=yxe8mhuo&dl=0",
-                "title": "Store Design",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/u93lvby86nd235eh6tige/pc-mockup-shopee.png?rlkey=yz3o9ko1qyracd96vscdt5k2s&st=xccrkcjf&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "6tdzwcisj09sle4i2gd2q",
-        "title":"Durex Product Description Template Design",
-        "month": 7,
-        "year": 2020,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/6tdzwcisj09sle4i2gd2q/durex-thumbnail.png?rlkey=78fgv1fq5vb23a4pe95cxqd6q&st=5s3wls25&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/6tdzwcisj09sle4i2gd2q/durex-thumbnail.png?rlkey=78fgv1fq5vb23a4pe95cxqd6q&st=9ria7cpe&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "7cjbua7mxhpi0kfboa0cc",
-        "title":"Enfagrow A+ Product Description Template Design",
-        "month": 7,
-        "year": 2020,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/7cjbua7mxhpi0kfboa0cc/enfgrow-thumbnail.png?rlkey=fihqj32fv1d9d7dozxucflmym&st=jvqk3zx4&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/obe9dndir2nlo1113gdwi/Enfagrow-A-Three-Milk-Supplement-Powder-for-1-3-Years-Old-900g.jpg?rlkey=dj3m4e232m14vbv4uoqah6gy6&st=zwhrcw3j&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "v4aom9sef7krih55pmb6k",
-        "title":"LG Product Description Template Design",
-        "month": 3,
-        "year": 2020,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/v4aom9sef7krih55pmb6k/lg-thumbnail.png?rlkey=2wsjhgwcy0x4a1tsuxqduwvak&st=1m1psbet&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ucmfjupppas2luq91mvg0/MY-_LG-454L-Platinum-Silver-Bottom-Freezer-with-Inverter_Lorikeet.jpg?rlkey=wg0shd9e46f3ph5vemsqnnwrq&st=48yn6opj&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/vd5ydw8ew911xghrg82r9/PH-_TurboWash-3D-Top-Load-Washing-Machine-with-Smart-Wi-Fi_Lorikeet.jpg?rlkey=qf3i6j1ozg126y51y352537ys&st=4sxr9khf&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "vrpicdqvmadx6j2rda3w0",
-        "title":"Origins Product Description Template Design",
-        "month": 8,
-        "year": 2020,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/vrpicdqvmadx6j2rda3w0/origins-thumbnail.avif?rlkey=eraa5ot1f9s60qpg7ara2drdn&st=v7v6ztkm&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/8etfu0szl1b8qdph3sox8/Mega-Mushroom-Relief-Resilience-Advanced-Face-Serum.jpg?rlkey=vf2ap1atr0kwt91z20syufdf7&st=xcliit7g&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "4v79skrectm6ff6as9ds3",
-        "title":"Popsocket Store Design Template",
-        "month": 10,
-        "year": 2021,
-        "website": "https://www.lazada.com.ph/shop/popsockets/",
-        "project_type":["graphics","ecomm"],
-        "description":"Popsocket has been with SplitDragon from 2021, to promote and expand their products to Lazada Marketplace in South East Asia. I created there store decoration template to be used by the creative team until today.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/4v79skrectm6ff6as9ds3/popsocket-thumbnail.png?rlkey=80rour8iyweknu8og53o9j7sl&st=om8fsstf&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/parniwwzvm7hyy1utv8t6/mockup-C.jpg?rlkey=ibh57j1ke9ncyfqh71hpadm5b&st=i61kl85s&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "beix0fkk3oc3y7pgouzs8",
-        "title":"Spider Holster Store Design",
-        "month": 11,
-        "year": 2019,
-        "website": "https://www.lazada.sg/shop/spider-holster/?path=index.htm",
-        "project_type":["graphics","uiux","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/beix0fkk3oc3y7pgouzs8/spiderholster-thumbnail.png?rlkey=48ehjygyjdjlby6f9xonuq6zs&st=hqw6gx8k&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/by9vqe04muydreika9tyu/Spider-Holster-Laz-SIS-PC.jpg?rlkey=apt13kzw24tz3yh4yqo2a3que&st=gidw9j46&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "4qvo3brfswztudog4ttcz",
-        "title":"Unique Time Store Design",
-        "month": 11,
-        "year": 2019,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/4qvo3brfswztudog4ttcz/uniquetime-thumbnail.png?rlkey=6up3r64xr34m0xh12j3bcdg6u&st=hr8pmwvq&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/rkfztj0brdunr8waztp9x/pc-mockup.jpg?rlkey=3pjs4h5egm1qiyrrb7pm4ktsl&st=zqpi2qer&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/bbuw9sxmchon67kqz3pkj/Rujuvenate-Antioxidantn-Infused-Shots.jpg?rlkey=527wzm9nxzc27jsq0bgnzu94l&st=n7uhscsd&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "9jkqcp06vcqn4xwfxg3rr",
-        "title":"Yves Rocher Product Description Template Design",
-        "month": 8,
-        "year": 2020,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/9jkqcp06vcqn4xwfxg3rr/Yves-rocher-thumbnail.png?rlkey=3ezrq6hmbexlcttui7bylt3zx&st=1qjbj6l3&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/zejfnl8k8f3sums5rzeac/Energizing-Pomegranate-Pink-Berries-Shower-Gel.jpg?rlkey=ezrrsotbcybwikdu6m06r34gf&st=lluee13v&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "w9n7khjpy3ze6i4aqhkfy",
-        "title":"Zerowater TH Collateral Material Templates",
-        "month": 7,
-        "year": 2020,
-        "website": "https://www.lazada.co.th/shop/zerowater-thailand",
-        "project_type":["graphics","ecomm"],
-        "description":"Zerowater TH has been with SplitDragon from 2020, in need to improve their sales in Lazada and Shopee marketplace. I created their templates for their campaign materials and product descriptions, as well created a store design for their marketplace store.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/w9n7khjpy3ze6i4aqhkfy/ZeroWater-Thailand-4.jpg?rlkey=k09wnz2pjm0vsnjq58av1pdkz&st=82fd5oat&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/84guljxquzeajpaw2omk4/special-offer-TH.jpg?rlkey=lnxg8i2k51ohgb20jz3l8kc3h&st=b24jfb7k&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/sjc61t23hh9g7rkrsvwnq/PC-MOCKUP.jpg?rlkey=37vgef8ywttpox8eoipcobqfn&st=uykzxr63&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/9uw48tgzureqzdgvgrclw/Zero-Water-Filter-Jug-2.8L.jpg?rlkey=38b0iaich6e1naa94681m8ief&st=h3ps8b8x&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/d0fzrwtjkx1jzaoa8r5jj/Zero-Water-Filter-Jug-5.4L.jpg?rlkey=e78e5aeb6c52wp2tjm4uaqv45&st=6jebpz65&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "uo8601nyn2xz0979ktcli",
-        "title":"Livestream Process Video for Intrepid Asia Philippines",
-        "month": 7,
-        "year": 2019,
-        "website": "https://www.intrepid.asia/",
-        "project_type":["graphics","video","ecomm"],
-        "description":"On 2019, Intrepid PHilippines started on offering livestream as part of ther services. As Livestream Manager, I created an short video on how our livestream process will work.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/uo8601nyn2xz0979ktcli/intrepid-livestream-video-thumbnail.png?rlkey=melnu09z18j0bcucx0mn7a602&st=4trbrl7b&dl=0",
-        "others": [
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011532595",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe After Effects","Adobe Illustrator", "Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "669i96an5v9nakq3ye9z2",
-        "title":"Go-Forth Christmas Decor Service Teaser",
-        "month": 12,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/669i96an5v9nakq3ye9z2/gfpc-xmas-decor-anim-thumbnail.png?rlkey=a6kihsj2fq5grihj06qf2177p&st=14di8dqn&dl=0",
-        "others": [
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011552881",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe After Effects","Adobe Illustrator", "Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "5g9q3kzx2uffgi87bnf4g",
-        "title":"3D Low Poly Character Project",
-        "month": 4,
-        "year": 2014,
-        "website": "",
-        "project_type":["graphics","3d"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/5g9q3kzx2uffgi87bnf4g/3.png?rlkey=ji6z66g8th0gj07fd402kbghb&st=3y1z5hc4&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/wejk5b4puwktw0y3jyvtw/1.png?rlkey=t2gjxm3ijh0xyrhry5d7txzwu&st=ygx1w01x&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ief60assg7pq71ehlh8op/0.png?rlkey=te869z94fppqb51dtpj89j1xc&st=3v5p3n8o&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/hlgnqa7sh34w92jc31dwj/2.png?rlkey=evc6mm37e2ax40nhmwgltxw76&st=i3428k3g&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/uer214ssj2mhbpkl3z8d2/4.png?rlkey=9atg51w7iowrk1z9fwfix77m3&st=f6v01157&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Blender"]
-            }
-        ] 
-    },
-    {
-        "id": "b321bszrl8kjzg6gcbrjs",
-        "title":"DSNY New York Summer Sale Banner",
-        "month": 5,
-        "year": 2019,
-        "website": "",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/b321bszrl8kjzg6gcbrjs/DSNY-THUMBNAIL.png?rlkey=4q2okhlfcqq02t43in5p0nxp2&st=dlwtlpy5&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/eonxboivh66g99u13xgl6/15fc1c80658287.5ce735f2e2efd.jpg?rlkey=6od9ihwffzrhsxgoh0xn68c4u&st=r15dl0c3&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "np19weokjv878fnxyehzy",
-        "title":"Duty Free Mactan Display Modules",
-        "month": 3,
-        "year": 2016,
-        "website": "",
-        "project_type":["graphics","3d"],
-        "description":"M3D Construction Format is the distrubutor for Duty Free's modular shelves for their outlets. These are the gondola and shelf module designs made for Duty Free Mactan.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/np19weokjv878fnxyehzy/1.png?rlkey=c489hbfnrv6xb1npb57euyh1a&st=cw4gjnqn&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/gp2mvl5uh1f7ec9f6re4a/2.png?rlkey=i4963cbo2jfnqqnvik2o2xg29&st=7tftxqvo&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/2j0szjaj9y9hqpy4gnxcd/3.png?rlkey=ygx1ztpwilqgfe7fzytekeiqr&st=mb1ab5sa&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/1toxw1muom1o0hp5ufhyk/4.png?rlkey=sk4xxo76ymc86mbk11hhtnbp7&st=be7hc9so&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/i6zc0df5ublwi2m04dwxg/5.png?rlkey=triudaaltxvhpl8xv8x5n9u3q&st=msqnckho&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/5cea8bkzofdx2cw2x89ag/6.png?rlkey=5zxzzjkcfuqt5cr4pvxkykiis&st=1w2qgasi&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/9dy3ouzkq6j6u06zsc2py/7.png?rlkey=eko0pxxw8oha3g89xvyh88teq&st=e4and4pt&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/alvmx66idv9bq74gfwrqd/8.png?rlkey=9dhf167o1j3s343lgdr9p4lzf&st=ts5c39zg&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/lox5yh9serm92gvrrj365/9.png?rlkey=tfc9omthfrgz07d3da1pb2uvr&st=pnonuqmv&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/1v4v76pbze5pf4frpbu5x/10.png?rlkey=5x37e285qexmjg3hdgu0wkf8o&st=a2a9shio&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Blender"]
-            }
-        ] 
-    },
-    {
-        "id": "7vglhm6734p3b5z9p0bku",
-        "title":"Food Kiosk - 3D Design Project",
-        "month": 6,
-        "year": 2019,
-        "website": "",
-        "project_type":["graphics","3d"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/7vglhm6734p3b5z9p0bku/thumbnail.png?rlkey=uma3spip6es15zh3h5gy5d01l&st=na66emwn&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/rk8pubsg9t5vax5n5ydsm/shake-shop-2.png?rlkey=2h8ljn7zfoa9krx9v8m3dvkk4&st=uakuor1r&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/2wg9g1wvk0cbufw399f4o/shake-shop-1.png?rlkey=xeur3221eubje24cuw6i99or6&st=59oh2qyy&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/efimoosues9yffqt0cm78/shake-shop-3.png?rlkey=wbqcpdqk6med44lxysrp3gv45&st=6tez8q20&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/zivm9k3ebzl3j3jq8rji4/shake-shop-4.png?rlkey=kt6aaldj0by8ic0avacwse7vs&st=cko105r4&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Blender"]
-            }
-        ] 
-    },
-    {
-        "id": "1q2gltl697fqh3pgz6t3k",
-        "title":"Go-Forth Pest Control Logo Redesign",
-        "month": 11,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration"],
-        "description":"With the ever improving services of Go-Forth Pest Control, also comes the redesign of their logo from a 2D style into a 3D logo",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/1q2gltl697fqh3pgz6t3k/new-logo.png?rlkey=y2g7o5yl09cntc40anpmn8rof&st=exn4v61i&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/tjf2cc8tmn5lgkaj9nyf8/old-logo.png?rlkey=cszhwelzgb00s6ihsgxtptnk5&st=txmhw1ak&dl=0",
-                "title": "Old Design",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/1q2gltl697fqh3pgz6t3k/new-logo.png?rlkey=y2g7o5yl09cntc40anpmn8rof&st=exn4v61i&dl=0",
-                "title": "New Design",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "pg7q9lk9k0xsfvx1fqaaj",
-        "title":"Go-Forth Pest Control Pest Characters",
-        "month": 9,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration"],
-        "description":"Go-Forth Pest Control wants to emphasize how pests can harm ourselves and destroy our homes. I made illustrations of some of the pests with weapons that Go-Forth Pest Controls deal with.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/pg7q9lk9k0xsfvx1fqaaj/go-forth-hornet.png?rlkey=whzqqrl2q66mn4z2z8dgxj2ly&st=q0ciwt58&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/5sd53epggm0sunkij77ks/go-forth-bed-bug-01-thumbnail.png?rlkey=ygpgdtjamwx8u03qcygie2atv&st=e171qnef&dl=0",
-                "title": "Stabby the Bed Bug",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/krt9uqufc9ih7fypxnns2/go-forth-flea.png?rlkey=1aouqakvkggihf98uzeunlkwk&st=ml2su8c6&dl=0",
-                "title": "Scratchea the Flea",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/6091yyv7lxb0wtd7bntf6/go-forth-fly.png?rlkey=mf48f8u84zwewjxs1jb4og97f&st=5d6x1in4&dl=0",
-                "title": "Pocky the Fly",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/pg7q9lk9k0xsfvx1fqaaj/go-forth-hornet.png?rlkey=whzqqrl2q66mn4z2z8dgxj2ly&st=bvy9hcve&dl=0",
-                "title": "Blademaster of the Hornets",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/kghvn1msn52ooyps5ddo8/go-forth-mosquito.png?rlkey=x8hew1lnxpp39y1mvkvpmok9i&st=gxmgwmd7&dl=0",
-                "title": "Spearro the Mosquito",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/gtym13ekpve4noyd3z3lg/go-forth-roach.png?rlkey=be4wectx8jxt4uf83o49hz1qd&st=02krdbkh&dl=0",
-                "title": "Agio the lurking Cockroach",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/o24dd3n7zcq6ufmz4ph7g/go-forth-spider.png?rlkey=kfuwlss33vdvgkqdpw5eq7oml&st=iyah63q4&dl=0",
-                "title": "Brody the punching Spider",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/zl57l3j4uny5uo5l7tivw/go-forth-termite.png?rlkey=jkahi8yafsvpujqf6g4oermbg&st=80uxqhfw&dl=0",
-                "title": "Jack the Termite",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/gvuk2l7npi2k82orr5ejc/go-forth-tick.png?rlkey=7daq3ehkej36t9fcka3uve4s8&st=me6is70i&dl=0",
-                "title": "Diggy von Tick",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/wchjmuau0hsodh69wb8e3/go-forth-wasp.png?rlkey=c7ykudb1f1zmcyx5p9x8hukwd&st=f3lvl16h&dl=0",
-                "title": "Wally the Wasp assassin",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "0jhdyt63pd6mkb195jst4",
-        "title":"Go-Forth Pest Control Pest Info Illustration",
-        "month": 11,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration"],
-        "description":"With regards to pest information, Go-Forth Pest Control made some list on the pests traits and weaknesses. With me on the team, I made some appealing pest information design that looks like character selections in a game which brings informationt to the viewers with a feels of a game.",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/0jhdyt63pd6mkb195jst4/go-forth-pest-info-1-05.png?rlkey=5693arkichog3t90gfsbodgoa&st=q7j7vl1z&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/c74rgxtpma2ontixgl9aa/go-forth-pest-info-1-01.png?rlkey=gnkp8uccm1ivj82nyn54cgj1k&st=hzq0ripq&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/0h35s28b6sz22k5g0tbt6/go-forth-pest-info-1-02.png?rlkey=7r37ychw39gl4jkbf4g4xrf97&st=1utaj9ni&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/94pce2ddsultir2aqpeay/go-forth-pest-info-1-03.png?rlkey=yhwac75fsps8ujk9ddtv05ti6&st=q92e3893&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/154k3c1fa4e2nah4dp77p/go-forth-pest-info-1-04.png?rlkey=w9khkbhqt29ve3ysp3sda7ehi&st=33scxkfn&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/0jhdyt63pd6mkb195jst4/go-forth-pest-info-1-05.png?rlkey=5693arkichog3t90gfsbodgoa&st=xkko74uu&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ryqcoqdmbwb7kskcfa08i/go-forth-pest-info-1-06.png?rlkey=enpx97ogvnuc8b1zfk63w2pf8&st=6e20qh9z&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/gsahyqtpz91bpjxgkrvf9/go-forth-pest-info-1-07.png?rlkey=xbv5ygwbwnkuzk5tffeiqld3t&st=8eo5b54b&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/t8cqz1p7rbktqmq3f8s49/go-forth-pest-info-1-08.png?rlkey=iz2jb5u324qq3yreq5rwgfw5r&st=jba8njv6&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "oxy9hb7r1t3twtjf4i6yd",
-        "title":"Go-Forth Pest Control Pest Location Illustrator",
-        "month": 9,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/oxy9hb7r1t3twtjf4i6yd/go-forth-garage-thumbnail.png?rlkey=p9ngykfrby5lcog3ek2vo6fmb&st=s3biu6t9&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/iw5bdp9ec1d2r2j0jcyxk/go-forth-attic.png?rlkey=y0dslgsw1uyl7lnxmgculzfrt&st=szm9adzb&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/yyyqd7a1h47g2ixe0138r/go-forth-basement-background-01.png?rlkey=w48yntxbskdn9lga9qydv1z1k&st=xv6rg5fd&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/i5dw1ma7ks8dddu5gxqgi/go-forth-bedroom-01.png?rlkey=yis8atyqrace4isc4z7qadaiq&st=ja8ox68o&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/649oncq8nc74ut3jao82k/go-forth-comfort-room.png?rlkey=7iqmxzcop7x3p9qkcq1ykex7r&st=o7esrozj&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/57fvtwk5gla1srbgubvep/go-forth-dining.png?rlkey=ysws79uqz46an5exninuvwpjk&st=beom1jk2&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/oxy9hb7r1t3twtjf4i6yd/go-forth-garage-thumbnail.png?rlkey=p9ngykfrby5lcog3ek2vo6fmb&st=eg75pm2y&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/la4kp4jayu5hf5aee3ui9/goforth-kitchen-01.png?rlkey=pj8cco0r3vgi4ys424xt21j6a&st=d6gl8cxy&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "6rsqy4dnkl3g4lm4fb151",
-        "title":"Go-Forth Pest Control Staff Character Illustrator",
-        "month": 10,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/6rsqy4dnkl3g4lm4fb151/go-forth-character-02.png?rlkey=jajo0t9jzluai4lun8owqi9jc&st=i384o04m&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/75v07z9joetaj091kcjwt/go-forth-character-04.png?rlkey=riz7hpu8bzmxux19j9k1tfctt&st=euxkamym&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/6rsqy4dnkl3g4lm4fb151/go-forth-character-02.png?rlkey=jajo0t9jzluai4lun8owqi9jc&st=i384o04m&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/trp2bu6brl30qln3rttr8/go-forth-character-01.png?rlkey=mcmog0u7m794kze2d6v7doi3m&st=yc15l5gw&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/5gbv462ecotxutfpynwiy/go-forth-character-03.png?rlkey=1k1pwkc2yki3eqjvv3subgdvd&st=xsls80pu&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/wetp8hc65avrclujlmlu2/go-forth-characters-05.png?rlkey=93kaxpv80iwmja6w8c2r2lddp&st=0gprukcl&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "lc6f7tmsfspp6zdkb1f2z",
-        "title":"Go-Forth Pest Control Tier Icons",
-        "month": 2,
-        "year": 2020,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/lc6f7tmsfspp6zdkb1f2z/_ALL-IN-ONE-01-thumbnail.jpg?rlkey=it2ehihhe4pg5n8udovevxvy7&st=fsq19bhe&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/6qkjhrgx8dbpf9r35ys2s/the-elite-lawn-_-turf.png?rlkey=uax13o19x9rjqhhqjodd9p80w&st=f4ihxnqv&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/8chyvyc2r5zsv89wdwimo/Basic-Turf-01.png?rlkey=81csavp2cklk9jc371uo57gbj&st=2xsdb4pz&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/14rkamszg5f0h4ziavslt/2nd-level-turf-01.png?rlkey=j9s8r7pj5hz33oub114kfl84d&st=ct1a7h7x&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/fauqtvdf0zan6br129qbq/CHRISTMAS-LIGHT-INSTALLATION-01.png?rlkey=h2a4u9vh1gm11ienmvnuj3aks&st=ywcyel7c&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/80g06uxzgfi2mx936tdhi/Commercial-01.png?rlkey=iqi9m77jen00morzhgwdg2ccq&st=lsp72udv&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/0zhcipk0fqhkjfeosin8r/dock-pest-control-01.png?rlkey=743sfzt2tklxh8qbr7ufrlinh&st=6jbo47gy&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/dojh53df3xyrkxhuhd2pp/Elite-plus-01.png?rlkey=3hbunl413klzfro95d43ql72j&st=ob76s4ri&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/u5a9wguprna5xhor65up1/my-elite-r1-02.png?rlkey=nryq8ckj9gtefs0dhumyzhi4m&st=qnxfae1o&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/t3p6m3shucyrfgj7nnlfq/termitewithsentricon-01.png?rlkey=eildk37zgsev8ne4uic7dz7rl&st=z9256cpt&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/uopsxny2qyykbxxbs7rl3/THE-BASICS-03.png?rlkey=q2xmq4jqabaie4gtfmcol26ke&st=0idm4l1e&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "3gkf1d21ayg391zade8wx",
-        "title":"Gluta Hideout Marketing Collaterals",
-        "month": 7,
-        "year": 2019,
-        "website": "",
-        "project_type":["graphics"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/3gkf1d21ayg391zade8wx/4.png?rlkey=6l6vdpzwttx8638gpjwoott93&st=yrkg76z9&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ddrxay4zw3v6svwuympwz/1.jpg?rlkey=2avyx03b8iqpn9hgik37rora8&st=j2g5mtz1&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/toqthsv0tmfo0ptdpe5ek/2.png?rlkey=zvm2e7uyg9ias3x8n18rvepky&st=8fzcmzyd&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/wsuxm5fyxybw2ebtq5e8z/3.png?rlkey=u96wx4tx677vi2n3ltq37crqf&st=8ftcv7d4&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/3gkf1d21ayg391zade8wx/4.png?rlkey=6l6vdpzwttx8638gpjwoott93&st=yrkg76z9&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/a1smd6j5c0myuahch48ml/5.png?rlkey=wup9has0rja9wn5qlrgob8hqg&st=jai1m51q&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop"]
-            }
-        ] 
-    },
-    {
-        "id": "yw40zsbpcweo6z4k1nim2",
-        "title":"Go-Forth Pest Control Animated Pest",
-        "month": 12,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration","video"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/yw40zsbpcweo6z4k1nim2/gfpc-terminte-animate-thumbnail.png?rlkey=qakcq1eukoah1vhfsfso8999v&st=ifbbeb04&dl=0",
-        "others": [
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011565613",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator", "Adobe After Effects"]
-            }
-        ] 
-    },
-    {
-        "id": "8yg6cb3kt6yuffl92tt73",
-        "title":"Go-Forth Pest Control Infographics",
-        "month": 12,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","illustration"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/8yg6cb3kt6yuffl92tt73/thmbnail.png?rlkey=4xnw6pzqusmbexzb91gs6mbi8&st=o5i9gja9&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ner9g1lsb7unwi2lzrmxs/spider-infograpics-01.png?rlkey=y3kvz3zh9d9ezbk0kuspa79xk&st=5qfk80dm&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/zyehqx0l0a5dd1vusabi7/THE-NORTH-CAROLINA-SPIDERS-YOU-MUST-BE-AWARE-01.png?rlkey=jcq604cvx9rww1hvjavqagvzh&st=0r20fu0v&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/m8fpo6hvu41tkgpl1lxb4/fleas-infograph-01.png?rlkey=p0hbzxfg1qxqtr3xg8fqnglcp&st=cyit053h&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ws0r001t5nhkunmp3ehlp/MOSQUITO-INFOGRAPH-04.jpg?rlkey=g79cijrkqg8lan81x2wnr6cjv&st=j2q741ho&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/jm8f5536orli9kl7x1342/PEST-CONTROL-TO-GET-RID-OF-ANTS-01.png?rlkey=k654pgi72ap6x6tw37z73kezt&st=5xmp3p3e&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/lsdvufqbc5wwnz8hlfe6c/SHOULD-I-CLEAN-AFTER-PEST-CONTROL.png?rlkey=0eytdpeavffk95minpgkjs7zy&st=reypjygm&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/n3dzb6izwidfmbstg1mfb/USING-DIATOMACEOUS-EARTH-ON-FLEAS-01.png?rlkey=4e9lfxs3qn7wg8otk98v9wyr2&st=zbw497n1&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "mqnrkblaqg9y1cyk3jhja",
-        "title":"Go-Forth Pest Control Christmas Clips",
-        "month": 11,
-        "year": 2019,
-        "website": "https://www.go-forth.com/",
-        "project_type":["graphics","video"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/mqnrkblaqg9y1cyk3jhja/thumbnail.png?rlkey=17y2zmjdksh3m8dtblearhlcq&st=jpaxyj8b&dl=0",
-        "others": [
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011566434",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011566445",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011566458",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011566465",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011566477",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011566484",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011566500",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "video-vimeo",
-                "url":"https://player.vimeo.com/video/1011566493",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/at3wqzuuo5ovb00zz6mni/5a5a8b8b14d8c4188e0b08e7.png?rlkey=mhu9l27whfzu7y7v3m27fht3v&st=lfq49n0o&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/nl8lkx6g2o3i89bzyyvsp/Cat-PNG-2.png?rlkey=p4vb7anofhc5oubvjeelwltib&st=jpih20yr&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop", "Adobe After Effects"]
-            }
-        ] 
-    },
-    {
-        "id": "gpqa66nhe9ztzp72skze0",
-        "title":"Treppy Character for Intrepid Philippines",
-        "month": 9,
-        "year": 2019,
-        "website": "https://www.intrepid.asia/",
-        "project_type":["graphics","illustration"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/gpqa66nhe9ztzp72skze0/treppy-thumbnail.png?rlkey=1s8tloq0r78j8791a900km42i&st=5ghfndrm&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/wb9ctlhbduknoipdf0qck/1.png?rlkey=desifdo7gh8rjy569ppd6kvff&st=2fspvacp&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/qbwi3cj9udq4df7yhicmr/2.png?rlkey=8tm29s30eptomk9msbzto21ql&st=yvt8yi9s&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "mzkt8ekqu53iis7r6iqb9",
-        "title":"Merderma TH Ecommerce Marketing Banner",
-        "month": 7,
-        "year": 2024,
-        "website": "https://www.lazada.co.th/shop/mederma",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/mzkt8ekqu53iis7r6iqb9/1-7-7-Teasing-Main-Banner.jpg?rlkey=u4619sglskcb1459aoklepa9f&st=vcuvdnii&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ppcpcx7jjf0y9m66ogib2/1-Mothers-Day-Main-Banner-laz.jpg?rlkey=k9u0m6mn3556xc5ct8peje09u&st=m5482go0&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/5l7t7ur6ohcmf9vxutaqs/1-Mothers-Day-Main-Banner.jpg?rlkey=niald6wcvj9m0cy4y8xq9t9vd&st=nof6zszy&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/0d9zplhbgbsjjkdacuwun/1-Payday-Sale-Main-Banner.jpg?rlkey=ctgwa5t0oexdw7crmyjq62qjv&st=rwl22dh6&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop","Adobe Illustrator"]
-            }
-        ] 
-    },
-    {
-        "id": "hdf58cw961sey7pcxrsol",
-        "title":"Merderma TH Ecommerce Marketing Banner",
-        "month": 8,
-        "year": 2024,
-        "website": "https://www.lazada.co.th/shop/mederma",
-        "project_type":["graphics","ecomm"],
-        "description":"",
-        "thumbnail_link": "https://www.dropbox.com/scl/fi/hdf58cw961sey7pcxrsol/1-8-8-Sale-Main-Banner.jpg?rlkey=cq7rc7hdkj6qayg4befgtz3cl&st=7zh6syvx&dl=0",
-        "others": [
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/ois67wtmp9i0mr1jg7ee6/1-8-8-Teasing-Sale-Main-Banner.jpg?rlkey=6qmtw3rzgn6zg6uh5114gbkdj&st=hjebdhg9&dl=0",
-                "title": "",
-                "description":""
-            },
-            {
-                "type": "image",
-                "url":"https://www.dropbox.com/scl/fi/vw7bpi94ymjkli9iblsv6/1-Midmonth-Main-Banner.jpg?rlkey=uklwkvoiuz9gpetrp76whz08p&st=esuemhmd&dl=0",
-                "title": "",
-                "description":""
-            }
-        ],
-        "stacks": [
-            {
-                "name": "Design Tools",
-                "lists": ["Adobe Photoshop","Adobe Illustrator"]
-            }
-        ] 
-    }
+      }
+    ]
+  },
+  {
+    "id": "4e1kof9h0osof1kjpvon5",
+    "title": "Short Client Promotional Videos for Intrepid Asia Philippines",
+    "month": 8,
+    "year": 2019,
+    "website": "https://www.intrepid.asia/",
+    "project_type": ["graphics", "video", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/4e1kof9h0osof1kjpvon5/Intrepid-Promotionals-thumbnail.png?rlkey=iitemmxr24oybbg12qgtuz5dk&st=kuhuwzel&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/fg332215qxcmkc2mbbpdr/Intrepid-Gif-promotions-2019-i2i-my-gif-fin.gif?rlkey=82vrd1ctw34ptamhj5c90fwjn&st=vb9ogivw&dl=0",
+        "title": "i2i New York Sale Promotion",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011264798",
+        "title": "Deuter Sale Promotion",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011264769",
+        "title": "Audio-Technica Sale Promotion",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Frontend",
+        "lists": ["React", "HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "id": "3tdmhhvab0axjc9sbnt73",
+    "title": "Evergreen Butterflies Brand Logo",
+    "month": 7,
+    "year": 2024,
+    "website": "https://evergreenbutterflies.net/",
+    "project_type": ["graphics", "illustration", "ecomm"],
+    "description": "Designed a logo for Evergreen Butterflies that visually represents their brand identity. The logo integrates elements of an green leaf of a tree and a butterfly, symbolizing growth, transformation, and sustainability—key aspects of the company’s mission to deliver innovative tech solutions and business services. This project ran concurrently with the development of their website, ensuring cohesive branding across platforms.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/3tdmhhvab0axjc9sbnt73/03-eb-llogo-streett.png?rlkey=4xi2xfeb98vfj9ekm6myakii0&st=smjuyd74&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ba7ixcp0e7uhqoqblld50/03-eb-llogo-DARK.png?rlkey=9lhtwvwyc0qlgx604exfhzul1&st=7n9m8v1e&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/i2y4t9euh84r4l3o9ij7r/03-eb-llogo-LIGHT.png?rlkey=xaxf5sk6279021g9znug67dev&st=44w56032&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/t4e9tatlxxqcabobt7cv8/03-eb-llogo-ALIGNMENT.png?rlkey=66mn2jqze3s9mbbdsu8z7j6hw&st=673epiew&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/08rrkd2embiupr4fgapmy/03-eb-llogo-broken.png?rlkey=aiwzd22vezn97fonib2cpve93&st=hf2ugy9l&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/23w7rbs7iyuiyjr39cxoc/03-eb-llogo-color.png?rlkey=6i84et8fb7l8ic4dvqeyfsnz8&st=odfgpwu3&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/p93ea3l2duk50ffmtizhy/03-eb-llogo-typeface.png?rlkey=34bsrdxc8msvkghu1s02qqf2m&st=dr8e6hz8&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/20ojrwrp5wo5khdy2o1cx/03-eb-llogo-mockup.png?rlkey=oabljx3k1o1degnwslycyfwls&st=3l5a2rn9&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/v9j4yqmwdcvzmrjrc9frv/03-eb-llogo-signage.png?rlkey=nd4qqp2i9jwiqhrma4u60b7c6&st=fpqvof64&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/xzc0i72wjgyn3d9vytym5/03-eb-logo-subway.png?rlkey=0x6lwei5x9ejfw3w6cwwuldmv&st=544g9hz4&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "uwa8ncyk26apqkhc8x5kj",
+    "title": "Deuter Marketplace Collateral Materials",
+    "month": 5,
+    "year": 2021,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Deuter made a end-to-end partnership with SplitDragon from 2021 to 2023. As part of the Creative team, I create final artworks for store decoration, marketing materials and marketplace product description",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/uwa8ncyk26apqkhc8x5kj/Deuter_logo.png?rlkey=24n49rcc07bdd2onob8tolbuo&st=ve1abprt&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/zd9vhzmcf2gu6wix1ntp0/Deuter-Banner-03-b.jpg?rlkey=k5cukgrk2qoyecymgn4o7uo2b&st=fksmqffa&dl=0",
+        "title": "Marketing Design Examples",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/qbjw7ha6a9jz08aofvfpb/Deuter-Banner-03-a.jpg?rlkey=ydpvpjzgjpwyguswurtpsb619&st=jw74epv5&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0vvbjrujzpwjbiklsjoxm/Deuter-Banner-01-b.jpg?rlkey=mzvzgiis405tqhdec3psfhygv&st=lym76crb&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/jr11ineboss8mbbjynnt8/Deuter-Banner-01-a.jpg?rlkey=bn1ejj8gdxhwzqidkfjhl6i72&st=n6hugzb4&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/mm01ophygqrj36whaypnf/Deuter-SIS-Design.jpg?rlkey=jjoibh1lddoc4387ithfq4llc&st=gznidg66&dl=0",
+        "title": "Deuter Store Decoration for Lazada PH",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/7hlcq37jze0g2mjlmo0cu/Deuter-Aircontact-Lite-35-10-SL.jpg?rlkey=qc40gcl4lnmb6mwl0hl5zt1ww&st=tn1ljrh0&dl=0",
+        "title": "Product Description Template for Deuter in Lazada PH",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "94z31evnsjjq6p5molf2c",
+    "title": "SplitDragon Brand Identity Guide",
+    "month": 4,
+    "year": 2021,
+    "website": "https://www.splitdragon.com/",
+    "project_type": ["graphics"],
+    "description": "Any brand should have a brand identity guideline in order to maintain brand consistency across channels.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/94z31evnsjjq6p5molf2c/SD-Brand-Identity-thumbnail.png?rlkey=f1nubr5iw0gisru0zvba14cv6&st=gh9ovgoo&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/qcx7a1ez7qbr5gos5dqvu/SD-Brand-Identity-1.jpg?rlkey=lrdbxxuiciuj10sw27l00a1u8&st=g0qjn6z0&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/4ypd1yvs4l8z64czwgwbz/SD-Brand-Identity-2.jpg?rlkey=ih9gu10q0tkz818r5mnkglbva&st=rqprlaxp&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/mvwluzahuzbb6oatytaoz/SD-Brand-Identity-3.jpg?rlkey=v1hcg9bk2mrsf718nrmoq5vfb&st=vgsktrk1&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/1obpqtt4l9hy2d4r6h895/SD-Brand-Identity-4.jpg?rlkey=oh782hgd8jsu9t2tfwpkw8tkw&st=ovy7jr43&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/03pgui9zwp9460rhwgmxr/SD-Brand-Identity-5.jpg?rlkey=vc27l4y1lqy865f3lplklz6ci&st=j69x41gu&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/a0ro6cf698w4wzwbi5f8i/SD-Brand-Identity-6.jpg?rlkey=josvnvavbpg24johebvnalhym&st=ndjdgav3&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/hfc0cb2c5dx7dzdtf11fp/SD-Brand-Identity-7.jpg?rlkey=zmndek97pqww1m81svbc5mqms&st=2esyzshg&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/xwov858th1koufsn9t7gb/SD-Brand-Identity-8.jpg?rlkey=c0lveftg1ai5e068850co7pst&st=gmtk3m8v&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0ukmvglrz4ybow4qxzdq6/SD-Brand-Identity-9.jpg?rlkey=a9byegzplkqw04z9tzzcgrgsc&st=8vs39z8n&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/rp7ogv0uisssbj38lala4/SD-Brand-Identity-10.jpg?rlkey=lqdd5veimw37tmvllemgtuv73&st=6at859yu&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/you4cgifpwfwt6etnk71h/SD-Brand-Identity-11.jpg?rlkey=xbuecax3znyvka1dwt5vbs02p&st=q289josg&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/mytymshwbewzxzocg5otp/SD-Brand-Identity-12.jpg?rlkey=l2j0yjhy060bmy4jsain1u57a&st=a5vcfx0w&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/i0tm094lx4b718s9yipdl/SD-Brand-Identity-13.jpg?rlkey=xlwzrgy73bftqzzz44rg89gus&st=cbtru83g&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "3p6uzk6910h4yathyuqhb",
+    "title": "Skinerb by Faralex Product Description Template Design",
+    "month": 10,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "A product description designing for Skinerb by Faralex. This images will be used in Lazada PH",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/3p6uzk6910h4yathyuqhb/skinerb-thumbnail.png?rlkey=cvpxjnjk0rgyjf7unsejz9bl6&st=hl03u0sj&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/eeuoh5txkbp9ppfq7ko35/Vitamin-C-Cream.jpg?rlkey=3f6pr0v8q4bcl12ng2mlqypt8&st=0resl1kf&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/p58xiubg1dpoaw7awllvw/Vitamin-C-Serum.jpg?rlkey=cbsajj2htxbfkxx3tm35k9hs9&st=3knbqvd4&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/86rv6koustwnevigw8qf3/Collagen-Serum.jpg?rlkey=4djijkutfjtak661q9cywraq7&st=hb3evjlh&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/8jla2r2bswbn114yyhsz1/Retinol-Cream.jpg?rlkey=iaf88l9tu3ks2zx9oy839yhyn&st=gruudcbx&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/jic7jad6qyiktpz5k1hds/Rose-Water-Toner.jpg?rlkey=guxeyzbew9vhorz2z7boihtxb&st=i6k3lzwl&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "xa7df90bj6b4671l5fvxt",
+    "title": "AirDeveloppa TH Product Description Template Design",
+    "month": 10,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/xa7df90bj6b4671l5fvxt/airdeveloppa-thumbnail.png?rlkey=nwaidwavc3whh29foc6oltjgt&st=uivfqnh1&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/fqkqngxveriidnh15f04p/AirDeveloppa-Air-Purifier-DIY.jpg?rlkey=l3k7u3re54g2kmdtfzgrz0tpk&st=w5qlxvmg&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "58d6mpo7p1wmr1pxwig4q",
+    "title": "Kellogg's Product Description Template Design",
+    "month": 10,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/58d6mpo7p1wmr1pxwig4q/kellogs-thumbnail.png?rlkey=crvw3xe1qwavf67z3hl2ah9m6&st=amanol38&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/rz3wvjdlqmhqe4gccrcl9/Banana-corn-flakes.jpg?rlkey=ju1b9vod4v21lr23016begk0x&st=u7ykcipm&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "d61oxrcfueeu2zz217kjo",
+    "title": "AmorePacific Product Description Template Design",
+    "month": 10,
+    "year": 2020,
+    "website": "Amorepacific has been in partnership with SplitDragon from 2020 up to present. As part of the Creative team, I create final artworks for their marketplace product description",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/d61oxrcfueeu2zz217kjo/ap-thumbnail.png?rlkey=ced9131ae1mi2vsb04dyqhkfr&st=qz1alu9h&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/dkt4o84lq4n5r9lkqzfld/1-sample-Lip-Sleeping-Mask-Berry-20G-Balm-Lip-Care-Scrub-Lipbalm-100-Authentic.jpg?rlkey=ur3uuxqkmvez49jw1k4zesfn6&st=w4j02ooa&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/97skg08e6hkcznk5oj927/2-Hera-PDP-draft-design.jpg?rlkey=hukz2dud6g5kf2bsjwo8nu2pz&st=f79jnhwa&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/azo362tu3ifhstlgyyqfq/3-Laneige-Water-Bank-Hydro-Cream-EX-50ml.jpg?rlkey=lao4h633efu44dx5v5nll610j&st=vi2ditzf&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/dcxv2hjd47bhrlpkgu2ny/4-Sleeping-mask.png?rlkey=7qbjjifqz7o0cll25t0pqar9z&st=xvnkvphe&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/tp2t9al9cvrf8yyvd5yqt/5-sample-Mamonde-Pore-Clean-Blackhead-Stick-18g.jpg?rlkey=vg2azdu1ydkf3ors41wtiqdkn&st=pio7tl5r&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "uskv9zsxqodfw6cy9a9pw",
+    "title": "SplitDragon Infographic Illustration",
+    "month": 8,
+    "year": 2020,
+    "website": "https://www.splitdragon.com/",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Infographic Illustrations made for promotion of SplitDragon's IP Protection and Market Research",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/uskv9zsxqodfw6cy9a9pw/SD-infograph-thumbnail.png?rlkey=f7g9i8m7t808rre3xv6biourk&st=3n0d98w0&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/cddb9386cyppbki0vojzn/market-research.jpg?rlkey=blp4jpvr5s6qnzkhc63psmvpn&st=w8m3a4ax&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ty0lqlpxie4cajex92xdi/Illustrations-for-IP-Protection-2-v2.jpg?rlkey=90s8584aajgftzp3ir39o2mwz&st=xtngu818&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "md68ik3mlay9dw1jnv0h6",
+    "title": "Hyrem My Store Decoration",
+    "month": 11,
+    "year": 2020,
+    "website": "https://www.lazada.com.my/shop/hyrem",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Hyrem is an iconic brand in the market that emphasizes beautiful historical’s art and design,carrying unique products that reflect the symbols of luxury and elegance yet affordable. Planning to expand their place to sell in Lazada MY, I design their store page to present their historical beauty and uniqueness to Lazada buyers.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/md68ik3mlay9dw1jnv0h6/hyrem-thuimbnail.png?rlkey=cwxz3xkc46zyla9tbvipeqjgx&st=ecm5ohyd&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/hmhnri4d3dlj08dkwhu7c/Hyrem-Laz-SIS-PC.jpg?rlkey=3q5ustlx5c1o1uqqt7j2iiwqt&st=e8w7yf4z&dl=0",
+        "title": "Store Design",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/x7ni9w03kacnku1a4h9es/carousels.jpg?rlkey=pl56snrx1vr8hxcrdl7f9kwon&st=zw80q4wx&dl=0",
+        "title": "Category Banners",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "99i3vtnab4r36ja0nb29p",
+    "title": "Shell Pilipinas Store and Product Description Design",
+    "month": 8,
+    "year": 2021,
+    "description": "Partnership with SplitDragon on 2021, I created their store design for both Lazada PH and Shopee PH, together with the product description template for the team to use.",
+    "project_type": ["graphics", "ecomm"],
+    "website": "https://www.lazada.com.ph/shop/shell",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/99i3vtnab4r36ja0nb29p/shell-thumbnail.png?rlkey=i51cn1y71nt4pc03soht27qy6&st=50oyuc6w&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/x6zptb4iz4xavth0mgpnl/Lorikeet_v2_2_Gas_Diesel_Car.jpg?rlkey=56xrla7qc0uv3irrtq5rp1w1n&st=gmbqkj2v&dl=0",
+        "title": "Product Description",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/5dbn0kqp12kkj1ca4lfc8/Lorikeet_v2_2_Motor.jpg?rlkey=sdeywv8macxpc5zetm5z8enby&st=0s2rocjo&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0i7zpk2lg4nmirtn8np8g/Lorikeet_v2_2_Scooter.jpg?rlkey=y9velr2xkugdmxpkcj8te8ju8&st=55zgzs55&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/qv65yksptf8v4pcnnhkxc/pc-mockup-main-2.jpg?rlkey=b0b4suwpdcisnvj3hbfixdgaf&st=yxe8mhuo&dl=0",
+        "title": "Store Design",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/u93lvby86nd235eh6tige/pc-mockup-shopee.png?rlkey=yz3o9ko1qyracd96vscdt5k2s&st=xccrkcjf&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "6tdzwcisj09sle4i2gd2q",
+    "title": "Durex Product Description Template Design",
+    "month": 7,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/6tdzwcisj09sle4i2gd2q/durex-thumbnail.png?rlkey=78fgv1fq5vb23a4pe95cxqd6q&st=5s3wls25&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/6tdzwcisj09sle4i2gd2q/durex-thumbnail.png?rlkey=78fgv1fq5vb23a4pe95cxqd6q&st=9ria7cpe&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "7cjbua7mxhpi0kfboa0cc",
+    "title": "Enfagrow A+ Product Description Template Design",
+    "month": 7,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/7cjbua7mxhpi0kfboa0cc/enfgrow-thumbnail.png?rlkey=fihqj32fv1d9d7dozxucflmym&st=jvqk3zx4&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/obe9dndir2nlo1113gdwi/Enfagrow-A-Three-Milk-Supplement-Powder-for-1-3-Years-Old-900g.jpg?rlkey=dj3m4e232m14vbv4uoqah6gy6&st=zwhrcw3j&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "v4aom9sef7krih55pmb6k",
+    "title": "LG Product Description Template Design",
+    "month": 3,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/v4aom9sef7krih55pmb6k/lg-thumbnail.png?rlkey=2wsjhgwcy0x4a1tsuxqduwvak&st=1m1psbet&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ucmfjupppas2luq91mvg0/MY-_LG-454L-Platinum-Silver-Bottom-Freezer-with-Inverter_Lorikeet.jpg?rlkey=wg0shd9e46f3ph5vemsqnnwrq&st=48yn6opj&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/vd5ydw8ew911xghrg82r9/PH-_TurboWash-3D-Top-Load-Washing-Machine-with-Smart-Wi-Fi_Lorikeet.jpg?rlkey=qf3i6j1ozg126y51y352537ys&st=4sxr9khf&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "vrpicdqvmadx6j2rda3w0",
+    "title": "Origins Product Description Template Design",
+    "month": 8,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/vrpicdqvmadx6j2rda3w0/origins-thumbnail.avif?rlkey=eraa5ot1f9s60qpg7ara2drdn&st=v7v6ztkm&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/8etfu0szl1b8qdph3sox8/Mega-Mushroom-Relief-Resilience-Advanced-Face-Serum.jpg?rlkey=vf2ap1atr0kwt91z20syufdf7&st=xcliit7g&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "4v79skrectm6ff6as9ds3",
+    "title": "Popsocket Store Design Template",
+    "month": 10,
+    "year": 2021,
+    "website": "https://www.lazada.com.ph/shop/popsockets/",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Popsocket has been with SplitDragon from 2021, to promote and expand their products to Lazada Marketplace in South East Asia. I created there store decoration template to be used by the creative team until today.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/4v79skrectm6ff6as9ds3/popsocket-thumbnail.png?rlkey=80rour8iyweknu8og53o9j7sl&st=om8fsstf&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/parniwwzvm7hyy1utv8t6/mockup-C.jpg?rlkey=ibh57j1ke9ncyfqh71hpadm5b&st=i61kl85s&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "beix0fkk3oc3y7pgouzs8",
+    "title": "Spider Holster Store Design",
+    "month": 11,
+    "year": 2019,
+    "website": "https://www.lazada.sg/shop/spider-holster/?path=index.htm",
+    "project_type": ["graphics", "uiux", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/beix0fkk3oc3y7pgouzs8/spiderholster-thumbnail.png?rlkey=48ehjygyjdjlby6f9xonuq6zs&st=hqw6gx8k&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/by9vqe04muydreika9tyu/Spider-Holster-Laz-SIS-PC.jpg?rlkey=apt13kzw24tz3yh4yqo2a3que&st=gidw9j46&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "4qvo3brfswztudog4ttcz",
+    "title": "Unique Time Store Design",
+    "month": 11,
+    "year": 2019,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/4qvo3brfswztudog4ttcz/uniquetime-thumbnail.png?rlkey=6up3r64xr34m0xh12j3bcdg6u&st=hr8pmwvq&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/rkfztj0brdunr8waztp9x/pc-mockup.jpg?rlkey=3pjs4h5egm1qiyrrb7pm4ktsl&st=zqpi2qer&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/bbuw9sxmchon67kqz3pkj/Rujuvenate-Antioxidantn-Infused-Shots.jpg?rlkey=527wzm9nxzc27jsq0bgnzu94l&st=n7uhscsd&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "9jkqcp06vcqn4xwfxg3rr",
+    "title": "Yves Rocher Product Description Template Design",
+    "month": 8,
+    "year": 2020,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/9jkqcp06vcqn4xwfxg3rr/Yves-rocher-thumbnail.png?rlkey=3ezrq6hmbexlcttui7bylt3zx&st=1qjbj6l3&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/zejfnl8k8f3sums5rzeac/Energizing-Pomegranate-Pink-Berries-Shower-Gel.jpg?rlkey=ezrrsotbcybwikdu6m06r34gf&st=lluee13v&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "w9n7khjpy3ze6i4aqhkfy",
+    "title": "Zerowater TH Collateral Material Templates",
+    "month": 7,
+    "year": 2020,
+    "website": "https://www.lazada.co.th/shop/zerowater-thailand",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Zerowater TH has been with SplitDragon from 2020, in need to improve their sales in Lazada and Shopee marketplace. I created their templates for their campaign materials and product descriptions, as well created a store design for their marketplace store.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/w9n7khjpy3ze6i4aqhkfy/ZeroWater-Thailand-4.jpg?rlkey=k09wnz2pjm0vsnjq58av1pdkz&st=82fd5oat&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/84guljxquzeajpaw2omk4/special-offer-TH.jpg?rlkey=lnxg8i2k51ohgb20jz3l8kc3h&st=b24jfb7k&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/sjc61t23hh9g7rkrsvwnq/PC-MOCKUP.jpg?rlkey=37vgef8ywttpox8eoipcobqfn&st=uykzxr63&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/9uw48tgzureqzdgvgrclw/Zero-Water-Filter-Jug-2.8L.jpg?rlkey=38b0iaich6e1naa94681m8ief&st=h3ps8b8x&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/d0fzrwtjkx1jzaoa8r5jj/Zero-Water-Filter-Jug-5.4L.jpg?rlkey=e78e5aeb6c52wp2tjm4uaqv45&st=6jebpz65&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "uo8601nyn2xz0979ktcli",
+    "title": "Livestream Process Video for Intrepid Asia Philippines",
+    "month": 7,
+    "year": 2019,
+    "website": "https://www.intrepid.asia/",
+    "project_type": ["graphics", "video", "ecomm"],
+    "description": "On 2019, Intrepid PHilippines started on offering livestream as part of ther services. As Livestream Manager, I created an short video on how our livestream process will work.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/uo8601nyn2xz0979ktcli/intrepid-livestream-video-thumbnail.png?rlkey=melnu09z18j0bcucx0mn7a602&st=4trbrl7b&dl=0",
+    "others": [
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011532595",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe After Effects", "Adobe Illustrator", "Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "669i96an5v9nakq3ye9z2",
+    "title": "Go-Forth Christmas Decor Service Teaser",
+    "month": 12,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/669i96an5v9nakq3ye9z2/gfpc-xmas-decor-anim-thumbnail.png?rlkey=a6kihsj2fq5grihj06qf2177p&st=14di8dqn&dl=0",
+    "others": [
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011552881",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe After Effects", "Adobe Illustrator", "Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "5g9q3kzx2uffgi87bnf4g",
+    "title": "3D Low Poly Character Project",
+    "month": 4,
+    "year": 2014,
+    "website": "",
+    "project_type": ["graphics", "3d"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/5g9q3kzx2uffgi87bnf4g/3.png?rlkey=ji6z66g8th0gj07fd402kbghb&st=3y1z5hc4&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/wejk5b4puwktw0y3jyvtw/1.png?rlkey=t2gjxm3ijh0xyrhry5d7txzwu&st=ygx1w01x&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ief60assg7pq71ehlh8op/0.png?rlkey=te869z94fppqb51dtpj89j1xc&st=3v5p3n8o&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/hlgnqa7sh34w92jc31dwj/2.png?rlkey=evc6mm37e2ax40nhmwgltxw76&st=i3428k3g&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/uer214ssj2mhbpkl3z8d2/4.png?rlkey=9atg51w7iowrk1z9fwfix77m3&st=f6v01157&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Blender"]
+      }
+    ]
+  },
+  {
+    "id": "b321bszrl8kjzg6gcbrjs",
+    "title": "DSNY New York Summer Sale Banner",
+    "month": 5,
+    "year": 2019,
+    "website": "",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/b321bszrl8kjzg6gcbrjs/DSNY-THUMBNAIL.png?rlkey=4q2okhlfcqq02t43in5p0nxp2&st=dlwtlpy5&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/eonxboivh66g99u13xgl6/15fc1c80658287.5ce735f2e2efd.jpg?rlkey=6od9ihwffzrhsxgoh0xn68c4u&st=r15dl0c3&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "np19weokjv878fnxyehzy",
+    "title": "Duty Free Mactan Display Modules",
+    "month": 3,
+    "year": 2016,
+    "website": "",
+    "project_type": ["graphics", "3d"],
+    "description": "M3D Construction Format is the distrubutor for Duty Free's modular shelves for their outlets. These are the gondola and shelf module designs made for Duty Free Mactan.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/np19weokjv878fnxyehzy/1.png?rlkey=c489hbfnrv6xb1npb57euyh1a&st=cw4gjnqn&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/gp2mvl5uh1f7ec9f6re4a/2.png?rlkey=i4963cbo2jfnqqnvik2o2xg29&st=7tftxqvo&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/2j0szjaj9y9hqpy4gnxcd/3.png?rlkey=ygx1ztpwilqgfe7fzytekeiqr&st=mb1ab5sa&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/1toxw1muom1o0hp5ufhyk/4.png?rlkey=sk4xxo76ymc86mbk11hhtnbp7&st=be7hc9so&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/i6zc0df5ublwi2m04dwxg/5.png?rlkey=triudaaltxvhpl8xv8x5n9u3q&st=msqnckho&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/5cea8bkzofdx2cw2x89ag/6.png?rlkey=5zxzzjkcfuqt5cr4pvxkykiis&st=1w2qgasi&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/9dy3ouzkq6j6u06zsc2py/7.png?rlkey=eko0pxxw8oha3g89xvyh88teq&st=e4and4pt&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/alvmx66idv9bq74gfwrqd/8.png?rlkey=9dhf167o1j3s343lgdr9p4lzf&st=ts5c39zg&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/lox5yh9serm92gvrrj365/9.png?rlkey=tfc9omthfrgz07d3da1pb2uvr&st=pnonuqmv&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/1v4v76pbze5pf4frpbu5x/10.png?rlkey=5x37e285qexmjg3hdgu0wkf8o&st=a2a9shio&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Blender"]
+      }
+    ]
+  },
+  {
+    "id": "7vglhm6734p3b5z9p0bku",
+    "title": "Food Kiosk - 3D Design Project",
+    "month": 6,
+    "year": 2019,
+    "website": "",
+    "project_type": ["graphics", "3d"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/7vglhm6734p3b5z9p0bku/thumbnail.png?rlkey=uma3spip6es15zh3h5gy5d01l&st=na66emwn&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/rk8pubsg9t5vax5n5ydsm/shake-shop-2.png?rlkey=2h8ljn7zfoa9krx9v8m3dvkk4&st=uakuor1r&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/2wg9g1wvk0cbufw399f4o/shake-shop-1.png?rlkey=xeur3221eubje24cuw6i99or6&st=59oh2qyy&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/efimoosues9yffqt0cm78/shake-shop-3.png?rlkey=wbqcpdqk6med44lxysrp3gv45&st=6tez8q20&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/zivm9k3ebzl3j3jq8rji4/shake-shop-4.png?rlkey=kt6aaldj0by8ic0avacwse7vs&st=cko105r4&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Blender"]
+      }
+    ]
+  },
+  {
+    "id": "1q2gltl697fqh3pgz6t3k",
+    "title": "Go-Forth Pest Control Logo Redesign",
+    "month": 11,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration"],
+    "description": "With the ever improving services of Go-Forth Pest Control, also comes the redesign of their logo from a 2D style into a 3D logo",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/1q2gltl697fqh3pgz6t3k/new-logo.png?rlkey=y2g7o5yl09cntc40anpmn8rof&st=exn4v61i&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/tjf2cc8tmn5lgkaj9nyf8/old-logo.png?rlkey=cszhwelzgb00s6ihsgxtptnk5&st=txmhw1ak&dl=0",
+        "title": "Old Design",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/1q2gltl697fqh3pgz6t3k/new-logo.png?rlkey=y2g7o5yl09cntc40anpmn8rof&st=exn4v61i&dl=0",
+        "title": "New Design",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "pg7q9lk9k0xsfvx1fqaaj",
+    "title": "Go-Forth Pest Control Pest Characters",
+    "month": 9,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration"],
+    "description": "Go-Forth Pest Control wants to emphasize how pests can harm ourselves and destroy our homes. I made illustrations of some of the pests with weapons that Go-Forth Pest Controls deal with.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/pg7q9lk9k0xsfvx1fqaaj/go-forth-hornet.png?rlkey=whzqqrl2q66mn4z2z8dgxj2ly&st=q0ciwt58&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/5sd53epggm0sunkij77ks/go-forth-bed-bug-01-thumbnail.png?rlkey=ygpgdtjamwx8u03qcygie2atv&st=e171qnef&dl=0",
+        "title": "Stabby the Bed Bug",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/krt9uqufc9ih7fypxnns2/go-forth-flea.png?rlkey=1aouqakvkggihf98uzeunlkwk&st=ml2su8c6&dl=0",
+        "title": "Scratchea the Flea",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/6091yyv7lxb0wtd7bntf6/go-forth-fly.png?rlkey=mf48f8u84zwewjxs1jb4og97f&st=5d6x1in4&dl=0",
+        "title": "Pocky the Fly",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/pg7q9lk9k0xsfvx1fqaaj/go-forth-hornet.png?rlkey=whzqqrl2q66mn4z2z8dgxj2ly&st=bvy9hcve&dl=0",
+        "title": "Blademaster of the Hornets",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/kghvn1msn52ooyps5ddo8/go-forth-mosquito.png?rlkey=x8hew1lnxpp39y1mvkvpmok9i&st=gxmgwmd7&dl=0",
+        "title": "Spearro the Mosquito",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/gtym13ekpve4noyd3z3lg/go-forth-roach.png?rlkey=be4wectx8jxt4uf83o49hz1qd&st=02krdbkh&dl=0",
+        "title": "Agio the lurking Cockroach",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/o24dd3n7zcq6ufmz4ph7g/go-forth-spider.png?rlkey=kfuwlss33vdvgkqdpw5eq7oml&st=iyah63q4&dl=0",
+        "title": "Brody the punching Spider",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/zl57l3j4uny5uo5l7tivw/go-forth-termite.png?rlkey=jkahi8yafsvpujqf6g4oermbg&st=80uxqhfw&dl=0",
+        "title": "Jack the Termite",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/gvuk2l7npi2k82orr5ejc/go-forth-tick.png?rlkey=7daq3ehkej36t9fcka3uve4s8&st=me6is70i&dl=0",
+        "title": "Diggy von Tick",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/wchjmuau0hsodh69wb8e3/go-forth-wasp.png?rlkey=c7ykudb1f1zmcyx5p9x8hukwd&st=f3lvl16h&dl=0",
+        "title": "Wally the Wasp assassin",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "0jhdyt63pd6mkb195jst4",
+    "title": "Go-Forth Pest Control Pest Info Illustration",
+    "month": 11,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration"],
+    "description": "With regards to pest information, Go-Forth Pest Control made some list on the pests traits and weaknesses. With me on the team, I made some appealing pest information design that looks like character selections in a game which brings informationt to the viewers with a feels of a game.",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/0jhdyt63pd6mkb195jst4/go-forth-pest-info-1-05.png?rlkey=5693arkichog3t90gfsbodgoa&st=q7j7vl1z&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/c74rgxtpma2ontixgl9aa/go-forth-pest-info-1-01.png?rlkey=gnkp8uccm1ivj82nyn54cgj1k&st=hzq0ripq&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0h35s28b6sz22k5g0tbt6/go-forth-pest-info-1-02.png?rlkey=7r37ychw39gl4jkbf4g4xrf97&st=1utaj9ni&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/94pce2ddsultir2aqpeay/go-forth-pest-info-1-03.png?rlkey=yhwac75fsps8ujk9ddtv05ti6&st=q92e3893&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/154k3c1fa4e2nah4dp77p/go-forth-pest-info-1-04.png?rlkey=w9khkbhqt29ve3ysp3sda7ehi&st=33scxkfn&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0jhdyt63pd6mkb195jst4/go-forth-pest-info-1-05.png?rlkey=5693arkichog3t90gfsbodgoa&st=xkko74uu&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ryqcoqdmbwb7kskcfa08i/go-forth-pest-info-1-06.png?rlkey=enpx97ogvnuc8b1zfk63w2pf8&st=6e20qh9z&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/gsahyqtpz91bpjxgkrvf9/go-forth-pest-info-1-07.png?rlkey=xbv5ygwbwnkuzk5tffeiqld3t&st=8eo5b54b&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/t8cqz1p7rbktqmq3f8s49/go-forth-pest-info-1-08.png?rlkey=iz2jb5u324qq3yreq5rwgfw5r&st=jba8njv6&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "oxy9hb7r1t3twtjf4i6yd",
+    "title": "Go-Forth Pest Control Pest Location Illustrator",
+    "month": 9,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/oxy9hb7r1t3twtjf4i6yd/go-forth-garage-thumbnail.png?rlkey=p9ngykfrby5lcog3ek2vo6fmb&st=s3biu6t9&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/iw5bdp9ec1d2r2j0jcyxk/go-forth-attic.png?rlkey=y0dslgsw1uyl7lnxmgculzfrt&st=szm9adzb&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/yyyqd7a1h47g2ixe0138r/go-forth-basement-background-01.png?rlkey=w48yntxbskdn9lga9qydv1z1k&st=xv6rg5fd&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/i5dw1ma7ks8dddu5gxqgi/go-forth-bedroom-01.png?rlkey=yis8atyqrace4isc4z7qadaiq&st=ja8ox68o&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/649oncq8nc74ut3jao82k/go-forth-comfort-room.png?rlkey=7iqmxzcop7x3p9qkcq1ykex7r&st=o7esrozj&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/57fvtwk5gla1srbgubvep/go-forth-dining.png?rlkey=ysws79uqz46an5exninuvwpjk&st=beom1jk2&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/oxy9hb7r1t3twtjf4i6yd/go-forth-garage-thumbnail.png?rlkey=p9ngykfrby5lcog3ek2vo6fmb&st=eg75pm2y&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/la4kp4jayu5hf5aee3ui9/goforth-kitchen-01.png?rlkey=pj8cco0r3vgi4ys424xt21j6a&st=d6gl8cxy&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "6rsqy4dnkl3g4lm4fb151",
+    "title": "Go-Forth Pest Control Staff Character Illustrator",
+    "month": 10,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/6rsqy4dnkl3g4lm4fb151/go-forth-character-02.png?rlkey=jajo0t9jzluai4lun8owqi9jc&st=i384o04m&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/75v07z9joetaj091kcjwt/go-forth-character-04.png?rlkey=riz7hpu8bzmxux19j9k1tfctt&st=euxkamym&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/6rsqy4dnkl3g4lm4fb151/go-forth-character-02.png?rlkey=jajo0t9jzluai4lun8owqi9jc&st=i384o04m&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/trp2bu6brl30qln3rttr8/go-forth-character-01.png?rlkey=mcmog0u7m794kze2d6v7doi3m&st=yc15l5gw&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/5gbv462ecotxutfpynwiy/go-forth-character-03.png?rlkey=1k1pwkc2yki3eqjvv3subgdvd&st=xsls80pu&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/wetp8hc65avrclujlmlu2/go-forth-characters-05.png?rlkey=93kaxpv80iwmja6w8c2r2lddp&st=0gprukcl&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "lc6f7tmsfspp6zdkb1f2z",
+    "title": "Go-Forth Pest Control Tier Icons",
+    "month": 2,
+    "year": 2020,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/lc6f7tmsfspp6zdkb1f2z/_ALL-IN-ONE-01-thumbnail.jpg?rlkey=it2ehihhe4pg5n8udovevxvy7&st=fsq19bhe&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/6qkjhrgx8dbpf9r35ys2s/the-elite-lawn-_-turf.png?rlkey=uax13o19x9rjqhhqjodd9p80w&st=f4ihxnqv&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/8chyvyc2r5zsv89wdwimo/Basic-Turf-01.png?rlkey=81csavp2cklk9jc371uo57gbj&st=2xsdb4pz&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/14rkamszg5f0h4ziavslt/2nd-level-turf-01.png?rlkey=j9s8r7pj5hz33oub114kfl84d&st=ct1a7h7x&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/fauqtvdf0zan6br129qbq/CHRISTMAS-LIGHT-INSTALLATION-01.png?rlkey=h2a4u9vh1gm11ienmvnuj3aks&st=ywcyel7c&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/80g06uxzgfi2mx936tdhi/Commercial-01.png?rlkey=iqi9m77jen00morzhgwdg2ccq&st=lsp72udv&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0zhcipk0fqhkjfeosin8r/dock-pest-control-01.png?rlkey=743sfzt2tklxh8qbr7ufrlinh&st=6jbo47gy&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/dojh53df3xyrkxhuhd2pp/Elite-plus-01.png?rlkey=3hbunl413klzfro95d43ql72j&st=ob76s4ri&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/u5a9wguprna5xhor65up1/my-elite-r1-02.png?rlkey=nryq8ckj9gtefs0dhumyzhi4m&st=qnxfae1o&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/t3p6m3shucyrfgj7nnlfq/termitewithsentricon-01.png?rlkey=eildk37zgsev8ne4uic7dz7rl&st=z9256cpt&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/uopsxny2qyykbxxbs7rl3/THE-BASICS-03.png?rlkey=q2xmq4jqabaie4gtfmcol26ke&st=0idm4l1e&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "3gkf1d21ayg391zade8wx",
+    "title": "Gluta Hideout Marketing Collaterals",
+    "month": 7,
+    "year": 2019,
+    "website": "",
+    "project_type": ["graphics"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/3gkf1d21ayg391zade8wx/4.png?rlkey=6l6vdpzwttx8638gpjwoott93&st=yrkg76z9&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ddrxay4zw3v6svwuympwz/1.jpg?rlkey=2avyx03b8iqpn9hgik37rora8&st=j2g5mtz1&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/toqthsv0tmfo0ptdpe5ek/2.png?rlkey=zvm2e7uyg9ias3x8n18rvepky&st=8fzcmzyd&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/wsuxm5fyxybw2ebtq5e8z/3.png?rlkey=u96wx4tx677vi2n3ltq37crqf&st=8ftcv7d4&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/3gkf1d21ayg391zade8wx/4.png?rlkey=6l6vdpzwttx8638gpjwoott93&st=yrkg76z9&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/a1smd6j5c0myuahch48ml/5.png?rlkey=wup9has0rja9wn5qlrgob8hqg&st=jai1m51q&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop"]
+      }
+    ]
+  },
+  {
+    "id": "yw40zsbpcweo6z4k1nim2",
+    "title": "Go-Forth Pest Control Animated Pest",
+    "month": 12,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration", "video"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/yw40zsbpcweo6z4k1nim2/gfpc-terminte-animate-thumbnail.png?rlkey=qakcq1eukoah1vhfsfso8999v&st=ifbbeb04&dl=0",
+    "others": [
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011565613",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator", "Adobe After Effects"]
+      }
+    ]
+  },
+  {
+    "id": "8yg6cb3kt6yuffl92tt73",
+    "title": "Go-Forth Pest Control Infographics",
+    "month": 12,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "illustration"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/8yg6cb3kt6yuffl92tt73/thmbnail.png?rlkey=4xnw6pzqusmbexzb91gs6mbi8&st=o5i9gja9&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ner9g1lsb7unwi2lzrmxs/spider-infograpics-01.png?rlkey=y3kvz3zh9d9ezbk0kuspa79xk&st=5qfk80dm&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/zyehqx0l0a5dd1vusabi7/THE-NORTH-CAROLINA-SPIDERS-YOU-MUST-BE-AWARE-01.png?rlkey=jcq604cvx9rww1hvjavqagvzh&st=0r20fu0v&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/m8fpo6hvu41tkgpl1lxb4/fleas-infograph-01.png?rlkey=p0hbzxfg1qxqtr3xg8fqnglcp&st=cyit053h&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ws0r001t5nhkunmp3ehlp/MOSQUITO-INFOGRAPH-04.jpg?rlkey=g79cijrkqg8lan81x2wnr6cjv&st=j2q741ho&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/jm8f5536orli9kl7x1342/PEST-CONTROL-TO-GET-RID-OF-ANTS-01.png?rlkey=k654pgi72ap6x6tw37z73kezt&st=5xmp3p3e&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/lsdvufqbc5wwnz8hlfe6c/SHOULD-I-CLEAN-AFTER-PEST-CONTROL.png?rlkey=0eytdpeavffk95minpgkjs7zy&st=reypjygm&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/n3dzb6izwidfmbstg1mfb/USING-DIATOMACEOUS-EARTH-ON-FLEAS-01.png?rlkey=4e9lfxs3qn7wg8otk98v9wyr2&st=zbw497n1&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "mqnrkblaqg9y1cyk3jhja",
+    "title": "Go-Forth Pest Control Christmas Clips",
+    "month": 11,
+    "year": 2019,
+    "website": "https://www.go-forth.com/",
+    "project_type": ["graphics", "video"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/mqnrkblaqg9y1cyk3jhja/thumbnail.png?rlkey=17y2zmjdksh3m8dtblearhlcq&st=jpaxyj8b&dl=0",
+    "others": [
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011566434",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011566445",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011566458",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011566465",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011566477",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011566484",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011566500",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "video-vimeo",
+        "url": "https://player.vimeo.com/video/1011566493",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/at3wqzuuo5ovb00zz6mni/5a5a8b8b14d8c4188e0b08e7.png?rlkey=mhu9l27whfzu7y7v3m27fht3v&st=lfq49n0o&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/nl8lkx6g2o3i89bzyyvsp/Cat-PNG-2.png?rlkey=p4vb7anofhc5oubvjeelwltib&st=jpih20yr&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe After Effects"]
+      }
+    ]
+  },
+  {
+    "id": "gpqa66nhe9ztzp72skze0",
+    "title": "Treppy Character for Intrepid Philippines",
+    "month": 9,
+    "year": 2019,
+    "website": "https://www.intrepid.asia/",
+    "project_type": ["graphics", "illustration"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/gpqa66nhe9ztzp72skze0/treppy-thumbnail.png?rlkey=1s8tloq0r78j8791a900km42i&st=5ghfndrm&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/wb9ctlhbduknoipdf0qck/1.png?rlkey=desifdo7gh8rjy569ppd6kvff&st=2fspvacp&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/qbwi3cj9udq4df7yhicmr/2.png?rlkey=8tm29s30eptomk9msbzto21ql&st=yvt8yi9s&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "mzkt8ekqu53iis7r6iqb9",
+    "title": "Merderma TH Ecommerce Marketing Banner",
+    "month": 7,
+    "year": 2024,
+    "website": "https://www.lazada.co.th/shop/mederma",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/mzkt8ekqu53iis7r6iqb9/1-7-7-Teasing-Main-Banner.jpg?rlkey=u4619sglskcb1459aoklepa9f&st=vcuvdnii&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ppcpcx7jjf0y9m66ogib2/1-Mothers-Day-Main-Banner-laz.jpg?rlkey=k9u0m6mn3556xc5ct8peje09u&st=m5482go0&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/5l7t7ur6ohcmf9vxutaqs/1-Mothers-Day-Main-Banner.jpg?rlkey=niald6wcvj9m0cy4y8xq9t9vd&st=nof6zszy&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0d9zplhbgbsjjkdacuwun/1-Payday-Sale-Main-Banner.jpg?rlkey=ctgwa5t0oexdw7crmyjq62qjv&st=rwl22dh6&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator"]
+      }
+    ]
+  },
+  {
+    "id": "hdf58cw961sey7pcxrsol",
+    "title": "Merderma TH Ecommerce Marketing Banner",
+    "month": 8,
+    "year": 2024,
+    "website": "https://www.lazada.co.th/shop/mederma",
+    "project_type": ["graphics", "ecomm"],
+    "description": "",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/hdf58cw961sey7pcxrsol/1-8-8-Sale-Main-Banner.jpg?rlkey=cq7rc7hdkj6qayg4befgtz3cl&st=7zh6syvx&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ois67wtmp9i0mr1jg7ee6/1-8-8-Teasing-Sale-Main-Banner.jpg?rlkey=6qmtw3rzgn6zg6uh5114gbkdj&st=hjebdhg9&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/vw7bpi94ymjkli9iblsv6/1-Midmonth-Main-Banner.jpg?rlkey=uklwkvoiuz9gpetrp76whz08p&st=esuemhmd&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator"]
+      }
+    ]
+  }
 ]
