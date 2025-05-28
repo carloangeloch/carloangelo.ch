@@ -7,6 +7,7 @@ import { dropboxConverter } from "../../utils/dropboxConverter";
 import { textTyping } from "../../utils/textTyping";
 import worksData from "../../data/works_data.json";
 import { motion } from "framer-motion";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Home = () => {
   const appContext = useContext(AppContext);
@@ -74,11 +75,11 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="bg-b p-3 xl:px-20 xl:pt-20 flex flex-wrap text-color-a"
+        className="bg-b p-3 xl:p-20 flex flex-wrap text-color-a"
         id="about-me-section"
       >
-        <div id="about-me-left" className="w-full md:w-2/3">
-          <div className="flex flex-col gap-y-1 mr-auto md:mr-10 p-4 text-center md:text-left">
+        <div id="about-me-left" className="w-full lg:w-2/3">
+          <div className="flex flex-col gap-y-1 mr-auto lg:mr-10 p-4 text-center lg:text-left">
             <strong className="text-4xl mb-3">About Me</strong>
             <span>
               I'm a passionate designer and developer focused on creating
@@ -90,12 +91,15 @@ const Home = () => {
               clean code.
             </span>
             <a href="/about" className="pt-5">
-              <span>More about me -&gt;</span>
+              <div className="flex items-center gap-x-2 ">
+                <div>More about me</div>
+                <FaArrowRightLong className="w-5" />
+              </div>
             </a>
           </div>
         </div>
-        <div id="about-me-right" className="w-full md:w-1/3">
-          <div className="flex flex-col gap-y-1 mr-auto md:mr-10 p-4 text-center md:text-left bg-white rounded-md shadow-md">
+        <div id="about-me-right" className="w-full lg:w-1/3">
+          <div className="flex flex-col gap-y-1 mr-auto lg:mr-10 p-4 text-center lg:text-left bg-white rounded-md shadow-md">
             <strong className="text-4xl mb-3">Core Skills</strong>
             <div>Full Stack Development</div>
             <div>Ecommerce and Marketing Design</div>
@@ -104,10 +108,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div id="featured-projects" className="w-full">
+      <div id="featured-projects" className="w-full bg-color-d p-10">
         <div
           id="featured-projects-title"
-          className="w-full text-center flex flex-col p-8"
+          className="w-full text-center flex flex-col p-8 text-color-a"
         >
           <strong className="text-4xl">FEATURED PROJECTS</strong>
           <span>Explore some of my recent work</span>
@@ -122,6 +126,7 @@ const Home = () => {
                 <motion.div
                   initial={"initial"}
                   whileHover={"hovered"}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
                   className="card bg-base-100 w-96 shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out"
                   key={work.id}
                 >
@@ -151,6 +156,21 @@ const Home = () => {
               )
           )}
         </div>
+      </div>
+      <div
+        id="contact-me"
+        className="w-full p-10 flex flex-col items-center gap-y-8"
+      >
+        <div className="w-full text-center flex flex-col gap-y-4 p-8 text-color-d">
+          <strong className="text-4xl">Let's Work Together</strong>
+          <p>
+            Have a project in mind? I'm available for freelance work and
+            collaborations.
+          </p>
+        </div>
+        <button className="flex items-center gap-x-2 justify-center p-4 bg-[#EBD26B] text-color-a rounded-md">
+          Get it touch <FaArrowRightLong className="w-5" />
+        </button>
       </div>
     </div>
   );

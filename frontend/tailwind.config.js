@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
-        a: "#223843",
-        b: "#F8E7E2",
-        c: "#FDE047",
-        d: "#f6f8f5",
+        a: "#223843", //dark gray
+        b: "#F8E7E2", //light red
+        c: "#EBD26B", //yellow
+        d: "#EEEEEE", //white
         a2: "#222831",
         b2: "#31363f",
         c2: "#76abae",
@@ -22,6 +22,10 @@ export default {
         "color-b2": "#31363f",
         "color-c2": "#76abae",
         "color-d2": "#eeeeee",
+        //EEEEEE morning gray
+        //31363F outer space
+        //EBD26B arylide yellow
+        //222831 charleston green
       },
       backgroundImage: {
         coding: "url('/src/assets/coding.jpg')",
