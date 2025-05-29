@@ -14,6 +14,11 @@ export default {
         d2: "#eeeeee",
       },
       colors: {
+        "brand-a": "#222831", //charleston green
+        "brand-b": "#EBD26B", //arylide yellow
+        "brand-c": "#31363F", //outer space
+        "brand-d": "#EEEEEE", //morning gray
+        //to be remove below
         "color-a": "#223843",
         "color-b": "#F8E7E2",
         "color-c": "#FDE047",
@@ -22,10 +27,6 @@ export default {
         "color-b2": "#31363f",
         "color-c2": "#76abae",
         "color-d2": "#eeeeee",
-        //EEEEEE morning gray
-        //31363F outer space
-        //EBD26B arylide yellow
-        //222831 charleston green
       },
       backgroundImage: {
         coding: "url('/src/assets/coding.jpg')",

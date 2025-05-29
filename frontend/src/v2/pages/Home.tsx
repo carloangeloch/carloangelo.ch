@@ -22,9 +22,9 @@ const Home = () => {
     <div id="container">
       <div
         id="intro-section"
-        className="w-full bg-color-a2 font-title flex flex-wrap h-screen"
+        className="w-full bg-brand-a font-title flex flex-wrap h-screen"
       >
-        <div className="w-full xl:w-1/3 h-1/2 md:h-1/4 lg:h-1/3 xl:h-full relative text-color-d">
+        <div className="w-full xl:w-1/3 h-1/2 md:h-1/4 lg:h-1/3 xl:h-full relative text-brand-d">
           <div className="h-auto xl:h-1/2">
             <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
               <Header />
@@ -33,13 +33,13 @@ const Home = () => {
           <div className="w-full h-full xl:h-1/2 relative xl:absolute bottom-0 text-center xl:text-left flex flex-col justify-center items-center">
             <div className="relative w-full h-auto xl:h-full">
               <div className="w-full relative xl:absolute bottom-0 p-0 xl:pb-20 px-5 md:px-20 flex flex-col justify-center items-center xl:justify-normal xl:items-start">
-                <div className="text-4xl text-color-c mb-3">
+                <div className="text-4xl text-brand-b mb-3">
                   <strong>Hi! I'm Carlo.</strong>
                 </div>
-                <div className="text-xl text-color-c flex">
+                <div className="text-xl text-brand-b flex">
                   <strong>I am a {textTyping(roles)}</strong>
                 </div>
-                <div className="text-sm md:text-base xl:text-xl">
+                <div className="text-base xl:text-xl">
                   Whether I’m building outstanding applications, crafting
                   compelling designs, or brainstorming data-driven insights
                   ideas, I pour my passion into everything I do.
@@ -75,11 +75,11 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="bg-b p-3 xl:p-20 flex flex-wrap text-color-a"
+        className="bg-brand-d p-3 xl:p-20 flex flex-wrap text-color-a text-center lg:text-left"
         id="about-me-section"
       >
         <div id="about-me-left" className="w-full lg:w-2/3">
-          <div className="flex flex-col gap-y-1 mr-auto lg:mr-10 p-4 text-center lg:text-left">
+          <div className="flex flex-col gap-y-1 mr-auto lg:mr-10 p-4">
             <strong className="text-4xl mb-3">About Me</strong>
             <span>
               I'm a passionate designer and developer focused on creating
@@ -91,7 +91,7 @@ const Home = () => {
               clean code.
             </span>
             <a href="/about" className="pt-5">
-              <div className="flex items-center gap-x-2 ">
+              <div className="flex justify-center lg:justify-normal items-center gap-x-2 hover:translate-x-4 duration-300 ease-in-out">
                 <div>More about me</div>
                 <FaArrowRightLong className="w-5" />
               </div>
@@ -99,7 +99,7 @@ const Home = () => {
           </div>
         </div>
         <div id="about-me-right" className="w-full lg:w-1/3">
-          <div className="flex flex-col gap-y-1 mr-auto lg:mr-10 p-4 text-center lg:text-left bg-white rounded-md shadow-md">
+          <div className="flex flex-col gap-y-1 mr-auto lg:mr-10 p-4 bg-white rounded-md shadow-md">
             <strong className="text-4xl mb-3">Core Skills</strong>
             <div>Full Stack Development</div>
             <div>Ecommerce and Marketing Design</div>
@@ -108,7 +108,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div id="featured-projects" className="w-full bg-color-d p-10">
+      <div id="featured-projects" className="w-full bg-white p-10">
         <div
           id="featured-projects-title"
           className="w-full text-center flex flex-col p-8 text-color-a"
