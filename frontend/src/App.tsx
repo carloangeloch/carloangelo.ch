@@ -1,9 +1,7 @@
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./v2/pages/Home";
-// import Header from './components/Header';
 import AppProvider from "./context/AppContext";
-// import Footer from './components/Footer';
 import Loading from "./components/Loading";
 import Footer from "./v2/components/Footer";
 

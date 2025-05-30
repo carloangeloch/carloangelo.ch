@@ -7,6 +7,7 @@ import { dropboxConverter } from "../../utils/dropboxConverter";
 import { textTyping } from "../../utils/textTyping";
 import worksData from "../../data/works_data.json";
 import { motion } from "framer-motion";
+import Button from "../components/Button";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Home = () => {
@@ -118,7 +119,7 @@ const Home = () => {
         </div>
         <div
           id="feature-projects-cards"
-          className="flex flex-wrap justify-center gap-5 p-5"
+          className="flex flex-wrap justify-center gap-5 p-5 mb-4"
         >
           {Object.values(worksData).map(
             (work, index) =>
@@ -127,7 +128,7 @@ const Home = () => {
                   initial={"initial"}
                   whileHover={"hovered"}
                   transition={{ duration: 0.3, ease: "easeInOut" }}
-                  className="card bg-base-100 w-96 shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out"
+                  className="card bg-base-100 w-96 shadow-md hover:-translate-y-2 transition-all duration-300 ease-in-out"
                   key={work.id}
                 >
                   <figure>
@@ -156,6 +157,7 @@ const Home = () => {
               )
           )}
         </div>
+        <Button content="See More" isArrow={true} url="/work" />
       </div>
       <div
         id="contact-me"
@@ -168,9 +170,7 @@ const Home = () => {
             collaborations.
           </p>
         </div>
-        <button className="flex items-center gap-x-2 justify-center p-4 bg-[#EBD26B] text-color-a rounded-md">
-          Get it touch <FaArrowRightLong className="w-5" />
-        </button>
+        <Button content="Get in touch" isArrow={true} url="/contact" />
       </div>
     </div>
   );
