@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Graphic Design",
+    "v": "graphics",
+    "color": "#1D4ED8"
+  },
+  {
+    "name": "UI/UX",
+    "v": "uiux",
+    "color": "#EF4444"
+  },
+  {
+    "name": "Web Development",
+    "v": "development",
+    "color": "#15803D"
+  },
+  {
+    "name": "E-commerce",
+    "v": "ecomm",
+    "color": "#0E7490"
+  },
+  {
+    "name": "3D Art",
+    "v": "3d",
+    "color": "#EA580C"
+  },
+  {
+    "name": "Illustration",
+    "v": "illustration",
+    "color": "#CA8A04"
+  },
+  {
+    "name": "Animation",
+    "v": "video",
+    "color": "#7E22CE"
+  }
+]

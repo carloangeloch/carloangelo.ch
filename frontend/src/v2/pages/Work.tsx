@@ -2,11 +2,12 @@ import { useContext, useEffect, useState, useRef } from "react";
 import { AppContext } from "../../context/AppContext";
 import Header from "../components/Header";
 import Socmed from "../components/Socmed";
-import { motion } from "framer-motion";
+import { easeIn, motion } from "framer-motion";
 import WorkContent from "../modules/Work/WorkContent";
 import worksData from "../../data/works_data.json";
 import arrowUp from "../../assets/up-arrow.png";
 import { getScreenWidth } from "../../utils/getScreenWidth";
+import projectList from "../../data/projectList.json";
 
 const FilterButton = ({ text, active, onClick }: any) => {
   let bgcolor = "#00000";
@@ -82,36 +83,13 @@ const Work = () => {
     }
   };
 
-  const projectList = [
-    {
-      name: "Graphic Design",
-      v: "graphics",
-    },
-    {
-      name: "UI/UX",
-      v: "uiux",
-    },
-    {
-      name: "Web Development",
-      v: "development",
-    },
-    {
-      name: "E-commerce",
-      v: "ecomm",
-    },
-    {
-      name: "3D Art",
-      v: "3d",
-    },
-    {
-      name: "Illustration",
-      v: "illustration",
-    },
-    {
-      name: "Animation",
-      v: "video",
-    },
-  ];
+  //   1D4ED8
+  //   EF4444
+  //   15803D
+  //   0E7490
+  //   EA580C
+  //   CA8A04
+  //   7E22CE
 
   useEffect(() => {
     appContext.setAppData({ currentPage: "work" });
@@ -205,46 +183,52 @@ const Work = () => {
         <div className="w-full" ref={divRef} />
         {/* put others here */}
         <div>
-          <div role="tablist" className="tabs tabs-lift w-full flex flex-row">
-            <div
-              role="tab"
-              className={
-                "flex-1 tab" +
-                (appContext.appData.projectTypes === "" ? "tab-active" : "")
+          <div className="w-full flex flex-row">
+            <motion.div
+              className="flex-1 flex flex-col justify-center text-center p-2 cursor-pointer"
+              initial={{ backgroundColor: undefined }}
+              animate={
+                appContext.appData.projectTypes === ""
+                  ? { backgroundColor: "#31363F" }
+                  : { backgroundColor: undefined }
               }
+              transition={{ duration: 0.3, ease: easeIn }}
               onClick={() => {
                 appContext.setAppData({ projectTypes: "" });
                 updateData("");
               }}
             >
               All
-            </div>
-            {projectList.map((p) => {
-              return (
-                <div
-                  role="tab"
-                  className={
-                    "flex-1 tab" +
-                    (p.v === appContext.appData.projectTypes
-                      ? "tab-active"
-                      : "")
-                  }
-                  key={p.v}
-                  onClick={() => {
-                    appContext.setAppData({ projectTypes: p.v });
-                    updateData(p.v);
-                  }}
-                >
-                  {p.name}
-                </div>
-              );
-            })}
+            </motion.div>
+            {Object(projectList).map(
+              (p: { name: string; v: string; color: string }) => {
+                return (
+                  <motion.div
+                    className="flex-1 flex flex-col justify-center text-center p-2 cursor-pointer"
+                    initial={{ backgroundColor: undefined }}
+                    animate={
+                      appContext.appData.projectTypes === p.v
+                        ? { backgroundColor: p.color }
+                        : { backgroundColor: undefined }
+                    }
+                    transition={{ duration: 0.3, ease: easeIn }}
+                    key={p.v}
+                    onClick={() => {
+                      appContext.setAppData({ projectTypes: p.v });
+                      updateData(p.v);
+                    }}
+                  >
+                    {p.name}
+                  </motion.div>
+                );
+              }
+            )}
           </div>
         </div>
-        {/* <div className="w-full pb-16">
+        <div className="w-full pb-16">
           <WorkContent workData={workData} />
-          <div className="h-16"></div>
-        </div> */}
+          {/* <div className="h-16"></div> */}
+        </div>
         {/* end here */}
       </div>
     </div>
