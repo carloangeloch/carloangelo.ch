@@ -4,101 +4,36 @@ import Header from "../components/Header";
 import Socmed from "../components/Socmed";
 import { easeIn, motion } from "framer-motion";
 import WorkContent from "../modules/Work/WorkContent";
-import worksData from "../../data/works_data.json";
+// import worksData from "../../data/works_data.json";
 import arrowUp from "../../assets/up-arrow.png";
 import { getScreenWidth } from "../../utils/getScreenWidth";
 import projectList from "../../data/projectList.json";
-
-const FilterButton = ({ text, active, onClick }: any) => {
-  let bgcolor = "#00000";
-
-  switch (text) {
-    case "Graphic Design":
-      bgcolor = "#1D4ED8";
-      break;
-    case "UI/UX":
-      bgcolor = "#EF4444";
-      break;
-    case "Web Development":
-      bgcolor = "#15803D";
-      break;
-    case "E-commerce":
-      bgcolor = "#0E7490";
-      break;
-    case "3D Art":
-      bgcolor = "#EA580C";
-      break;
-    case "Illustration":
-      bgcolor = "#CA8A04";
-      break;
-    case "Animation":
-      bgcolor = "#7E22CE";
-      break;
-    default:
-      bgcolor = "#ffffff";
-      break;
-  }
-
-  return (
-    <motion.div
-      initial={{ backgroundColor: "#f6f8f5" }}
-      animate={{ backgroundColor: active ? bgcolor : "#f6f8f5" }}
-      transition={{ duration: 0.2, ease: "easeInOut" }}
-      className="w-1/4 lg:w-1/6 hover:bg-opacity-80 transition-all duration-200 h-10 lg:h-full bg-d rounded-lg p-1 flex justify-around"
-      onClick={onClick}
-    >
-      <div className="w-full relative text-center flex flex-wrap justify-center items-center text-black">
-        <motion.div
-          initial={{ color: "#00000" }}
-          animate={{ color: active ? "#ffffff" : "#00000" }}
-          className="absolute text-xs sm:text-sm lg:text-base"
-        >
-          <strong>{text}</strong>
-        </motion.div>
-      </div>
-    </motion.div>
-  );
-};
+import { worksController } from "../controller/worksController";
 
 const Work = () => {
   const appContext = useContext(AppContext);
-  const [workData, setWorkData] = useState(worksData);
+  const [workData, setWorkData] = useState(
+    worksController(appContext.appData.projectTypes)
+  );
+  const [prevState, setPrevState] = useState(appContext.appData.projectTypes);
 
-  const sorted = (a: any, b: any) => {
-    if (b.year !== a.year) {
-      return b.year - a.year;
-    }
-    return b.month - a.month;
-  };
   const updateData = (projectType: string) => {
-    console.log(projectType);
     if (appContext.appData.projectTypes === projectType) {
-      setWorkData(
-        worksData
-          .filter((obj) => obj.project_type.includes(projectType))
-          .sort(sorted)
-      );
+      setWorkData(worksController(projectType));
       appContext.setAppData({ projectTypes: projectType });
-      console.log(appContext.appData.projectTypes);
     }
   };
-
-  //   1D4ED8
-  //   EF4444
-  //   15803D
-  //   0E7490
-  //   EA580C
-  //   CA8A04
-  //   7E22CE
 
   useEffect(() => {
     appContext.setAppData({ currentPage: "work" });
-    setWorkData(worksData.sort(sorted));
-    updateData("");
+    setWorkData(worksController(appContext.appData.projectTypes));
+    setPrevState(workData);
+    updateData(appContext.appData.projectTypes);
   }, []);
 
   useEffect(() => {
-    appContext.appData.projectTypes !== undefined && updateData(""); //prevent rerender of context data resulting to undefined
+    appContext.appData.projectTypes !== prevState &&
+      updateData(appContext.appData.projectTypes); //prevent rerender of context data resulting to undefined
   }, [appContext.appData.projectTypes]);
 
   //!scroll to top -- DO NOT DELETE
@@ -188,13 +123,13 @@ const Work = () => {
               className="flex-1 flex flex-col justify-center text-center p-2 cursor-pointer"
               initial={{ backgroundColor: undefined }}
               animate={
-                appContext.appData.projectTypes === ""
+                appContext.appData.projectTypes === "all"
                   ? { backgroundColor: "#31363F" }
                   : { backgroundColor: undefined }
               }
               transition={{ duration: 0.3, ease: easeIn }}
               onClick={() => {
-                appContext.setAppData({ projectTypes: "" });
+                appContext.setAppData({ projectTypes: "all" });
                 updateData("");
               }}
             >

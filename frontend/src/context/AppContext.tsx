@@ -22,7 +22,7 @@ const defaultAppData = {
   currentPage: "landing",
   yScroll: false,
   workActive: "graphics",
-  projectTypes: "",
+  projectTypes: "all",
 };
 
 const AppProvider = ({ children }: AppProvidedrProps) => {

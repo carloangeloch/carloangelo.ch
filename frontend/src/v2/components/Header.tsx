@@ -31,7 +31,7 @@ const Header = () => {
 
   useEffect(() => {
     setDevice(getDeviceType());
-    // screenWidth >= 1280
+    // !screenWidth >= 1280
     if (device !== "mobile") {
       setShowNav(true);
     }

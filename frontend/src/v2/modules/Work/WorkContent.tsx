@@ -32,7 +32,20 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
   }, [openModal]);
 
   return (
-    <></>
+    <div className="bg-brand-b">
+      {workData.map((work: any) => {
+        return (
+          <div key={work.id}>
+            <div>
+              <span>{work.title}</span>
+            </div>
+            <figure>
+              <img src={work.thumbnail_link} />
+            </figure>
+          </div>
+        );
+      })}
+    </div>
     // <div className="relative w-full">
     //   {openModal && (
     //     <WorkModal

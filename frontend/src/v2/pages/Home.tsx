@@ -1,5 +1,4 @@
-import { useContext, useEffect } from "react";
-import { AppContext } from "../../context/AppContext";
+import { useEffect } from "react";
 import Header from "../components/Header";
 import Socmed from "../components/Socmed";
 import ImageLazyLoad from "../../utils/ImageLazyLoad";
@@ -9,15 +8,15 @@ import worksData from "../../data/works_data.json";
 import { motion } from "framer-motion";
 import Button from "../components/Button";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { setCurrentPage } from "../controller/setCurrentPage";
 
 const Home = () => {
-  const appContext = useContext(AppContext);
   const roles = [
     "Web Designer and Developer",
     "Ecommerce Creative Marketer",
     "Data Intelligence Manager",
   ];
-  useEffect(() => appContext.setAppData({ currentPage: "v2-home" }), []);
+  useEffect(() => setCurrentPage("v2-home"), []);
 
   return (
     <div id="container">
