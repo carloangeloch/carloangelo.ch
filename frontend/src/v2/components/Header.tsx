@@ -2,40 +2,22 @@ import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { AppContext } from "../../context/AppContext";
-import { getScreenWidth } from "../../utils/getScreenWidth";
-import close from "../../assets/close-icon.svg";
 import burger from "../../assets/hamburger.svg";
 import menuLinks from "../../data/menuLinks.json";
 import CHLogo from "./CHLogo";
 
 const Header = () => {
-  const getDeviceType = () => {
-    const userAgent = navigator.userAgent;
-
-    if (
-      /Mobile|Android|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(userAgent)
-    ) {
-      return "mobile";
-    } else if (/Tablet/i.test(userAgent)) {
-      return "tablet";
-    } else {
-      return "desktop";
-    }
-  };
 
   const appContext = useContext(AppContext);
   const [showNav, setShowNav] = useState(false);
-  const [device, setDevice] = useState("");
-
-  let screenWidth = getScreenWidth();
 
   useEffect(() => {
-    setDevice(getDeviceType());
-    // !screenWidth >= 1280
-    if (device !== "mobile") {
+    if (window.innerWidth > 750) {
       setShowNav(true);
     }
   }, []);
+  console.log('screenwidth ', window.innerWidth)
+  
 
   return (
     <div
@@ -45,8 +27,48 @@ const Header = () => {
       <div id="logo-div" className="w-1/2 flex flex-col justify-center">
         <CHLogo />
       </div>
-      {/* screenWidth <= 500  */}
-      {device === "mobile" ? (
+      {window.innerWidth > 750 ? (
+        //Desktop Menu
+        <div
+          className="w-1/2 xl:w-auto pr-3 xl:pr-auto flex flex-row xl:flex-col gap-x-3 xl:gap-y-3 justify-end text-base xl:text-lg"
+          id="nav-div"
+        >
+
+          {menuLinks.map((m : {name: string, path: string}) => {
+            return (
+
+              <Link to={m.path} key={m.name}>
+                <motion.div initial="initial" whileHover="hovered" className="px-4">
+                  <span
+                    style={
+                      appContext.appData.currentPage == "about"
+                        ? { color: "#FDE047", fontWeight: "bold" }
+                        : { color: "#F6F8F5", fontWeight: "normal" }
+                    }
+                  >
+                    {m.name}
+                  </span>
+                  <motion.div
+                    className="h-0.5"
+                    variants={{
+                      initial: {
+                        width: 0,
+                      },
+                      hovered: {
+                        width: "100%",
+                        backgroundColor:
+                          appContext.appData.currentPage == "about"
+                            ? "#FDE047"
+                            : "#F8E7E2",
+                      },
+                    }}
+                  />
+                </motion.div>
+              </Link>
+            )
+          })}
+        </div>
+      ) : (
         //Mobile menu
         <div className="w-1/2" id="mobile-nav">
           <div
@@ -86,128 +108,6 @@ const Header = () => {
               </div>
             </div>
           )}
-        </div>
-      ) : (
-        //Desktop Menu
-        <div
-          className="w-1/2 xl:w-auto pr-3 xl:pr-auto flex flex-row xl:flex-col gap-x-3 xl:gap-y-3 justify-end text-base xl:text-lg"
-          id="nav-div"
-        >
-          <Link to="/about">
-            <motion.div initial="initial" whileHover="hovered" className="w-14">
-              <span
-                style={
-                  appContext.appData.currentPage == "about"
-                    ? { color: "#FDE047", fontWeight: "bold" }
-                    : { color: "#F6F8F5", fontWeight: "normal" }
-                }
-              >
-                About
-              </span>
-              <motion.div
-                className="h-0.5"
-                variants={{
-                  initial: {
-                    width: 0,
-                  },
-                  hovered: {
-                    width: "100%",
-                    backgroundColor:
-                      appContext.appData.currentPage == "about"
-                        ? "#FDE047"
-                        : "#F8E7E2",
-                  },
-                }}
-              />
-            </motion.div>
-          </Link>
-
-          <Link to="/career">
-            <motion.div initial="initial" whileHover="hovered" className="w-14">
-              <span
-                style={
-                  appContext.appData.currentPage == "career"
-                    ? { color: "#FDE047", fontWeight: "bold" }
-                    : { color: "#F6F8F5", fontWeight: "normal" }
-                }
-              >
-                Career
-              </span>
-              <motion.div
-                className="h-0.5"
-                variants={{
-                  initial: {
-                    width: 0,
-                  },
-                  hovered: {
-                    width: "100%",
-                    backgroundColor:
-                      appContext.appData.currentPage == "career"
-                        ? "#FDE047"
-                        : "#F8E7E2",
-                  },
-                }}
-              />
-            </motion.div>
-          </Link>
-
-          <Link to="/work">
-            <motion.div initial="initial" whileHover="hovered" className="w-14">
-              <span
-                style={
-                  appContext.appData.currentPage == "work"
-                    ? { color: "#FDE047", fontWeight: "bold" }
-                    : { color: "#F6F8F5", fontWeight: "normal" }
-                }
-              >
-                Work
-              </span>
-              <motion.div
-                className="h-0.5"
-                variants={{
-                  initial: {
-                    width: 0,
-                  },
-                  hovered: {
-                    width: "100%",
-                    backgroundColor:
-                      appContext.appData.currentPage == "work"
-                        ? "#FDE047"
-                        : "#F8E7E2",
-                  },
-                }}
-              />
-            </motion.div>
-          </Link>
-
-          <Link to="/contact">
-            <motion.div initial="initial" whileHover="hovered" className="w-14">
-              <span
-                style={
-                  appContext.appData.currentPage == "contact"
-                    ? { color: "#FDE047", fontWeight: "bold" }
-                    : { color: "#F6F8F5", fontWeight: "normal" }
-                }
-              >
-                Contact
-              </span>
-              <motion.div
-                className="h-0.5"
-                variants={{
-                  initial: {
-                    width: 0,
-                  },
-                  hovered: {
-                    width: "100%",
-                    backgroundColor:
-                      appContext.appData.currentPage == "contact"
-                        ? "#FDE047"
-                        : "#F8E7E2",
-                  },
-                }}
-              />
-            </motion.div>
-          </Link>
         </div>
       )}
     </div>

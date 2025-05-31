@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./v2/pages/Home";
 import AppProvider from "./context/AppContext";
 import Loading from "./components/Loading";
-import Footer from "./v2/components/Footer";
+// import Footer from "./v2/components/Footer";
 
 const Page404 = lazy(() => import("./pages/Page404"));
 const WorkV2 = lazy(() => import("./v2/pages/Work"));
@@ -24,7 +24,7 @@ function App() {
           <Route path="/contact" element={<ContactV2 />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Suspense>
     </AppProvider>
   );

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import Header from "../components/Header";
 import Socmed from "../components/Socmed";
 import ImageLazyLoad from "../../utils/ImageLazyLoad";
@@ -8,7 +8,8 @@ import worksData from "../../data/works_data.json";
 import { motion } from "framer-motion";
 import Button from "../components/Button";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { setCurrentPage } from "../controller/setCurrentPage";
+import { AppContext } from "../../context/AppContext";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const roles = [
@@ -16,7 +17,8 @@ const Home = () => {
     "Ecommerce Creative Marketer",
     "Data Intelligence Manager",
   ];
-  useEffect(() => setCurrentPage("v2-home"), []);
+  const appContext = useContext(AppContext);
+  useEffect(() => appContext.setAppData('v2-home'), []);
 
   return (
     <div id="container">
@@ -171,6 +173,7 @@ const Home = () => {
         </div>
         <Button content="Get in touch" isArrow={true} url="/contact" />
       </div>
+      <Footer/>
     </div>
   );
 };

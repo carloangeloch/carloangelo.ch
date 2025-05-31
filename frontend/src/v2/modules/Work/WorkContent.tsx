@@ -5,7 +5,6 @@ import WorkModal from "./WorkModal";
 import { useNavigate, useParams } from "react-router-dom";
 import { getScreenWidth } from "../../../utils/getScreenWidth";
 import ImageLazyLoad from "../../../utils/ImageLazyLoad";
-
 interface WorkListProps {
   workData: any;
 }
@@ -32,16 +31,21 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
   }, [openModal]);
 
   return (
-    <div className="bg-brand-b">
+    <div className="bg-brand-b flex flex-wrap gap-3 w-full justify-center">
       {workData.map((work: any) => {
         return (
-          <div key={work.id}>
-            <div>
-              <span>{work.title}</span>
-            </div>
-            <figure>
-              <img src={work.thumbnail_link} />
+          <div className="card bg-base-100 w-full md:w-1/3 lg:w-1/4 2xl:w-96 h-[400px] shadow-sm" key={work.id}>
+            <figure className="h-2/3 bg-brand-d">
+              <img
+              className="h-full w-full object-cover"
+              loading="lazy"
+                src={String(work.thumbnail_link).replace("www.dropbox","dl.dropboxusercontent").replace("&dl=0","")}
+                alt={work.title} />
             </figure>
+            <div className="card-body mb-2">
+              <h2 className="card-title">{String(work.title).substring(0,50)} {work.title.length > 50 ? '...' : ''}</h2>
+              <p>{monthByNumbers(work.month)+" "+ work.year}</p>
+            </div>
           </div>
         );
       })}

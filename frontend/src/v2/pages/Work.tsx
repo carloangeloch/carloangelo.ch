@@ -13,30 +13,29 @@ import { worksController } from "../controller/worksController";
 const Work = () => {
   const appContext = useContext(AppContext);
   const [workData, setWorkData] = useState(
-    worksController(appContext.appData.projectTypes)
+    worksController('all')
   );
-  const [prevState, setPrevState] = useState(appContext.appData.projectTypes);
 
   const updateData = (projectType: string) => {
-    if (appContext.appData.projectTypes === projectType) {
-      setWorkData(worksController(projectType));
-      appContext.setAppData({ projectTypes: projectType });
-    }
+    appContext.setAppData({projectTypes: projectType})
+    setWorkData(worksController(projectType))
+    sessionStorage.setItem("pstate", projectType)
   };
 
   useEffect(() => {
-    appContext.setAppData({ currentPage: "work" });
-    setWorkData(worksController(appContext.appData.projectTypes));
-    setPrevState(workData);
-    updateData(appContext.appData.projectTypes);
+    appContext.setAppData({ currentPage: "work" })
+    const pstate = sessionStorage.getItem("pstate")
+    if(!sessionStorage.getItem("pstate")){
+      //Persistent projectType
+      sessionStorage.setItem('pstate','all')
+      appContext.setAppData({projectTypes:'all'})
+    }
+    if(sessionStorage.getItem("pstate") ) {
+      appContext.setAppData({projectTypes:pstate})
+    }
   }, []);
 
-  useEffect(() => {
-    appContext.appData.projectTypes !== prevState &&
-      updateData(appContext.appData.projectTypes); //prevent rerender of context data resulting to undefined
-  }, [appContext.appData.projectTypes]);
-
-  //!scroll to top -- DO NOT DELETE
+  //!scroll to top func -- DO NOT DELETE
   const divRef = useRef<HTMLDivElement>(null);
   const [isOffScreen, setIsOffScreen] = useState(false);
   useEffect(() => {
@@ -66,7 +65,7 @@ const Work = () => {
 
   return (
     <div
-      className="w-full bg-color-a2 font-title flex flex-wrap xl:flex-nowrap h-screen overflow-visible xl:overflow-hidden"
+      className="w-full bg-color-a2 font-title flex flex-wrap xl:flex-nowrap h-screen "
       id="container"
     >
       <div
@@ -91,8 +90,8 @@ const Work = () => {
 
         <div className="h-auto xl:h-1/2 " id="header-container">
           <div
-            className="flex p-3 xl:pl-20 xl:pt-20 w-full fixed xl:relative z-[5] xl:z-0 bg-color-a2"
-            id="header-container"
+            className="flex p-3 xl:pl-20 xl:pt-20 w-full"
+            id="header-box"
           >
             <Header />
           </div>
@@ -111,7 +110,7 @@ const Work = () => {
       </div>
 
       <div
-        className="w-full xl:w-5/6 h-auto xl:h-full overflow-y-visible xl:overflow-y-scroll mt-0 pt-20"
+        className="w-full xl:w-5/6 h-auto xl:h-full mt-0 pt-20"
         id="content"
       >
         {/* scroll to top ref */}
@@ -129,8 +128,7 @@ const Work = () => {
               }
               transition={{ duration: 0.3, ease: easeIn }}
               onClick={() => {
-                appContext.setAppData({ projectTypes: "all" });
-                updateData("");
+                updateData("all");
               }}
             >
               All
@@ -149,7 +147,6 @@ const Work = () => {
                     transition={{ duration: 0.3, ease: easeIn }}
                     key={p.v}
                     onClick={() => {
-                      appContext.setAppData({ projectTypes: p.v });
                       updateData(p.v);
                     }}
                   >
