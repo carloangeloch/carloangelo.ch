@@ -29,6 +29,7 @@ const AppProvider = ({ children }: AppProvidedrProps) => {
   const [appData, setAppData] = useState<AppData | typeof defaultAppData>(
     defaultAppData
   );
+  console.log(appData.currentPage)
   return (
     <AppContext.Provider value={{ appData, setAppData }}>
       {children}

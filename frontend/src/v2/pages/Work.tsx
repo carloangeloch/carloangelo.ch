@@ -7,7 +7,10 @@ import WorkContent from "../modules/Work/WorkContent";
 // import worksData from "../../data/works_data.json";
 import arrowUp from "../../assets/up-arrow.png";
 import { workSort, workDataController } from "../controller/worksController";
+import { pageLocationStore } from "../controller/sessionContoller";
+
 const WorkButtons = lazy(() => import("../modules/Work/WorkButton"));
+const Footer = lazy(() => import("../components/Footer"));
 
 const Work = () => {
   const appContext = useContext(AppContext);
@@ -17,9 +20,11 @@ const Work = () => {
 
   useEffect(() => {
     appContext.setAppData({ currentPage: "work" })
+    //Persistent page location store
+    pageLocationStore("work")
     const pstate = sessionStorage.getItem("pstate")
     if(!sessionStorage.getItem("pstate")){
-      //Persistent projectType
+      //Persistent projectType store
       workDataController('all')
       setWorkData(workSort('all'))
       appContext.setAppData({ projectTypes: "all" })
@@ -33,7 +38,7 @@ const Work = () => {
 
   useEffect(() => {
     setWorkData(workSort(appContext.appData.projectTypes));
-  },[workData, appContext.appData.projectTypes]);
+  },[appContext.appData.projectTypes]);
 
   //!scroll to top func -- DO NOT DELETE
   const divRef = useRef<HTMLDivElement>(null);
@@ -65,14 +70,19 @@ const Work = () => {
 
   return (
     <div
-      className="w-full bg-color-a2 font-title flex flex-wrap xl:flex-nowrap h-screen "
+      className="w-full bg-brand-a flex flex-col xl:flex-row"
       id="container"
     >
-      <div
+      <div id="header-container" className="w-full xl:w-1/6  h-14 xl:h-screen flex flex-col justify-center xl:justify-normal">
+        <div id="header-ref" className="w-full h-full px-3 xl:p-[40px_0_0_40px]">
+          <Header/>
+        </div>
+      </div>
+      {/* <div
         className="w-full xl:w-1/6 h-auto xl:h-full relative text-color-d "
         id="header"
       >
-        {/* scroll to top button */}
+        // scroll to top button
         <div className="w-full relative">
           <motion.div
             initial={{ opacity: 0, transform: "translateY(500px)" }}
@@ -82,7 +92,7 @@ const Work = () => {
                 : { opacity: 0, transform: "translateY(500px)" }
             }
             onClick={() => scrollToTop()}
-            className="fixed bottom-5 right-5 w-[50px] h-[50px] bg-color-a border-color-d border-2 rounded-lg p-2 z-10"
+            className="fixed bottom-5 right-5 w-[50px] h-[50px] bg-brand-a border-color-d border-2 rounded-lg p-2 z-10"
           >
             <img src={arrowUp} alt="arrow-up" className="object-cover w-full" />
           </motion.div>
@@ -93,15 +103,6 @@ const Work = () => {
             <Header />
           </div>
         </div>
-
-        {/* <div className="h-auto xl:h-1/2 " id="header-container">
-          <div
-            className="flex p-3 xl:pl-20 xl:pt-20 w-full"
-            id="header-box"
-          >
-            <Header />
-          </div>
-        </div> */}
         {window.innerHeight > 1050 ? (
           <div className="w-full h-1/2 absolute bottom-0">
             <div className="relative w-full h-full">
@@ -113,7 +114,7 @@ const Work = () => {
             </div>
           </div>
         ) : null}
-      </div>
+      </div> */}
 
       <div
         className="w-full xl:w-5/6 h-auto xl:h-full mt-0 pt-20"
@@ -129,6 +130,7 @@ const Work = () => {
         </div>
         {/* end here */}
       </div>
+      {/* <Footer /> */}
     </div>
   );
 };

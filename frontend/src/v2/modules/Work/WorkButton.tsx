@@ -7,8 +7,6 @@ import { workDataController } from "../../controller/worksController"
 
 const WorkButton = () => {
     const appContext = useContext(AppContext);
-    console.log("WorkButton Rendered", appContext.appData.projectTypes);
-    console.log("WorkButton on storage", sessionStorage.getItem("pstate"));
   return (
     <div>
         <div className="w-full flex flex-row">
