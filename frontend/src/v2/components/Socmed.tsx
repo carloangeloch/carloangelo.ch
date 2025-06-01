@@ -1,3 +1,5 @@
+import ImageLazyLoad from "../../utils/ImageLazyLoad";
+
 const Socmed = () => {
   const socmedLinks = [
     {
@@ -32,12 +34,14 @@ const Socmed = () => {
         return (
           <div key={s.name}>
             <a href={s.url} target="_blank" rel="noreferrer">
-              <img
-                src={String(s.image)
-                  .replace("www.dropbox", "dl.dropboxusercontent")
-                  .replace("&dl=0", "")}
-                alt={String(s.name).toLowerCase()}
-                className="w-8 h-8 text-brand-d hover:-translate-y-2 duration-300 ease-in-out"
+              <ImageLazyLoad
+                styles="w-8 h-8 text-brand-d hover:-translate-y-2 duration-300 ease-in-out"
+                imageSrc={[
+                  String(s.image)
+                    .replace("www.dropbox", "dl.dropboxusercontent")
+                    .replace("&dl=0", ""),
+                ]}
+                altname={String(s.name).toLowerCase()}
               />
             </a>
           </div>

@@ -16,7 +16,6 @@ const Header = () => {
       setShowNav(true);
     }
   }, []);
-  console.log('screenwidth ', window.innerWidth)
   
 
   return (

@@ -18,7 +18,7 @@ const ImageLazyLoad : FC<ImageLazyLoadProps> = ({imageSrc, altname, styles}) => 
   return (
     <picture>
         <LazyLoadImage
-            src={w>=650 ? dropboxConverter(imageSrc[2]) :  w>= 465 ? dropboxConverter(imageSrc[1]):dropboxConverter(imageSrc[0])}
+            src={imageSrc.length === 1 ? dropboxConverter(imageSrc[0]) :  w>= 650 ? dropboxConverter(imageSrc[2]) :  w>= 465 ? dropboxConverter(imageSrc[1]):dropboxConverter(imageSrc[0])}
             effect="blur"
             alt={altname}
             className={styles}

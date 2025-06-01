@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { easeIn, motion } from "framer-motion";
 import { FC, useEffect, useRef, useState } from "react";
 import { monthByNumbers } from "../../../utils/monthByNumber";
 import WorkModal from "./WorkModal";
@@ -31,10 +31,14 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
   }, [openModal]);
 
   return (
-    <div className="bg-brand-b flex flex-wrap gap-3 w-full justify-center">
+    <div className="flex flex-wrap gap-3 w-full justify-center mt-8">
       {workData.map((work: any) => {
         return (
-          <div className="card bg-base-100 w-full md:w-1/3 lg:w-1/4 2xl:w-96 h-[400px] shadow-sm" key={work.id}>
+          <motion.div
+          initial={{translateY: 0}}
+          whileHover={{translateY : '-16px'}}
+          transition={{duration: 0.3, ease:easeIn}}
+          className="card bg-base-100 w-full md:w-1/3 lg:w-1/4 2xl:w-96 h-[400px] shadow-sm" key={work.id}>
             <figure className="h-2/3 bg-brand-d">
               <img
               className="h-full w-full object-cover"
@@ -46,7 +50,7 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
               <h2 className="card-title">{String(work.title).substring(0,50)} {work.title.length > 50 ? '...' : ''}</h2>
               <p>{monthByNumbers(work.month)+" "+ work.year}</p>
             </div>
-          </div>
+          </motion.div>
         );
       })}
     </div>

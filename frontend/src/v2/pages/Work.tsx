@@ -1,39 +1,39 @@
-import { useContext, useEffect, useState, useRef } from "react";
+import { useContext, useEffect, useState, useRef, lazy} from "react";
 import { AppContext } from "../../context/AppContext";
 import Header from "../components/Header";
 import Socmed from "../components/Socmed";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import WorkContent from "../modules/Work/WorkContent";
 // import worksData from "../../data/works_data.json";
 import arrowUp from "../../assets/up-arrow.png";
-import { getScreenWidth } from "../../utils/getScreenWidth";
-import projectList from "../../data/projectList.json";
-import { worksController } from "../controller/worksController";
+import { workSort, workDataController } from "../controller/worksController";
+const WorkButtons = lazy(() => import("../modules/Work/WorkButton"));
 
 const Work = () => {
   const appContext = useContext(AppContext);
   const [workData, setWorkData] = useState(
-    worksController('all')
-  );
-
-  const updateData = (projectType: string) => {
-    appContext.setAppData({projectTypes: projectType})
-    setWorkData(worksController(projectType))
-    sessionStorage.setItem("pstate", projectType)
-  };
+    workSort('all')
+  ); //hold current work data
 
   useEffect(() => {
     appContext.setAppData({ currentPage: "work" })
     const pstate = sessionStorage.getItem("pstate")
     if(!sessionStorage.getItem("pstate")){
       //Persistent projectType
-      sessionStorage.setItem('pstate','all')
-      appContext.setAppData({projectTypes:'all'})
+      workDataController('all')
+      setWorkData(workSort('all'))
+      appContext.setAppData({ projectTypes: "all" })
     }
     if(sessionStorage.getItem("pstate") ) {
-      appContext.setAppData({projectTypes:pstate})
+      workDataController(pstate as string)
+      setWorkData(workSort(pstate as string))
+      appContext.setAppData({ projectTypes: pstate as string })
     }
   }, []);
+
+  useEffect(() => {
+    setWorkData(workSort(appContext.appData.projectTypes));
+  },[workData, appContext.appData.projectTypes]);
 
   //!scroll to top func -- DO NOT DELETE
   const divRef = useRef<HTMLDivElement>(null);
@@ -88,15 +88,21 @@ const Work = () => {
           </motion.div>
         </div>
 
-        <div className="h-auto xl:h-1/2 " id="header-container">
+        <div className="h-auto xl:h-1/2">
+          <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
+            <Header />
+          </div>
+        </div>
+
+        {/* <div className="h-auto xl:h-1/2 " id="header-container">
           <div
             className="flex p-3 xl:pl-20 xl:pt-20 w-full"
             id="header-box"
           >
             <Header />
           </div>
-        </div>
-        {getScreenWidth() > 1050 ? (
+        </div> */}
+        {window.innerHeight > 1050 ? (
           <div className="w-full h-1/2 absolute bottom-0">
             <div className="relative w-full h-full">
               <div className=" absolute bottom-0 pb-20 px-20">
@@ -116,47 +122,7 @@ const Work = () => {
         {/* scroll to top ref */}
         <div className="w-full" ref={divRef} />
         {/* put others here */}
-        <div>
-          <div className="w-full flex flex-row">
-            <motion.div
-              className="flex-1 flex flex-col justify-center text-center p-2 cursor-pointer"
-              initial={{ backgroundColor: undefined }}
-              animate={
-                appContext.appData.projectTypes === "all"
-                  ? { backgroundColor: "#31363F" }
-                  : { backgroundColor: undefined }
-              }
-              transition={{ duration: 0.3, ease: easeIn }}
-              onClick={() => {
-                updateData("all");
-              }}
-            >
-              All
-            </motion.div>
-            {Object(projectList).map(
-              (p: { name: string; v: string; color: string }) => {
-                return (
-                  <motion.div
-                    className="flex-1 flex flex-col justify-center text-center p-2 cursor-pointer"
-                    initial={{ backgroundColor: undefined }}
-                    animate={
-                      appContext.appData.projectTypes === p.v
-                        ? { backgroundColor: p.color }
-                        : { backgroundColor: undefined }
-                    }
-                    transition={{ duration: 0.3, ease: easeIn }}
-                    key={p.v}
-                    onClick={() => {
-                      updateData(p.v);
-                    }}
-                  >
-                    {p.name}
-                  </motion.div>
-                );
-              }
-            )}
-          </div>
-        </div>
+        <WorkButtons />
         <div className="w-full pb-16">
           <WorkContent workData={workData} />
           {/* <div className="h-16"></div> */}
