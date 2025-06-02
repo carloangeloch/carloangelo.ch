@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import ImageLazyLoad from "../../utils/ImageLazyLoad";
 
 const Socmed = () => {
@@ -32,7 +33,12 @@ const Socmed = () => {
     <>
       {socmedLinks.map((s) => {
         return (
-          <div key={s.name}>
+          <motion.div
+            key={s.name}
+            initial={{ translateY: 0 }}
+            whileHover={{ translateY: "-4px" }}
+            transition={{ duration: 0.5, ease: "linear" }}
+          >
             <a href={s.url} target="_blank" rel="noreferrer">
               <ImageLazyLoad
                 styles="w-8 h-8 text-brand-d hover:-translate-y-2 duration-300 ease-in-out"
@@ -44,7 +50,7 @@ const Socmed = () => {
                 altname={String(s.name).toLowerCase()}
               />
             </a>
-          </div>
+          </motion.div>
         );
       })}
     </>

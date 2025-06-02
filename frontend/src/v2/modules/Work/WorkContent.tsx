@@ -1,10 +1,19 @@
-import { easeIn, motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { FC, useEffect, useRef, useState } from "react";
 import { monthByNumbers } from "../../../utils/monthByNumber";
 import WorkModal from "./WorkModal";
 import { useNavigate, useParams } from "react-router-dom";
-import { getScreenWidth } from "../../../utils/getScreenWidth";
 import ImageLazyLoad from "../../../utils/ImageLazyLoad";
+
+import { FaRegFolderOpen } from "react-icons/fa";
+import { MdOutlineDraw } from "react-icons/md";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { FaTerminal } from "react-icons/fa6";
+import { Md3dRotation } from "react-icons/md";
+import { CiShop } from "react-icons/ci";
+import { CgBrowser } from "react-icons/cg";
+import { PiVideoLight } from "react-icons/pi";
+
 interface WorkListProps {
   workData: any;
 }
@@ -14,6 +23,8 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
   const modalID = useRef<any>(null);
   const navigate = useNavigate();
   const dataId = useParams();
+  const refer = useRef(null);
+  const isInView = useInView(refer, { once: true });
 
   useEffect(() => {
     modalID.current = dataId.dataId;
@@ -32,28 +43,106 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
 
   return (
     <div className="flex flex-wrap gap-3 w-full justify-center mt-8">
-      {workData.map((work: any) => {
+      {workData.map((work: any, ind: number) => {
         return (
           <motion.div
-          initial={{translateY: 0}}
-          whileHover={{translateY : '-16px'}}
-          transition={{duration: 0.3, ease:easeIn}}
-          className="card bg-base-100 w-full md:w-1/3 lg:w-1/4 2xl:w-96 h-[400px] shadow-sm" key={work.id}>
-            <figure className="h-2/3 bg-brand-d">
-              <img
-              className="h-full w-full object-cover"
-              loading="lazy"
-                src={String(work.thumbnail_link).replace("www.dropbox","dl.dropboxusercontent").replace("&dl=0","")}
-                alt={work.title} />
-            </figure>
-            <div className="card-body mb-2">
-              <h2 className="card-title">{String(work.title).substring(0,50)} {work.title.length > 50 ? '...' : ''}</h2>
-              <p>{monthByNumbers(work.month)+" "+ work.year}</p>
-            </div>
+            ref={refer}
+            initial={{ opacity: 0, translateY: "50px" }}
+            animate={{ opacity: 1, translateY: 0 }}
+            transition={{ delay: 0.1 * ind, ease: "easeInOut", duration: 0.2 }}
+          >
+            <motion.div
+              initial={{ translateY: 0 }}
+              whileHover={{ translateY: "-8px" }}
+              transition={{
+                duration: 0.2,
+                ease: "easeInOut",
+              }}
+              className="card bg-base-100 w-full md:w-1/3 lg:w-1/4 2xl:w-96 h-[380px] shadow-sm relative"
+              key={work.id}
+            >
+              <figure className="h-3/4 bg-brand-c">
+                <ImageLazyLoad
+                  imageSrc={[work.thumbnail_link]}
+                  altname={work.title}
+                  styles="h-full object-cover w-full"
+                />
+              </figure>
+              <div className="h-1/4 p-2">
+                <h2 className="card-title">
+                  {String(work.title).substring(0, 50)}{" "}
+                  {work.title.length > 50 ? "..." : ""}
+                </h2>
+                <p>{monthByNumbers(work.month) + " " + work.year}</p>
+              </div>
+              <div className="absolute h-16 w-full flex flex-row gap-x-2 justify-end p-2">
+                {work.project_type.map((t: string) => {
+                  if (t == "all")
+                    return (
+                      <FaRegFolderOpen
+                        className="bg-[#31363F] rounded-full p-1"
+                        fontSize={32}
+                      />
+                    );
+                  else if (t == "illustration")
+                    return (
+                      <MdOutlineDraw
+                        className="bg-[#CA8A04] rounded-full p-1"
+                        fontSize={32}
+                      />
+                    );
+                  else if (t == "graphics")
+                    return (
+                      <MdOutlineDesignServices
+                        className="bg-[#1D4ED8] rounded-full p-1"
+                        fontSize={32}
+                      />
+                    );
+                  else if (t == "development")
+                    return (
+                      <FaTerminal
+                        className="bg-[#15803D] rounded-full p-1"
+                        fontSize={32}
+                      />
+                    );
+                  else if (t == "3d")
+                    return (
+                      <Md3dRotation
+                        className="bg-[#EA580C] rounded-full p-1"
+                        fontSize={32}
+                      />
+                    );
+                  else if (t == "ecomm")
+                    return (
+                      <CiShop
+                        className="bg-[#0E7490] rounded-full p-1"
+                        fontSize={32}
+                      />
+                    );
+                  else if (t == "uiux")
+                    return (
+                      <CgBrowser
+                        className="bg-[#EF4444] rounded-full p-1"
+                        fontSize={32}
+                      />
+                    );
+                  else if (t == "animation")
+                    return (
+                      <PiVideoLight
+                        className="bg-[#7E22CE] rounded-full p-1"
+                        fontSize={32}
+                      />
+                    );
+                })}
+              </div>
+            </motion.div>
           </motion.div>
         );
       })}
     </div>
+
+    //TODO: MODAL FUNCTIONALITY
+
     // <div className="relative w-full">
     //   {openModal && (
     //     <WorkModal

@@ -18,18 +18,6 @@ const Work = () => {
     appContext.setAppData({ ...appContext.appData, currentPage: "work" });
     if (appContext.appData.projectTypes === null || undefined)
       appContext.setAppData({ ...appContext.appData, projectTypes: "all" });
-    // //Persistent page location store
-    // pageLocationStore("work");
-    // if (sessionStorage.getItem("pstate") === null || undefined) {
-    //   appContext.setAppData({ ...appContext.appData, projectTypes: "all" });
-    //   sessionStorage.setItem("pstate", "all");
-    //   workDataController("all");
-    // } else {
-    //   appContext.setAppData({
-    //     ...appContext.appData,
-    //     projectTypes: sessionStorage.getItem("pstate"),
-    //   });
-    // }
   }, []);
 
   useEffect(() => {
@@ -66,7 +54,7 @@ const Work = () => {
 
   return (
     <div
-      className="w-full bg-brand-a flex flex-col xl:flex-row"
+      className="w-full bg-brand-a flex flex-wrap flex-col xl:flex-row"
       id="container"
       style={{ overflowY: appContext.appData.showNav ? "hidden" : "auto" }}
     >
@@ -79,7 +67,7 @@ const Work = () => {
         </div>
       </div>
       <div
-        className="w-full xl:w-5/6 h-auto xl:h-full mt-0 p-8 xl:p-10"
+        className="w-full xl:w-5/6 h-auto xl:h-full mt-0 p-8 xl:p-10 flex-1"
         id="content"
       >
         <div className="w-full relative" id="scroll-top-btn">
@@ -110,6 +98,9 @@ const Work = () => {
         {/* end here */}
       </div>
       {/* <Footer /> */}
+      <div className="w-full bg-brand-b">
+        <Footer />
+      </div>
     </div>
   );
 };

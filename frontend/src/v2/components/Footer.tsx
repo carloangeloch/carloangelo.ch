@@ -15,11 +15,11 @@ const Footer = () => {
         >
           <CHLogo />
         </div>
-        <div>Creating beautiful experiences.</div>
+        <em>Creating beautiful experiences.</em>
       </div>
       <div className="flex-1 flex flex-col  gap-y-2">
-        <div className="text-lg">
-          <span>Navigation</span>
+        <div>
+          <em>Navigation</em>
         </div>
         {menuLinks.map((m) => {
           return (
@@ -32,7 +32,9 @@ const Footer = () => {
         })}
       </div>
       <div className="flex-1 flex flex-col gap-y-2">
-        <div className="text-lg">Check out my socials</div>
+        <div>
+          <em>Check out my Socials</em>
+        </div>
         <div className="flex gap-x-3 mt-7 md:mt-3 justify-center md:justify-normal">
           <Socmed />
         </div>

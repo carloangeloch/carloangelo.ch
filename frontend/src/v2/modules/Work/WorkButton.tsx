@@ -7,7 +7,12 @@ const WorkButton = () => {
   const appContext = useContext(AppContext);
   return (
     <div>
-      <div className="w-full flex flex-row">
+      <motion.div
+        initial={{ opacity: 0, translateY: "-20px" }}
+        animate={{ opacity: 1, translateY: 0 }}
+        transition={{ delay: 0.5, duration: 0.3, ease: "easeIn" }}
+        className="w-full flex flex-row"
+      >
         <motion.div
           className="flex-1 flex flex-col justify-center text-center p-2 cursor-pointer"
           initial={{ backgroundColor: undefined }}
@@ -44,7 +49,6 @@ const WorkButton = () => {
                     ...appContext.appData,
                     projectTypes: p.v,
                   });
-                  console.log(p.v);
                 }}
               >
                 {p.name}
@@ -52,7 +56,7 @@ const WorkButton = () => {
             );
           }
         )}
-      </div>
+      </motion.div>
     </div>
   );
 };

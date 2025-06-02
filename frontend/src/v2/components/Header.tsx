@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { AppContext } from "../../context/AppContext";
 import menuLinks from "../../data/menuLinks.json";
-import { IoClose } from "react-icons/io5";
 
-const Socmed = lazy(() => import("../components/Socmed"));
 const CHLogo = lazy(() => import("./CHLogo"));
 const CiMenuBurger = lazy(() =>
   import("react-icons/ci").then((mod) => ({ default: mod.CiMenuBurger }))
 );
+const IoClose = lazy(() =>
+  import("react-icons/io5").then((mod) => ({ default: mod.IoClose }))
+);
 
 const Header = () => {
   const appContext = useContext(AppContext);
-  const currentPage = sessionStorage.getItem("pageLoc");
 
   return (
     <div
       id="header-inner"
-      className="h-full flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between  px-3 xl:p-[40px_0_0_40px] relative"
+      className="h-full flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between  px-3 xl:p-[40px_0_0_64px] relative"
     >
       <div className="flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between w-full xl:w-auto">
         <CHLogo />
@@ -43,7 +43,7 @@ const Header = () => {
                       },
                     }}
                     style={
-                      currentPage == m.name.toLowerCase()
+                      appContext.appData.currentPage == m.name.toLowerCase()
                         ? { color: "#EBD26B", fontWeight: "bold" }
                         : { color: "#EEEEEE", fontWeight: "normal" }
                     }
@@ -59,7 +59,7 @@ const Header = () => {
                       hovered: {
                         width: window.innerWidth > 1280 ? "130%" : "100%",
                         backgroundColor:
-                          currentPage == m.name.toLowerCase()
+                          appContext.appData.currentPage == m.name.toLowerCase()
                             ? "#EBD26B"
                             : "#EEEEEE",
                       },
@@ -85,16 +85,13 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="hidden xl:flex flex-col gap-y-4 pb-[40px]">
-        <Socmed />
-      </div>
       {/* // Mobile Menu */}
       <motion.div
         initial={{ width: 0, top: 0, right: 0 }}
         animate={{ width: appContext.appData.showNav ? "100%" : 0 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
         id="mobile-menu"
-        className="fixed flex flex-col gap-y-2 md:hidden h-full bg-brand-b z-50 top-00 right-0"
+        className="fixed flex flex-col gap-y-2 md:hidden h-full bg-brand-c z-50 top-00 right-0"
       >
         <motion.div
           initial={
