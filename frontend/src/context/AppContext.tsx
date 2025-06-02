@@ -5,6 +5,7 @@ type AppData = {
   yScroll: boolean;
   workActive: string;
   projectTypes: string;
+  shoNav: boolean;
 };
 
 export type AppDataInterface = {
@@ -23,13 +24,14 @@ const defaultAppData = {
   yScroll: false,
   workActive: "graphics",
   projectTypes: "all",
+  showNav: false,
 };
 
 const AppProvider = ({ children }: AppProvidedrProps) => {
   const [appData, setAppData] = useState<AppData | typeof defaultAppData>(
     defaultAppData
   );
-  console.log(appData.currentPage)
+  console.log(appData);
   return (
     <AppContext.Provider value={{ appData, setAppData }}>
       {children}

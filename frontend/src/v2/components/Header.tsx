@@ -1,174 +1,160 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, lazy } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { AppContext } from "../../context/AppContext";
-import burger from "../../assets/hamburger.svg";
 import menuLinks from "../../data/menuLinks.json";
-import { CiMenuBurger } from "react-icons/ci";  
-import CHLogo from "./CHLogo";
-import { div } from "framer-motion/client";
+import { IoClose } from "react-icons/io5";
+
+const Socmed = lazy(() => import("../components/Socmed"));
+const CHLogo = lazy(() => import("./CHLogo"));
+const CiMenuBurger = lazy(() =>
+  import("react-icons/ci").then((mod) => ({ default: mod.CiMenuBurger }))
+);
 
 const Header = () => {
-
   const appContext = useContext(AppContext);
-  const [showNav, setShowNav] = useState(false);
-  const currentPage = sessionStorage.getItem('pageLoc')
-
-  useEffect(() => {
-    if (window.innerWidth > 750) {
-      setShowNav(true);
-    }
-  }, []);
-
-  
+  const currentPage = sessionStorage.getItem("pageLoc");
 
   return (
-    <div id="header-inner" className="h-full flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between">
-      <CHLogo/>
-      <div id="side-menu" className="h-full flex flex-row xl:flex-col gap-4 items-center xl:items-start">
-        {window.innerWidth > 750 ?
-          // !Desktop - Side Panel
-          menuLinks.map((m : {name: string, path: string}) => {
-              return (
-                <Link to={m.path} key={m.name}>
-                  <motion.div initial="initial" whileHover="hovered">
-                    <motion.div
+    <div
+      id="header-inner"
+      className="h-full flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between  px-3 xl:p-[40px_0_0_40px] relative"
+    >
+      <div className="flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between w-full xl:w-auto">
+        <CHLogo />
+        {/* Desktop Menu Button */}
+        <div
+          id="side-menu-pc"
+          className="h-full hidden flex-row md:flex xl:flex-col gap-4 items-center xl:items-start"
+        >
+          {menuLinks.map((m: { name: string; path: string }) => {
+            return (
+              <Link to={m.path} key={m.name}>
+                <motion.div initial="initial" whileHover="hovered">
+                  <motion.div
                     variants={{
                       initial: {
                         translateX: 0,
-                        translateY: 0
+                        translateY: 0,
                       },
                       hovered: {
-                        translateX: (window.innerWidth > 1280 ? 8 : 0),
-                        translateY: (window.innerWidth > 1280 ? 0 : -5)
-                      }
+                        translateX: window.innerWidth > 1280 ? 8 : 0,
+                        translateY: window.innerWidth > 1280 ? 0 : -5,
+                      },
                     }}
-                      style={
-                        currentPage == m.name.toLowerCase()
-                          ? { color: "#EBD26B", fontWeight: "bold" }
-                          : { color: "#EEEEEE", fontWeight: "normal" }
-                      }
-                    >
-                      {m.name}
-                    </motion.div>
-                    <motion.div
-                      className="h-0.5"
-                      variants={{
-                        initial: {
-                          width: 0,
-                        },
-                        hovered: {
-                          width: (window.innerWidth > 1280 ? "130%" : "100%"),
-                          backgroundColor:
-                            currentPage == m.name.toLowerCase()
-                              ? "#EBD26B"
-                              : "#EEEEEE",
-                        },
-                      }}
-                    />
+                    style={
+                      currentPage == m.name.toLowerCase()
+                        ? { color: "#EBD26B", fontWeight: "bold" }
+                        : { color: "#EEEEEE", fontWeight: "normal" }
+                    }
+                  >
+                    {m.name}
                   </motion.div>
-                </Link>
-              )
-            }):
-            // !Mobile - Button
-            <div>
-              <CiMenuBurger fontSize={'24px'}/>
-            </div>
-        }
+                  <motion.div
+                    className="h-0.5"
+                    variants={{
+                      initial: {
+                        width: 0,
+                      },
+                      hovered: {
+                        width: window.innerWidth > 1280 ? "130%" : "100%",
+                        backgroundColor:
+                          currentPage == m.name.toLowerCase()
+                            ? "#EBD26B"
+                            : "#EEEEEE",
+                      },
+                    }}
+                  />
+                </motion.div>
+              </Link>
+            );
+          })}
+        </div>
+
+        {/* Mobile Menu Button */}
+        <div
+          id="side-menu-mobile"
+          className="h-full flex flex-row md:hidden gap-4 items-center xl:items-start"
+        >
+          <CiMenuBurger
+            fontSize={28}
+            onClick={() =>
+              appContext.setAppData({ ...appContext.appData, showNav: true })
+            }
+            className="cursor-pointer"
+          />
+        </div>
       </div>
+      <div className="hidden xl:flex flex-col gap-y-4 pb-[40px]">
+        <Socmed />
+      </div>
+      {/* // Mobile Menu */}
+      <motion.div
+        initial={{ width: 0, top: 0, right: 0 }}
+        animate={{ width: appContext.appData.showNav ? "100%" : 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+        id="mobile-menu"
+        className="fixed flex flex-col gap-y-2 md:hidden h-full bg-brand-b z-50 top-00 right-0"
+      >
+        <motion.div
+          initial={
+            appContext.appData.showNav
+              ? { opacity: 0, translateY: "-20px" }
+              : { opacity: 1, translateY: 0 }
+          }
+          animate={
+            appContext.appData.showNav
+              ? { opacity: 1, translateY: 0 }
+              : { opacity: 0, translateY: "-20px" }
+          }
+          transition={{ delay: 0.15, duration: 0.3, ease: "easeIn" }}
+          className="flex flex-row justify-between items-center p-4"
+        >
+          <CHLogo />
+          <div>
+            <IoClose
+              fontSize={28}
+              onClick={() =>
+                appContext.setAppData({ ...appContext.appData, showNav: false })
+              }
+              className="cursor-pointer"
+            />
+          </div>
+        </motion.div>
+        {menuLinks.map((m: { name: string; path: string }, idx) => {
+          return (
+            <Link
+              to={m.path}
+              key={m.name}
+              onClick={() =>
+                appContext.setAppData({ ...appContext.appData, showNav: false })
+              }
+            >
+              <motion.div
+                initial={
+                  appContext.appData.showNav
+                    ? { opacity: 0, translateY: "-20px" }
+                    : { opacity: 1, translateY: 0 }
+                }
+                animate={
+                  appContext.appData.showNav
+                    ? { opacity: 1, translateY: 0 }
+                    : { opacity: 0, translateY: "-20px" }
+                }
+                transition={{
+                  delay: 0.15 * idx + 0.15,
+                  duration: 0.3,
+                  ease: "easeIn",
+                }}
+                className="w-full p-4 text-center"
+              >
+                {m.name}
+              </motion.div>
+            </Link>
+          );
+        })}
+      </motion.div>
     </div>
-    // TODO: Add fuctionality for the moblie button and show fixed header on scroll down for PC
-    // <div
-    //   className="w-full xl:w-auto flex flex-row xl:flex-col gap-y-5 font-title"
-    //   id="header"
-    // >
-    //   <div id="logo-div" className="w-1/2 flex flex-col justify-center">
-    //     <CHLogo />
-    //   </div>
-    //   {window.innerWidth > 750 ? (
-    //     //Desktop Menu
-    //     <div
-    //       className="w-1/2 xl:w-auto pr-3 xl:pr-auto flex flex-row xl:flex-col gap-x-3 xl:gap-y-3 justify-end text-base xl:text-lg"
-    //       id="nav-div"
-    //     >
-
-    //       {menuLinks.map((m : {name: string, path: string}) => {
-    //         return (
-
-    //           <Link to={m.path} key={m.name}>
-    //             <motion.div initial="initial" whileHover="hovered" className="px-4">
-    //               <span
-    //                 style={
-    //                   appContext.appData.currentPage == "about"
-    //                     ? { color: "#FDE047", fontWeight: "bold" }
-    //                     : { color: "#F6F8F5", fontWeight: "normal" }
-    //                 }
-    //               >
-    //                 {m.name}
-    //               </span>
-    //               <motion.div
-    //                 className="h-0.5"
-    //                 variants={{
-    //                   initial: {
-    //                     width: 0,
-    //                   },
-    //                   hovered: {
-    //                     width: "100%",
-    //                     backgroundColor:
-    //                       appContext.appData.currentPage == "about"
-    //                         ? "#FDE047"
-    //                         : "#F8E7E2",
-    //                   },
-    //                 }}
-    //               />
-    //             </motion.div>
-    //           </Link>
-    //         )
-    //       })}
-    //     </div>
-    //   ) : (
-    //     //Mobile menu
-    //     <div className="w-1/2" id="mobile-nav">
-    //       <div
-    //         className="w-full flex justify-end"
-    //         onClick={() => {
-    //           setShowNav(!showNav);
-    //           console.log("showing nav");
-    //         }}
-    //       >
-    //         <img src={burger} alt="menu-icon" className="w-10" />
-    //       </div>
-    //       {showNav && (
-    //         <div className="relative">
-    //           <div className="fixed bg-brand-a w-full h-screen z-20 top-0 left-0" />
-    //           <div className="fixed w-full p-4 top-0 left-0 z-30 flex flex-col items-end justify-center gap-y-4">
-    //             <button
-    //               className="btn btn-success"
-    //               onClick={() => {
-    //                 setShowNav(!showNav);
-    //                 console.log("closing nav");
-    //               }}
-    //             >
-    //               X
-    //             </button>
-    //             {menuLinks.map((m) => {
-    //               return (
-    //                 <Link
-    //                   to={m.path}
-    //                   key={m.name}
-    //                   className="w-full p-2 text-center"
-    //                   onClick={() => setShowNav(!showNav)}
-    //                 >
-    //                   <div className="">{m.name}</div>
-    //                 </Link>
-    //               );
-    //             })}
-    //           </div>
-    //         </div>
-    //       )}
-    //     </div>
-    //   )}
-    // </div>
   );
 };
 

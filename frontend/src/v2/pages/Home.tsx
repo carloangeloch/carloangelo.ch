@@ -1,7 +1,7 @@
 import { useContext, useEffect, lazy } from "react";
 import Header from "../components/Header";
 import { dropboxConverter } from "../../utils/dropboxConverter";
-import { textTyping } from "../../utils/textTyping";  
+import { textTyping } from "../../utils/textTyping";
 import { AppContext } from "../../context/AppContext";
 
 const Footer = lazy(() => import("../components/Footer"));
@@ -18,7 +18,11 @@ const Home = () => {
     "Data Intelligence Manager",
   ];
   const appContext = useContext(AppContext);
-  useEffect(() => appContext.setAppData('v2-home'), []);
+  useEffect(
+    () =>
+      appContext.setAppData({ ...appContext.appData, currentPage: "v2-home" }),
+    []
+  );
 
   return (
     <div id="container">
@@ -56,7 +60,7 @@ const Home = () => {
         <div className="w-full xl:w-2/3 h-1/2 md:h-3/4 lg:h-2/3 xl:h-full relative">
           <div className="flex h-full p-5 xl:pr-20">
             <img
-            loading="lazy"
+              loading="lazy"
               src={dropboxConverter(
                 "https://www.dropbox.com/scl/fi/cpq372ielpgcvgihxhnd4/ch-light.svg?rlkey=4tpubcoc6ygmjebarem38wig3&st=oqg01wig&dl=0"
               )}
@@ -77,10 +81,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <AboutMe/>
+      <AboutMe />
       <FeaturedProjects />
       <ContactMe />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

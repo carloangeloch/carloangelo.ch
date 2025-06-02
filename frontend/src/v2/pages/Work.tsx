@@ -1,44 +1,40 @@
-import { useContext, useEffect, useState, useRef, lazy} from "react";
+import { useContext, useEffect, useState, useRef, lazy } from "react";
 import { AppContext } from "../../context/AppContext";
 import Header from "../components/Header";
-import Socmed from "../components/Socmed";
 import { motion } from "framer-motion";
 import WorkContent from "../modules/Work/WorkContent";
 // import worksData from "../../data/works_data.json";
 import arrowUp from "../../assets/up-arrow.png";
-import { workSort, workDataController } from "../controller/worksController";
-import { pageLocationStore } from "../controller/sessionContoller";
+import { workSort } from "../controller/worksController";
 
 const WorkButtons = lazy(() => import("../modules/Work/WorkButton"));
 const Footer = lazy(() => import("../components/Footer"));
 
 const Work = () => {
   const appContext = useContext(AppContext);
-  const [workData, setWorkData] = useState(
-    workSort('all')
-  ); //hold current work data
+  const [workData, setWorkData] = useState(workSort("all")); //hold current work data
 
   useEffect(() => {
-    appContext.setAppData({ currentPage: "work" })
-    //Persistent page location store
-    pageLocationStore("work")
-    const pstate = sessionStorage.getItem("pstate")
-    if(!sessionStorage.getItem("pstate")){
-      //Persistent projectType store
-      workDataController('all')
-      setWorkData(workSort('all'))
-      appContext.setAppData({ projectTypes: "all" })
-    }
-    if(sessionStorage.getItem("pstate") ) {
-      workDataController(pstate as string)
-      setWorkData(workSort(pstate as string))
-      appContext.setAppData({ projectTypes: pstate as string })
-    }
+    appContext.setAppData({ ...appContext.appData, currentPage: "work" });
+    if (appContext.appData.projectTypes === null || undefined)
+      appContext.setAppData({ ...appContext.appData, projectTypes: "all" });
+    // //Persistent page location store
+    // pageLocationStore("work");
+    // if (sessionStorage.getItem("pstate") === null || undefined) {
+    //   appContext.setAppData({ ...appContext.appData, projectTypes: "all" });
+    //   sessionStorage.setItem("pstate", "all");
+    //   workDataController("all");
+    // } else {
+    //   appContext.setAppData({
+    //     ...appContext.appData,
+    //     projectTypes: sessionStorage.getItem("pstate"),
+    //   });
+    // }
   }, []);
 
   useEffect(() => {
     setWorkData(workSort(appContext.appData.projectTypes));
-  },[appContext.appData.projectTypes]);
+  }, [appContext.appData.projectTypes]);
 
   //!scroll to top func -- DO NOT DELETE
   const divRef = useRef<HTMLDivElement>(null);
@@ -72,18 +68,21 @@ const Work = () => {
     <div
       className="w-full bg-brand-a flex flex-col xl:flex-row"
       id="container"
+      style={{ overflowY: appContext.appData.showNav ? "hidden" : "auto" }}
     >
-      <div id="header-container" className="w-full xl:w-1/6  h-14 xl:h-screen flex flex-col justify-center xl:justify-normal">
-        <div id="header-ref" className="w-full h-full px-3 xl:p-[40px_0_0_40px]">
-          <Header/>
+      <div
+        id="header-container"
+        className="w-full xl:w-1/6 h-14 xl:h-screen flex flex-col :justify-normal"
+      >
+        <div id="header-ref" className="w-full h-full">
+          <Header />
         </div>
       </div>
-      {/* <div
-        className="w-full xl:w-1/6 h-auto xl:h-full relative text-color-d "
-        id="header"
+      <div
+        className="w-full xl:w-5/6 h-auto xl:h-full mt-0 p-8 xl:p-10"
+        id="content"
       >
-        // scroll to top button
-        <div className="w-full relative">
+        <div className="w-full relative" id="scroll-top-btn">
           <motion.div
             initial={{ opacity: 0, transform: "translateY(500px)" }}
             animate={
@@ -98,32 +97,12 @@ const Work = () => {
           </motion.div>
         </div>
 
-        <div className="h-auto xl:h-1/2">
-          <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
-            <Header />
-          </div>
-        </div>
-        {window.innerHeight > 1050 ? (
-          <div className="w-full h-1/2 absolute bottom-0">
-            <div className="relative w-full h-full">
-              <div className=" absolute bottom-0 pb-20 px-20">
-                <div className="flex flex-col gap-y-5">
-                  <Socmed />
-                </div>
-              </div>
-            </div>
-          </div>
-        ) : null}
-      </div> */}
-
-      <div
-        className="w-full xl:w-5/6 h-auto xl:h-full mt-0 pt-20"
-        id="content"
-      >
         {/* scroll to top ref */}
         <div className="w-full" ref={divRef} />
         {/* put others here */}
-        <WorkButtons />
+        <div className="w-full overflow-x-hidden">
+          <WorkButtons />
+        </div>
         <div className="w-full pb-16">
           <WorkContent workData={workData} />
           {/* <div className="h-16"></div> */}
