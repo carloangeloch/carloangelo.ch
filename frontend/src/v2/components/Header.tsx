@@ -25,7 +25,7 @@ const Header = () => {
         {/* Desktop Menu Button */}
         <div
           id="side-menu-pc"
-          className="h-full hidden flex-row md:flex xl:flex-col gap-4 items-center xl:items-start"
+          className="h-full hidden flex-row md:flex xl:flex-col gap-y-4 gap-x-10 items-center xl:items-start"
         >
           {menuLinks.map((m: { name: string; path: string }) => {
             return (

@@ -4,15 +4,7 @@ import { monthByNumbers } from "../../../utils/monthByNumber";
 import WorkModal from "./WorkModal";
 import { useNavigate, useParams } from "react-router-dom";
 import ImageLazyLoad from "../../../utils/ImageLazyLoad";
-
-import { FaRegFolderOpen } from "react-icons/fa";
-import { MdOutlineDraw } from "react-icons/md";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { FaTerminal } from "react-icons/fa6";
-import { Md3dRotation } from "react-icons/md";
-import { CiShop } from "react-icons/ci";
-import { CgBrowser } from "react-icons/cg";
-import { PiVideoLight } from "react-icons/pi";
+import ProjectTypeIcon from "../../components/ProjectTypeIcon";
 
 interface WorkListProps {
   workData: any;
@@ -42,23 +34,31 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
   }, [openModal]);
 
   return (
-    <div className="flex flex-wrap gap-3 w-full justify-center mt-8">
+    <div className="flex flex-wrap gap-4 w-full justify-center mt-8">
       {workData.map((work: any, ind: number) => {
         return (
           <motion.div
-            ref={refer}
-            initial={{ opacity: 0, translateY: "50px" }}
+            key={work.id}
+            initial={{
+              opacity: 0,
+              translateY: "50px",
+            }}
             animate={{ opacity: 1, translateY: 0 }}
-            transition={{ delay: 0.1 * ind, ease: "easeInOut", duration: 0.2 }}
+            transition={{
+              delay: 0.1 * ind + 0.5,
+              ease: "easeInOut",
+              duration: 0.2,
+            }}
+            className="w-full md:w-1/3 lg:w-1/4 2xl:w-96"
           >
             <motion.div
-              initial={{ translateY: 0 }}
-              whileHover={{ translateY: "-8px" }}
+              initial={{ translateY: 0, backgroundColor: "#222831" }}
+              whileHover={{ translateY: "-8px", backgroundColor: "#31363F" }}
               transition={{
                 duration: 0.2,
                 ease: "easeInOut",
               }}
-              className="card bg-base-100 w-full md:w-1/3 lg:w-1/4 2xl:w-96 h-[380px] shadow-sm relative"
+              className="card bg-base-100 w-full h-[380px] shadow-sm relative"
               key={work.id}
             >
               <figure className="h-3/4 bg-brand-c">
@@ -76,72 +76,17 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
                 <p>{monthByNumbers(work.month) + " " + work.year}</p>
               </div>
               <div className="absolute h-16 w-full flex flex-row gap-x-2 justify-end p-2">
-                {work.project_type.map((t: string) => {
-                  if (t == "all")
-                    return (
-                      <FaRegFolderOpen
-                        className="bg-[#31363F] rounded-full p-1"
-                        fontSize={32}
-                      />
-                    );
-                  else if (t == "illustration")
-                    return (
-                      <MdOutlineDraw
-                        className="bg-[#CA8A04] rounded-full p-1"
-                        fontSize={32}
-                      />
-                    );
-                  else if (t == "graphics")
-                    return (
-                      <MdOutlineDesignServices
-                        className="bg-[#1D4ED8] rounded-full p-1"
-                        fontSize={32}
-                      />
-                    );
-                  else if (t == "development")
-                    return (
-                      <FaTerminal
-                        className="bg-[#15803D] rounded-full p-1"
-                        fontSize={32}
-                      />
-                    );
-                  else if (t == "3d")
-                    return (
-                      <Md3dRotation
-                        className="bg-[#EA580C] rounded-full p-1"
-                        fontSize={32}
-                      />
-                    );
-                  else if (t == "ecomm")
-                    return (
-                      <CiShop
-                        className="bg-[#0E7490] rounded-full p-1"
-                        fontSize={32}
-                      />
-                    );
-                  else if (t == "uiux")
-                    return (
-                      <CgBrowser
-                        className="bg-[#EF4444] rounded-full p-1"
-                        fontSize={32}
-                      />
-                    );
-                  else if (t == "animation")
-                    return (
-                      <PiVideoLight
-                        className="bg-[#7E22CE] rounded-full p-1"
-                        fontSize={32}
-                      />
-                    );
-                })}
+                {work.project_type.map((t: string) => (
+                  <div key={t + Math.random().toString()}>
+                    <ProjectTypeIcon t={t} />
+                  </div>
+                ))}
               </div>
             </motion.div>
           </motion.div>
         );
       })}
     </div>
-
-    //TODO: MODAL FUNCTIONALITY
 
     // <div className="relative w-full">
     //   {openModal && (
