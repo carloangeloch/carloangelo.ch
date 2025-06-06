@@ -8,19 +8,17 @@ interface ImageLazyLoadProps {
   imageSrc: string[];
   altname: string;
   styles: string;
-  scaling?: string;
 }
 
 const ImageLazyLoad: FC<ImageLazyLoadProps> = ({
   imageSrc,
   altname,
   styles,
-  scaling,
 }) => {
   const w = getScreenWidth();
 
   return (
-    <picture className={scaling}>
+    <picture>
       <LazyLoadImage
         src={
           imageSrc.length === 1

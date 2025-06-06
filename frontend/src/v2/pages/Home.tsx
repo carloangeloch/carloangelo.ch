@@ -31,10 +31,8 @@ const Home = () => {
         className="w-full bg-brand-a font-title flex flex-wrap h-screen"
       >
         <div className="w-full xl:w-1/3 h-1/2 md:h-1/4 lg:h-1/3 xl:h-full relative text-brand-d">
-          <div className="h-auto xl:h-1/2">
-            <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
-              <Header />
-            </div>
+          <div className="h-auto xl:h-1/2 p-3">
+            <Header />
           </div>
           <div className="w-full h-full xl:h-1/2 relative xl:absolute bottom-0 text-center xl:text-left flex flex-col justify-center items-center">
             <div className="relative w-full h-auto xl:h-full">

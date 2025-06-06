@@ -93,7 +93,6 @@ const Work = () => {
         </div>
         <div className="w-full pb-16">
           <WorkContent workData={workData} />
-          {/* <div className="h-16"></div> */}
         </div>
         {/* end here */}
       </div>

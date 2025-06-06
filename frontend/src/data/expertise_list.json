@@ -1,0 +1,50 @@
+[
+  {
+    "tag": "data",
+    "title": "Data Intelligence & Analysis",
+    "description": "Data collection, ETL processes, data transformation, and visualization using tools like Python, Google Bigquery and Google Looker.",
+    "item1": "https://www.dropbox.com/scl/fi/6xgeb74wrnxs795kb5mq0/looker.png?rlkey=tkwrdf21ew3pm500dlz1k9llk&st=ld3yzmyc&dl=0",
+    "item2": "https://www.dropbox.com/scl/fi/kklcupqt1db3k1iehmvzt/python.png?rlkey=btqms4w11nf4o6c5gaw4ibgk6&st=oyhufmv8&dl=0",
+    "item3": "https://www.dropbox.com/scl/fi/qisjwn71ewqslpa2peiwz/bq.png?rlkey=2qnisogybci1gcr8v4p6osj7e&st=w3jwh05w&dl=0"
+  },
+  {
+    "tag": "web-dev",
+    "title": "Web Development",
+    "description": "I specialize in frontend technologies like React.js, JavaScript, Tailwind CSS, HTML5, and CSS3, while for backend development, I work with Python, Django, and REST APIs. Additionally, I have nearly 2 years of experience building and customizing WordPress websites using Elementor and Shopify with theme development with Liquid.",
+    "item1": "https://www.dropbox.com/scl/fi/f0rqb0qwylnpazcr3uqlg/shopify.png?rlkey=l91gfnjnrxfy26njema8qltq6&st=wvpndl3q&dl=0",
+    "item2": "https://www.dropbox.com/scl/fi/akv5sp8ulqbql9ey28b53/django.png?rlkey=f3tme1mkmv9ovmbmswkfk64sp&st=jju3rebi&dl=0",
+    "item3": "https://www.dropbox.com/scl/fi/t5c1nka8do2s7kks4twiu/react.png?rlkey=992jh9dm15zhsr6usmc7w274v&st=2cn0kztt&dl=0"
+  },
+  {
+    "tag": "cloud",
+    "title": "Cloud Solutions",
+    "description": "Creating data storage in Google BigQuery, building ETL pipelines using Google Cloud Storage and Dataflow, creating visualizations with Google Looker, and deploying full-stack web applications on Google Cloud.",
+    "item1": "https://www.dropbox.com/scl/fi/6mhl6g4y1hblwr0nlwg2a/gcp.png?rlkey=a40il8kuv0iod6c4bgrfwkjrt&st=kb7of14k&dl=0",
+    "item2": "https://www.dropbox.com/scl/fi/nalwxj8ac5r7x8il3cas7/gce.png?rlkey=fok9nkrcsmrva8q06hdhdh303&st=hvxei8pa&dl=0",
+    "item3": "https://www.dropbox.com/scl/fi/j93pdnn6a9tlqbkwb3j2s/cloud-sql.png?rlkey=arm0ftby8e34oya37ottbs5by&st=245nd2l5&dl=0"
+  },
+  {
+    "tag": "graphics",
+    "title": "Graphic and Marketing Design",
+    "description": "Specializing in marketing banners, product images, and branding for online marketplaces using Adobe Photoshop and Illustrator. I also create user interface and experience designs with Figma.",
+    "item1": "https://www.dropbox.com/scl/fi/zvwk874btsjvnva5q7l3l/figma.png?rlkey=wetpf6vd03o3y6jloscdv2wi8&st=u605htlr&dl=0",
+    "item2": "https://www.dropbox.com/scl/fi/fsfk567wtvxkjg0ceyhe7/ai.png?rlkey=5jrf4wbah0jsxt08emiescygj&st=ndm4m5lv&dl=0",
+    "item3": "https://www.dropbox.com/scl/fi/w9kkubxlzo2j7rupdu381/ps.png?rlkey=5sf3m8t519e6j5rc9jz67ljp4&st=kxlry790&dl=0"
+  },
+  {
+    "tag": "3d",
+    "title": "3d Architectural and General Design",
+    "description": "Model 3D designs in Blender, texturing them to Substance Painter, rendering it to Unreal Engine and do post processing in DaVinci Resolve.",
+    "item1": "https://www.dropbox.com/scl/fi/qtk2wqksagnk7yfj8cmrf/unreal.png?rlkey=6nt0mh6yrujcalkhlymoly0j5&st=f9ru1ycv&dl=0",
+    "item2": "https://www.dropbox.com/scl/fi/kym3ede9p8ssq9av52gt7/spp.png?rlkey=fkjzr5b6de1ucbsr0366mdqla&st=ykk5mft3&dl=0",
+    "item3": "https://www.dropbox.com/scl/fi/myrls6syzw2hbtmt4r3k7/Blender_logo_no_text.svg.png?rlkey=2esnbxpdpz6si9adzppqoj8au&st=9pbhkwng&dl=0"
+  },
+  {
+    "tag": "rpa",
+    "title": "Process Automation",
+    "description": "Streamlining workflows through automation for data collection and marketplace management on various online marketplace platforms in South East Asia. I also create automation solutions using tools like Playwright, Selenium, and UiPath to optimize processes and improve efficiency.",
+    "item1": "https://www.dropbox.com/scl/fi/bdx4dhbo2am2i0zkanxyk/uipath.png?rlkey=cmlkrozzqod4e9iet2kcaw711&st=6uegf4we&dl=0",
+    "item2": "https://www.dropbox.com/scl/fi/t5pru1znvoie2umbqq4di/selenium.png?rlkey=n7o4nzrw9t6lv63ny80m66ju6&st=gfv6hmnn&dl=0",
+    "item3": "https://www.dropbox.com/scl/fi/dl5sc9vez5tmv9v1ybgxh/playwright.png?rlkey=01dhfbpeknpwkurt8ylajmts0&st=jy9yv0tx&dl=0"
+  }
+]
