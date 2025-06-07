@@ -1,10 +1,11 @@
-import { useContext, useEffect, useState, useRef } from "react";
+import { useContext, useEffect, useState, useRef, lazy } from "react";
 import { AppContext } from "../../context/AppContext";
 import Header from "../components/Header";
 import arrowUp from "../../assets/up-arrow.png";
 import { motion } from "framer-motion";
 
 import ContactContent from "../modules/Contact/ContactContent";
+const Footer = lazy(() => import("../components/Footer"));
 
 const Contact = () => {
   const appContext = useContext(AppContext);
@@ -44,12 +45,23 @@ const Contact = () => {
 
   return (
     <div
-      className="w-full bg-color-a2 font-title flex flex-wrap xl:flex-nowrap h-screen overflow-hidden"
+      className="w-full bg-brand-a flex flex-wrap flex-col xl:flex-row"
       id="container"
+      style={{ overflowY: appContext.appData.showNav ? "hidden" : "visible" }}
     >
+      <div className="w-full" ref={divRef} />
       <div
-        className="w-full xl:w-1/6 h-auto xl:h-full relative text-color-d"
-        id="header"
+        id="header-container"
+        className="w-full xl:w-1/6 h-14 xl:h-screen flex flex-col :justify-normal"
+      >
+        <div id="header-ref" className="w-full h-full">
+          <Header />
+        </div>
+      </div>
+
+      <div
+        className="w-full xl:w-5/6 h-auto xl:h-full mt-0 p-8 xl:p-10 flex-1"
+        id="content"
       >
         {/* scroll to top button */}
         <div className="w-full relative">
@@ -61,26 +73,16 @@ const Contact = () => {
                 : { opacity: 0, transform: "translateY(500px)" }
             }
             onClick={() => scrollToTop()}
-            className="fixed bottom-5 right-5 w-[50px] h-[50px] bg-color-a border-color-d border-2 rounded-lg p-2 z-10"
+            className="fixed bottom-5 right-5 w-[50px] h-[50px] bg-brand-a border-brand-d border-2 rounded-lg p-2 z-10"
           >
             <img src={arrowUp} alt="arrow-up" className="object-cover w-full" />
           </motion.div>
         </div>
 
-        <div className="h-auto xl:h-1/2">
-          <div className="flex p-3 xl:pl-20 xl:pt-20 w-full">
-            <Header />
-          </div>
-        </div>
-      </div>
-      <div
-        className="w-full xl:w-5/6 h-auto xl:h-full overflow-y-scroll mt-0 xl:pt-20"
-        id="content"
-      >
-        <div className="w-full" ref={divRef} />
-        {/* put others here */}
         <ContactContent />
-        {/* end here */}
+      </div>
+      <div className="w-full bg-brand-b">
+        <Footer />
       </div>
     </div>
   );
