@@ -28,7 +28,7 @@ const Home = () => {
     <div id="container">
       <div
         id="intro-section"
-        className="w-full bg-brand-a font-title flex flex-wrap h-screen"
+        className="w-full bg-brand-a font-title flex flex-wrap h-screen  text-brand-d"
       >
         <div className="w-full xl:w-1/3 h-1/2 md:h-1/4 lg:h-1/3 xl:h-full relative text-brand-d">
           <div className="h-auto xl:h-1/2 p-3">

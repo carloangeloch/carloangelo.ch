@@ -1,13 +1,5 @@
 import { FC, useRef, useState } from "react";
 import { useInView } from "framer-motion";
-import sdLogo from "../../../assets/split_dragon_logo.jpeg";
-import intrepidLogo from "../../../assets/flywheel_digital_logo.jpeg";
-import goForthLogo from "../../../assets/go_forth_pest_control_logo.jpeg";
-import eCreationsLogo from "../../../assets/e-creation.jpeg";
-import m3dLogo from "../../../assets/m3d-logo.png";
-import amkorLogo from "../../../assets/amkor.jpeg";
-import stacksLogo from "../../../assets/stacks.png";
-import building from "../../../assets/office-building.png";
 import { motion } from "framer-motion";
 import workHistoryList from "../../../data/work_history.json";
 

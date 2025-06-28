@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div
       id="header-inner"
-      className="h-full flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between  px-3 xl:p-[40px_0_0_64px] relative"
+      className="h-full flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between  px-3 xl:p-[40px_0_0_64px] relative  text-brand-d"
     >
       <div className="flex flex-row xl:flex-col gap-y-4 items-center xl:items-start justify-between w-full xl:w-auto">
         <CHLogo />

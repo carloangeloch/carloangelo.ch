@@ -45,7 +45,7 @@ const Contact = () => {
 
   return (
     <div
-      className="w-full bg-brand-a flex flex-wrap flex-col xl:flex-row"
+      className="w-full bg-brand-a flex flex-wrap flex-col xl:flex-row  text-brand-d"
       id="container"
       style={{ overflowY: appContext.appData.showNav ? "hidden" : "visible" }}
     >

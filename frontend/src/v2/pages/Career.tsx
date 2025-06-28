@@ -1,11 +1,9 @@
 import { lazy, useContext, useEffect, useRef, useState } from "react";
 import { AppContext } from "../../context/AppContext";
 import Header from "../components/Header";
-import Socmed from "../components/Socmed";
 import JobHistory from "../modules/Career/JobHistory";
 import arrowUp from "../../assets/up-arrow.png";
 import { motion } from "framer-motion";
-import { getScreenWidth } from "../../utils/getScreenWidth";
 
 const Footer = lazy(() => import("../components/Footer"));
 
@@ -47,7 +45,7 @@ const Career = () => {
 
   return (
     <div
-      className="w-full bg-brand-a flex flex-wrap flex-col xl:flex-row"
+      className="w-full bg-brand-a flex flex-wrap flex-col xl:flex-row  text-brand-d"
       id="container"
       style={{ overflowY: appContext.appData.showNav ? "hidden" : "visible" }}
     >

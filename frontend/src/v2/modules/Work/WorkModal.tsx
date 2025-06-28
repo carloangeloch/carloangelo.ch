@@ -260,6 +260,7 @@ const WorkModal = ({ data, setOpenModal }: any) => {
               whileHover="hovered"
               transition={{ duration: 0.3, ease: "easeInOut" }}
               className="flex p-2"
+              id="back-button"
             >
               <motion.div
                 variants={{
@@ -277,15 +278,21 @@ const WorkModal = ({ data, setOpenModal }: any) => {
               className={
                 imageZoom
                   ? "w-full  fixed top-0 left-0 h-screen overflow-scroll cursor-zoom-out"
-                  : "w-full cursor-zoom-in"
+                  : "w-full cursor-zoom-in h-full"
               }
               onClick={() => setImageZoom(!imageZoom)}
             >
-              <div className={imageZoom ? "w-[150%]" : "w-full"}>
+              <div
+                className={
+                  imageZoom
+                    ? "w-[150%]"
+                    : "w-full h-full  flex flex-col items-center justify-center"
+                }
+              >
                 <ImageLazyLoad
                   imageSrc={[data.others[imageIndex].url]}
                   altname={data.others[imageIndex].title}
-                  styles={imageZoom ? "w-full" : "h-screen mx-auto"} //TODO: add more functionally on changing image
+                  styles={imageZoom ? "w-full" : "object-content"} //TODO: add more functionally on changing image
                 />
               </div>
             </motion.div>

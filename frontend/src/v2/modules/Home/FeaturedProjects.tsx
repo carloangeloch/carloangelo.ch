@@ -44,7 +44,7 @@ const FeaturedProjects = () => {
                   </figure>
                   <div className="card-body">
                     <motion.h2
-                      className="card-title"
+                      className="card-title text-brand-a"
                       variants={{
                         initial: { color: "white" },
                         hovered: { color: "#FDE047" },
