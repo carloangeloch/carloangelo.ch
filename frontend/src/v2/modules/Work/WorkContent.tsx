@@ -86,7 +86,7 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
                   <ImageLazyLoad
                     imageSrc={[work.thumbnail_link]}
                     altname={work.title}
-                    styles="h-full object-cover w-full"
+                    styles="h-[380px] object-top object-cover"
                   />
                 </figure>
                 <div className="h-1/4 p-2">
@@ -94,7 +94,9 @@ const WorkContent: FC<WorkListProps> = ({ workData }) => {
                     {String(work.title).substring(0, 50)}{" "}
                     {work.title.length > 50 ? "..." : ""}
                   </h2>
-                  <p>{monthByNumbers(work.month) + " " + work.year}</p>
+                  <p className="text-brand-d/50">
+                    <em>{monthByNumbers(work.month) + " " + work.year}</em>
+                  </p>
                 </div>
                 <div className="absolute h-16 w-full flex flex-row gap-x-2 justify-end p-2">
                   {work.project_type.map((t: string) => (

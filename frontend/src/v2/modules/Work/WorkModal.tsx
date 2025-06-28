@@ -264,9 +264,10 @@ const WorkModal = ({ data, setOpenModal }: any) => {
               <motion.div
                 variants={{
                   initial: { backgroundColor: "transparent", color: "red" },
-                  hovered: { backgroundColor: "red", color: "black" },
+                  hovered: { backgroundColor: "red", color: "white" },
                 }}
-                className="p-2 cursor-pointer"
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+                className="p-2 cursor-pointer border border-red-500 rounded-md"
                 onClick={() => setImageFull(false)}
               >
                 {"<< BACK"}
@@ -275,7 +276,7 @@ const WorkModal = ({ data, setOpenModal }: any) => {
             <motion.div
               className={
                 imageZoom
-                  ? "w-full bg-brand-b fixed top-0 left-0 h-screen overflow-scroll cursor-zoom-out"
+                  ? "w-full  fixed top-0 left-0 h-screen overflow-scroll cursor-zoom-out"
                   : "w-full cursor-zoom-in"
               }
               onClick={() => setImageZoom(!imageZoom)}

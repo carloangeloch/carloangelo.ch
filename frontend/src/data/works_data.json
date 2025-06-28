@@ -5,7 +5,7 @@
     "month": 12,
     "year": 2024,
     "website": "",
-    "project_type": ["graphics"],
+    "project_type": ["graphics", "ecomm"],
     "description": "Banner design for Callington Fresh + Clean products sold by Warren Enterprise MY",
     "thumbnail_link": "https://www.dropbox.com/scl/fi/w6gvl8qa2xwktjoecql6g/front.png?rlkey=2q0tl06v5uqqj1nio29uxex8i&st=x0s3eg0k&dl=0",
     "others": [
@@ -146,6 +146,533 @@
       {
         "name": "Design Tools",
         "lists": ["Adobe Photoshop", "Adobe Illustrator", "Figma"]
+      }
+    ]
+  },
+  {
+    "id": "784slaxdev2fthpda30br",
+    "title": "Comfort Living PH Lazada Store Design",
+    "month": 4,
+    "year": 2025,
+    "website": "https://www.lazada.com.ph/shop/comfort-living-ph-?path=index.htm&lang=en&pageTypeId=1",
+    "project_type": ["graphics", "uiux"],
+    "description": "Lazada store UI design for Comfort Living PH",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/784slaxdev2fthpda30br/front.png?rlkey=ll88l8cre45inru1y0srtemc5&st=xgc85347&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/h786v8y0menz3jdn70rjz/Promo-1.png?rlkey=30nnzrrfa7nbbwhs6upptbmmh&st=ic2f08c4&dl=0",
+        "title": "Banners",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/f7w5c7s4fvl4d195sav5b/Promo-2.png?rlkey=83b94aosu0pf7zxoru1x3yk00&st=b0jrc3tp&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/f7w5c7s4fvl4d195sav5b/Promo-2.png?rlkey=83b94aosu0pf7zxoru1x3yk00&st=as9h054c&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ovaypsdh6xit7g9lpw8fm/Promo-4.png?rlkey=noaks9kpw35cnr74u9wqqlvt3&st=047r9z5i&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/frg6ze6npahdlu7r99tum/Promo-5.png?rlkey=b48s3y70niifzdzfoqhqjs25a&st=0yxlxe0h&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/04o6y8rx7ukoj7uikg6gj/Mockup.png?rlkey=tx7kglpylw8sim5rxnwydtdge&st=2300qeco&dl=0",
+        "title": "Store Design",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Figma"]
+      }
+    ]
+  },
+  {
+    "id": "j3i86wneuawvarf6wmfyv",
+    "title": "Alpha Equips Shopify Development and Design",
+    "month": 2,
+    "year": 2025,
+    "website": "https://alphaequips.com/",
+    "project_type": ["graphics", "uiux", "development", "ecomm"],
+    "description": "Revamping of Alpha Equips Shopify store and adding codes for desired functionalities like image linking and customization",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/j3i86wneuawvarf6wmfyv/1_-FRONT.png?rlkey=c5q4vmzs93zj46eu7mzytm1ur&st=74r5go3o&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/6cbugg8lrwrr0vjqrp4dt/Promo-1.png?rlkey=467ms4zfqmp32gahwgtgv5fwx&st=c898qh8x&dl=0",
+        "title": "Banners",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/14iwpgmt9pb2v0bcflmnp/Promo-2.png?rlkey=fe41022xvf9mrwd9buh74bp7n&st=8drno8p2&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/jlvhnr5hlhh8d7pctqosl/Promo-3.png?rlkey=5f1o2573tguhqx33cclgbhox2&st=lrbee4jw&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/oj1g9tm9mc942zz67ng4i/spoify-pc.png?rlkey=xdxxae05lcs485ofywy621357&st=fdqyve4h&dl=0",
+        "title": "Store Design",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Figma", "Adobe Illustrator"]
+      },
+      {
+        "name": "Development Tools",
+        "lists": ["Shopify", "HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  {
+    "id": "khkv7oimeh0tlary1kb2o",
+    "title": "Alpha Equips Social Media Visuals - March 2025",
+    "month": 3,
+    "year": 2025,
+    "website": "https://alphaequips.com/",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Social Media Visuals for March 2025 for Alpha Equips",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/khkv7oimeh0tlary1kb2o/Back-to-School_2.png?rlkey=nmfnh7mggbl0lf17uexb0pq3e&st=0bqqdcdm&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/54ph6o6f4al2v4mnr42wt/Back-to-School_1.png?rlkey=ojd06pudyyuyccjk07zuckl9r&st=up3zuinc&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/khkv7oimeh0tlary1kb2o/Back-to-School_2.png?rlkey=nmfnh7mggbl0lf17uexb0pq3e&st=0bqqdcdm&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator", "Canva"]
+      }
+    ]
+  },
+  {
+    "id": "sttq5twlr7ewjucg245tr",
+    "title": "Alpha Equips Social Media Visuals - June 2025",
+    "month": 6,
+    "year": 2025,
+    "website": "https://alphaequips.com/",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Social Media Visuals for June 2025 for Alpha Equips",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/sttq5twlr7ewjucg245tr/2-Back-to-school.png?rlkey=j0bvsj9wuuey554k2o61y7xkd&st=20qpibhc&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/pnflt7x5uklxtdr2ja28g/_5s-Blush.png?rlkey=0orln7y57uzu1vvpkh6t54whu&st=fqv380ma&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/4r72qkyg5ofpjzdx1jxso/1-6-6-Mid-Year-Sale.png?rlkey=s69mzvrukjmif4333568u5clw&st=fxupvioe&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/rh0eafcjfjwzaxj3cu7jd/1.png?rlkey=bt0cmgmkm6zsoycn40wppgsto&st=p0t57q8j&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/sttq5twlr7ewjucg245tr/2-Back-to-school.png?rlkey=j0bvsj9wuuey554k2o61y7xkd&st=20qpibhc&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/16izfdgaswsldglg0mn7s/3.png?rlkey=yaoqzx98eixha8vpfelq97o6h&st=jd0qstt0&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/b8w7puiylw9yce56ul7fi/4.png?rlkey=gm1g2a6gy2w1tjv9a3dw3cse2&st=vdinfm10&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/90hoyogparsfkwbqi7wb9/5.png?rlkey=mmetysk5rbw9fnhqd6b50x5rk&st=uzd7qovh&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/27chcd4iw32qcqon9gbom/6.png?rlkey=s9huxv1z8le3er473yewfz5gh&st=me5owvvj&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/qj09dhmho7uu41oy1quvx/7.png?rlkey=r8nh3ovoolk8uf6j9xdrnw4gq&st=dp1un2jq&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator", "Canva"]
+      }
+    ]
+  },
+
+  {
+    "id": "zzwj064t55in03qqj1wcf",
+    "title": "Alpha Equips Social Media Visuals - May 2025",
+    "month": 5,
+    "year": 2025,
+    "website": "https://alphaequips.com/",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Social Media Visuals for May 2025 for Alpha Equips",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/zzwj064t55in03qqj1wcf/SocMed-2.png?rlkey=l8wkg3r8mcihed4w2u7zs3mgn&st=tgpamxei&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/228rjtlud3xbajo294wh1/0-Trade-In-offer.png?rlkey=4zob3jpmxrhrasjt5yvx08a71&st=gzwt5qd2&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/uuax70z3eaqituh2l0g4h/1-5s-Parents-help-their-feet-perform-better.png?rlkey=lp4ha3crdwvgugxgpk9myg68t&st=n50tq58n&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/q0jsu4wgnk8mysxueuzr8/1-Mid-Month-Sale.png?rlkey=bf8hg5xjbf25vgm7uy30frupd&st=0hvi7rxb&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/jsphku2l0vydwgt2ihplq/1-Payday-Sale.png?rlkey=tuib3q77a5d6k0g5c7h19qh02&st=2lpetjww&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/gpbvkri6wrrwd4cm5wp9c/2-Trainers-No-slips-no-Excuses.png?rlkey=ejt96r25kkav24i7m0n9xmqxw&st=k1wz9zd3&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/oe4nz2nd2mvuirg7jycht/3-Pack-More.-Stress-Less.png?rlkey=aagfocoogj0brnbojr73qs2nu&st=sgq7su2t&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0mk62fmzizbgckf0lwk57/4-Beat-the-Heat-Effortlessly.png?rlkey=vfe4shm5z5vyii85av8dgzgov&st=msk0jnb3&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/tc0demswpuoviu5039urk/5-Keep-Yourself-Fueled-All-Day.png?rlkey=id2ipzo9l2po3pgz225w3y805&st=t05un9jj&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/57q1o1rvn1mxwy1nxxg1p/SocMed.png?rlkey=jdcpv2n61hgm2ts1jxtxgn3a0&st=qwo42om3&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/zzwj064t55in03qqj1wcf/SocMed-2.png?rlkey=l8wkg3r8mcihed4w2u7zs3mgn&st=tgpamxei&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/jhdc2uk7lfcm84uqx4wxg/16.png?rlkey=xa8ghwljkukcz8h4aljimpvyk&st=vsyndlcq&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/t78077yak5p9x3a5rxko6/15.png?rlkey=j55xofh6rv9q229fgf3zax031&st=xi9642xy&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/clilu1lbf6x8sojhcaul6/14.png?rlkey=x9vindgatjcsnxtrox5vyd92b&st=6jevygof&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/7qf6qxuh1xvplyo7pdbi4/13.png?rlkey=8yr4836rgpqybu4zkbedftud1&st=2gi9oi67&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/eff85jq1ggfxo6onw0dbp/12.png?rlkey=jt3jb7ezal1xvm8m2p1bpsuui&st=20y8ee49&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator", "Canva"]
+      }
+    ]
+  },
+  {
+    "id": "dvvk9eza42l1lasn8ruf7",
+    "title": "Alpha Equips Social Media Visuals - April 2025",
+    "month": 4,
+    "year": 2025,
+    "website": "https://alphaequips.com/",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Social Media Visuals for April 2025 for Alpha Equips",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/dvvk9eza42l1lasn8ruf7/4-4-2.png?rlkey=knzeqo3lwrrniwclf3lynesxd&st=it1z9c9t&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/3ck2rezonf3bn58zit0re/1.png?rlkey=91c13dzbu8mzqxuduie8vs5dg&st=7hkqrxo5&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/gudbzslms9tksif94l90h/2.png?rlkey=xlvupuznqae5opkbcbcva1odj&st=15fwzlif&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/vr5oov965d3e4hmslaj2q/3.png?rlkey=wpeqjjbrimgwxges3ouy62os5&st=j8buxyg5&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/of2dlby1ir8sdia8artqy/4-4-1.png?rlkey=ojj3qkqeu4uxtyjqh1lqutpfk&st=lt46iykn&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/dvvk9eza42l1lasn8ruf7/4-4-2.png?rlkey=knzeqo3lwrrniwclf3lynesxd&st=x2x1vh5z&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/ghi4qlusvvq8oqxy40rj8/April-Month-End-Sale-Socmed.png?rlkey=fovx7tav30x6o3ohk77tqxwsd&st=mckdg2c1&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/yw7nxtunbox1hl8jzie4v/Socmed.png?rlkey=yl2510ruimix94utarwkao0r4&st=lgn8dycv&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Adobe Illustrator", "Canva"]
+      }
+    ]
+  },
+  {
+    "id": "vn33dg3d0bkpoyf0k11np",
+    "title": "Enlit SG Lazada Store Design",
+    "month": 5,
+    "year": 2025,
+    "website": "https://www.lazada.sg/shop/enlit-home-body",
+    "project_type": ["graphics", "uiux"],
+    "description": "Lazada store UI design for Enlit SG",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/vn33dg3d0bkpoyf0k11np/front.png?rlkey=vsqy5fw75a5z30a4j5ec29lr2&st=wi330f4n&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/zuqlrykum48ghipd5drto/Desktop-Mockup.png?rlkey=wv3n785lsp026e9f63nies8dz&st=eqqeyns0&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Figma", "Canva"]
+      }
+    ]
+  },
+  {
+    "id": "edf48m3mv2bnnocq0htrz",
+    "title": "Enlit SG Visuals for SocMed - June",
+    "month": 6,
+    "year": 2025,
+    "website": "https://www.lazada.sg/shop/enlit-home-body",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Another request for a 19:9 and 1:1 visuals for SocMed for Enlit SG",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/edf48m3mv2bnnocq0htrz/6.png?rlkey=v091c3gediwnxf3lpp2d6wqed&st=712j7gpx&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/edf48m3mv2bnnocq0htrz/6.png?rlkey=v091c3gediwnxf3lpp2d6wqed&st=ehwdxwwk&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/3lq5gbpbvypuaxvo3fgzc/7.png?rlkey=9xzbvchuhisr17ovb2drj0db4&st=yjplqk9s&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/1tifo0kzyc4pcyurljomq/8.png?rlkey=cxdd3zpr8zrqb8ou9f01a7zmm&st=hthgu1a5&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/hakh4umh58u8o5rezjbse/6-Copy.png?rlkey=wb5k5y3jnkhmx9xks8vpnb0cr&st=v38wpe91&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/7ynhecx3kjscsznmlxt8n/7-Copy.png?rlkey=l2gaoo06q4vkp2zyj762g4b51&st=1ej3xe1b&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/p174e708w7zqok643qe1u/8-Copy.png?rlkey=ivwp2zy25ulb3wjtmsbvvrzny&st=nuer7hph&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Canva"]
+      }
+    ]
+  },
+  {
+    "id": "9is8ip8tue768ohde8v54",
+    "title": "Enlit SG Visuals for SocMed - May",
+    "month": 5,
+    "year": 2025,
+    "website": "https://www.lazada.sg/shop/enlit-home-body",
+    "project_type": ["graphics", "ecomm"],
+    "description": "Created a 19:9 and 1:1 visuals for SocMed for Enlit SG",
+    "thumbnail_link": "https://www.dropbox.com/scl/fi/9is8ip8tue768ohde8v54/2.png?rlkey=kjzx6282aah5god41h50pep1l&st=el5p0y3y&dl=0",
+    "others": [
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/8zq50qp2ic3cjbhgo5w1v/1.png?rlkey=ahrhnz127l16nnscuz9387iea&st=7bnot64y&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/9is8ip8tue768ohde8v54/2.png?rlkey=kjzx6282aah5god41h50pep1l&st=el5p0y3y&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/w4xntyhfossu4t7o0ussp/3.png?rlkey=1tr66jqpw1w1em6xkhfi70hfb&st=yembyesj&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/27iysyfbvxgoz26wdo7ha/4.png?rlkey=okglunygvh0g3cramg5mxvxht&st=wqbr8wim&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/0pi58o1vk8r906lj1ms7p/5.png?rlkey=xv944nm2zjsqly4534sj4vjb9&st=wlvfcurd&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/kq0d1egdfty0yetc6hcmd/169-1.png?rlkey=ik6vonke2zx5wk9neffxx0vr6&st=zqn3mvwg&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/bhpqzyz4j6kc3swkbzacy/169-2.png?rlkey=rbtycu0fvzxfk6o3v6hyllwoo&st=10sjbnc7&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/5fd33s61n2ev6z5bgmgox/169-3.png?rlkey=r8gxkpw1fjcn192tw0gkouuhh&st=pzjy31i5&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/13lchmm6me27nv5upnest/169-4.png?rlkey=6iqtbp5lhiuq9opw7e7vxezlz&st=mght9f94&dl=0",
+        "title": "",
+        "description": ""
+      },
+      {
+        "type": "image",
+        "url": "https://www.dropbox.com/scl/fi/sg8f2bqy9ytkkjfkag4uy/169-5.png?rlkey=kvhlrlxt4d10q9zetc1km3ix5&st=tkh8gm59&dl=0",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Design Tools",
+        "lists": ["Adobe Photoshop", "Canva"]
       }
     ]
   },
